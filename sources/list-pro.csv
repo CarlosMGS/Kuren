@@ -1,0 +1,53 @@
+﻿CP;PROVINCIA;Superficie;Municipios;Capital;CA;Autonomía
+01;Araba/Álava;3042.44;51;Vitoria-Gasteiz;16;País Vasco
+02;Albacete;14925.88;87;Albacete;08;Castilla-La Mancha
+03;Alicante/Alacant;5816.46;141;Alicante/Alacant;10;Comunitat Valenciana
+04;Almería;8768.12;102;Almería;01;Andalucía
+05;Ávila;8050.81;248;Ávila;07;Castilla y León
+06;Badajoz;21751.05;164;Badajoz;11;Extremadura
+07;Balears,Illes;4991.72;67;Palma;04;Balears, Illes
+08;Barcelona;7728.50;311;Barcelona;09;Cataluña
+09;Burgos;14307.99;371;Burgos;07;Castilla y León
+10;Cáceres;19866.06;221;Cáceres;11;Extremadura
+11;Cádiz;7436.67;44;Cádiz;01;Andalucía
+12;Castellón/Castelló;6631.92;135;Castellón de la Plana/Castelló de la Plana;10;Comunitat Valenciana
+13;CiudadReal;19662.78;102;Ciudad Real;08;Castilla-La Mancha
+14;Córdoba;13771.83;75;Córdoba;01;Andalucía
+15;Coruña,A;7910.76;94;"Coruña; A";12;Galicia
+16;Cuenca;17137.83;238;Cuenca;08;Castilla-La Mancha
+17;Girona;5910.86;221;Girona;09;Cataluña
+18;Granada;12635.13;168;Granada;01;Andalucía
+19;Guadalajara;12208.62;288;Guadalajara;08;Castilla-La Mancha
+20;Gipuzkoa;1991.20;88;Donostia-San Sebastián;16;País Vasco
+21;Huelva;10132.00;79;Huelva;01;Andalucía
+22;Huesca;15636.50;202;Huesca;02;Aragón
+23;Jaén;13495.35;97;Jaén;01;Andalucía
+24;León;15582.23;211;León;07;Castilla y León
+25;Lleida;12106.65;231;Lleida;09;Cataluña
+26;Rioja,La;5044.90;174;Logroño;17;Rioja, La
+27;Lugo;9856.55;67;Lugo;12;Galicia
+28;Madrid;8028.58;179;Madrid;13;Madrid, Comunidad de
+29;Málaga;7312.52;101;Málaga;01;Andalucía
+30;Murcia;11313.88;45;Murcia;14;Murcia, Región de
+31;Navarra;10520.84;272;Pamplona/Iruña;15;Navarra, Comunidad Foral de
+32;Ourense;7303.21;92;Ourense;12;Galicia
+33;Asturias;10602.40;78;Oviedo;03;Asturias, Principado de
+34;Palencia;8052.75;191;Palencia;07;Castilla y León
+35;Palmas,Las;4065.76;34;"Palmas de Gran Canaria; Las";05;Canarias
+36;Pontevedra;4494.64;62;Pontevedra;12;Galicia
+37;Salamanca;12352.01;362;Salamanca;07;Castilla y León
+38;SantaCruzdeTenerife;3385.14;54;SantaCruzdeTenerife;05;Canarias
+39;Cantabria;5175.63;102;Santander;06;Cantabria
+40;Segovia;6920.80;209;Segovia;07;Castilla y León
+41;Sevilla;14035.73;105;Sevilla;01;Andalucía
+42;Soria;10314.02;183;Soria;07;Castilla y León
+43;Tarragona;6302.06;184;Tarragona;09;Cataluña
+44;Teruel;14799.89;236;Teruel;02;Aragón
+45;Toledo;15370.24;204;Toledo;08;Castilla-La Mancha
+46;Valencia/València;10740.10;266;Valencia;10;Comunitat Valenciana
+47;Valladolid;8110.86;225;Valladolid;07;Castilla y León
+48;Bizkaia;2218.97;112;Bilbao;16;País Vasco
+49;Zamora;10561.28;248;Zamora;07;Castilla y León
+50;Zaragoza;17274.89;293;Zaragoza;02;Aragón
+51;Ceuta;19.48;1;Ceuta;18;Ceuta
+52;Melilla;13.41;1;Melilla;19;Melilla

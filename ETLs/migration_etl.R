@@ -1,7 +1,7 @@
 library(RODBC)
 library(odbc)
 
-#establecemos conexión
+#establecemos conexiï¿½n
 dbconnection <- odbcDriverConnect("driver={SQL Server Native Client 11.0};Server=localhost; Database=MIN;Uid=; Pwd=; trusted_connection=yes")
 
 setwd("C:/Users/CGil/Documents/MIN")
@@ -25,7 +25,7 @@ data$Periodo <- substr(data$Periodo, 5,6)
 data
 
 
-#cargamos csv con la relación entre Comunidades y Provincias
+#cargamos csv con la relaciï¿½n entre Comunidades y Provincias
 prov_ca <- read.csv2("list-pro.csv", sep=";" , header = TRUE, encoding="UTF-8")
 prov_ca <- prov_ca[-1]
 prov_ca <- prov_ca[-3]

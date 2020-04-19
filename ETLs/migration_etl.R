@@ -5,9 +5,9 @@ library(pracma)
 library(rjson)
 
 #establecemos conexi?n
-con <- odbcDriverConnect("driver={SQL Server Native Client 11.0};Server=DESKTOP-BM96OLK ; Database=Mineria;Uid=; Pwd=; trusted_connection=yes")
+con <- odbcDriverConnect("driver={SQL Server Native Client 11.0};Server=localhost ; Database=Mineria;Uid=; Pwd=; trusted_connection=yes")
 
-setwd("C:/Users/CGIL/Documents/MIN")
+setwd("C:/Users/amali/github/Kuren/ETLs")
 
 data <- read.csv2("24448.csv", encoding = "UTF-8")
 
@@ -116,7 +116,7 @@ colnames(company)[4]<- "Total"
 #AÃ±adimos a los hechos el id por cada tipo de empresa
 unique(company$Condicion)
 data <- data[rep(seq_len(nrow(data)), each=9),]
-data["id_c"] <- rep(1:9, 20976)
+data["id_c"] <- rep(1:9, nrow(data)/9)
 
 data <- data [order(data[,1],data[,3],data[,5]), ]
 company <- company[order(company[,1],company[,3]),]
@@ -143,11 +143,124 @@ for(i in 1:nrow(company)){
 }
 
 
-
+#----------------------------------------------------------------------------------------------------#
 #educacion
-education <- fromJSON(file="6347.json")
+education <- fromJSON(file="education.json")
+
+#str(education)
+data.class(education)
+
+#Dimensiones
+gender <- list()
+states <- list()
+achieved <- list() #Nivel de formacion conseguido
 
 
+gender <- NULL
+states <- NULL
+achieved <- NULL
+
+
+for(i in 1:480){
+  gender[i] <- education[[i]][[6]][[2]][[3]]
+  states[i] <- education[[i]][[6]][[3]][[3]]
+  achieved[i] <- education[[i]][[6]][[4]][[3]]
+}
+
+
+states <- unlist(states, use.names = FALSE)
+gender <- unlist(gender, use.names = FALSE)
+achieved <- unlist(achieved, use.names = FALSE)
+
+edudf <- data.frame(
+  "gender" = gender,
+  "states" = states,
+  "achieved" = achieved
+)
+
+periodos <- education[[1]][[7]]
+
+for(i in 1:480){
+  for(j in 1:24){
+    year <- paste(periodos[[j]][[3]], periodos[[j]][[4]], sep = "")
+    if(i == 1){
+      if(!year %in% colnames(edudf)){
+        edudf[year] <- 1:480
+      }
+    }
+    edudf[i, year] <- education[[i]][[7]][[j]][[5]]
+  }
+}
+
+for(i in 1:6){
+  for(j in 1:3){
+    edudf <- edudf[,-(4+i)]
+  }  
+}
+
+unique(data$Year)
+
+#Eliminamos filas sobrantes o poco relevantes
+#Eliminamos de la columna "achieved" las filas que contengan "Total" ya que no es relevante
+edudf <- edudf[edudf$achieved != "Total", ]
+#Eliminamos las filas en las que se diferenciaba por sexo
+edudf <- edudf[edudf$gender == "Ambos sexos", ]
+#Eliminamos las filas que daban el Total Nacional ya que no son relevantes
+edudf <- edudf[edudf$states != "Total Nacional", ]
+#Eliminamos la primera columna "gender"
+edudf<-edudf[, -1]
+
+edudf <- edudf[rep(seq_len(nrow(edudf)), each=6),]
+edudf["year"] <- rep(2014:2019, 133)
+edudf["prct"] <- 1:798
+
+for(i in 0:132){
+  for(j in 1:6){
+    edudf[i*6 + j,10] <- edudf[i*6+j,2+j]
+  }
+}
+
+#eliminamos las columnas sobrantes
+for(i in 1:6){
+  edudf <- edudf[,-3]
+}
+
+unique(edudf$achieved)
+data <- data[rep(seq_len(nrow(data)), each=7),]
+data["id_e"] <- rep(1:7, nrow(data)/7)
+
+data <- data [order(data[,3],data[,1],data[,6]), ]
+edudf <- edudf[order(edudf[,3],edudf[,1]),]
+
+data$Year<-as.numeric(data$Year)
+
+for(i in 0:((nrow(edudf)/2)-1)){
+  for(j in 0:1637){
+      data[i*1638+j+1,6] <- NA
+  }
+}
+
+
+for(i in 0:(nrow(edudf)-1)){
+  for(j in 0:(1637/2)){
+    data[i*819+(nrow(data)/2)+j+1,6] <- i+1
+  }
+}
+
+#cargamos los datos de la educacion conseguida en su correspondiente dimension en el DW
+dim_edu <- sqlQuery(con, "SELECT * FROM dbo.dim_edu_achieved")
+
+if(nrow(dim_edu) < nrow(edudf)){
+  for(i in 1:nrow(edudf)){
+    
+      insert_query <- paste("INSERT INTO dbo.dim_edu_achieved (edu_ach, perc)
+             VALUES ('", edudf$achieved[i], "','",edudf[i,4],"')", sep="")
+    
+    sqlQuery(con, insert_query)
+  }
+}
+
+#----------------------------------------------------------------------------------------#
 #pobreza
 poverty <- fromJSON(file="10011.json")
 
@@ -236,4 +349,79 @@ for(i in 1:11){
   values <- values[,-3]
 }
 
+values <- values[order(values[,1], values[,3]), ]
 
+for(i in 1:nrow(values)){
+  
+  insert_query <- paste("INSERT INTO dbo.dim_poverty (class, perc)
+           VALUES ('", values$risk[i], "','",values$prct[i],"')", sep="")
+  
+  sqlQuery(con, insert_query)
+}
+
+
+
+dim_pov <- sqlQuery(con, "SELECT * FROM dbo.dim_poverty")
+
+data$id_p <- NA
+
+for(row in 1:1307124){
+  if(data$Year[row] %in% values$year){
+    for(i in 1:836){
+      if(data$Provincias[row] == values$province[i] && data$Year[row] == values$year[i]){
+        data$id_p[row] <- dim_pov$id_p[i]
+      }
+    }
+  }
+}
+
+data <- data[rep(seq_len(nrow(data)), each=4),]
+data["id_p"] <- rep(1:4, nrow(data)/4)
+
+#Idea de Amalia
+
+# No hay datos para 2019
+# row <- nrow(data)
+# while(data$Year[row] == 2019){
+#   data$id_p[row]<- NA
+#   row <- row-1
+# }
+# 
+# t_rows<- 5228496 - 435708
+# 
+# row<- 1
+# while(row<t_rows+1){
+#   for(factor in 1:209){
+#       for(i in 1:4){
+#         data$id_p[row]<-dim_pov$id_p[factor*i] 
+#         row<-row+1
+#       }
+#     
+#   }
+# }
+
+
+#Idea de Tamara
+
+# row <- 0
+# dim <- -4
+# for(i in 1:11){ ## por los 12 periodos de año
+#   if(data$Year[i] != 2019){
+#     for(j in 1:19){ ## por cada comunidad
+#       dim <- dim + 4 
+#       for(w in 1:63){ ## por cada empresa y educacion
+#         for(x in 0:90){ ## por cada edad
+#           for(c in 1:4){ ## los 4 valores del tipo de pobreza ordenados
+#             row <- row + 1
+#             data$id_p[row] = dim_poverty$id_p[c+dim]
+#           }
+#         }
+#       }
+#     }
+#   }
+# }
+
+
+
+
+ 

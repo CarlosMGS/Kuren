@@ -7,7 +7,7 @@ library(rjson)
 #establecemos conexi?n
 con <- odbcDriverConnect("driver={SQL Server Native Client 11.0};Server=localhost ; Database=Mineria;Uid=; Pwd=; trusted_connection=yes")
 
-setwd("C:/Users/amali/github/Kuren/ETLs")
+setwd("C:/Users/dipdn/Desktop/MIN")
 
 data <- read.csv2("24448.csv", encoding = "UTF-8")
 
@@ -351,6 +351,30 @@ for(i in 1:11){
 
 values <- values[order(values[,1], values[,3]), ]
 
+dim_pov <- sqlQuery(con, "SELECT * FROM dbo.dim_poverty")
+
+data <- data[rep(seq_len(nrow(data)), each=4),]
+data["id_p"] <- rep(1:4, nrow(data)/4)
+
+data <- data [order(data[,1],data[,3],data[,5]), ]
+
+values <- values[order(values[,3], values[,1]), ]
+data <- data [order(data[,3], data[,1]), ]
+
+
+for(i in 0:(nrow(values)-1)){
+  for(j in 0:90*7*9){
+    data[i*91*7*9+j+1,7] <- i+1
+  }
+}
+
+r <- 76077*7*9
+h <- 82992*7*9
+
+for(i in r:h){
+  data[i, 7] <- NA
+}
+
 for(i in 1:nrow(values)){
   
   insert_query <- paste("INSERT INTO dbo.dim_poverty (class, perc)
@@ -358,70 +382,4 @@ for(i in 1:nrow(values)){
   
   sqlQuery(con, insert_query)
 }
-
-
-
-dim_pov <- sqlQuery(con, "SELECT * FROM dbo.dim_poverty")
-
-data$id_p <- NA
-
-for(row in 1:1307124){
-  if(data$Year[row] %in% values$year){
-    for(i in 1:836){
-      if(data$Provincias[row] == values$province[i] && data$Year[row] == values$year[i]){
-        data$id_p[row] <- dim_pov$id_p[i]
-      }
-    }
-  }
-}
-
-data <- data[rep(seq_len(nrow(data)), each=4),]
-data["id_p"] <- rep(1:4, nrow(data)/4)
-
-#Idea de Amalia
-
-# No hay datos para 2019
-# row <- nrow(data)
-# while(data$Year[row] == 2019){
-#   data$id_p[row]<- NA
-#   row <- row-1
-# }
-# 
-# t_rows<- 5228496 - 435708
-# 
-# row<- 1
-# while(row<t_rows+1){
-#   for(factor in 1:209){
-#       for(i in 1:4){
-#         data$id_p[row]<-dim_pov$id_p[factor*i] 
-#         row<-row+1
-#       }
-#     
-#   }
-# }
-
-
-#Idea de Tamara
-
-# row <- 0
-# dim <- -4
-# for(i in 1:11){ ## por los 12 periodos de año
-#   if(data$Year[i] != 2019){
-#     for(j in 1:19){ ## por cada comunidad
-#       dim <- dim + 4 
-#       for(w in 1:63){ ## por cada empresa y educacion
-#         for(x in 0:90){ ## por cada edad
-#           for(c in 1:4){ ## los 4 valores del tipo de pobreza ordenados
-#             row <- row + 1
-#             data$id_p[row] = dim_poverty$id_p[c+dim]
-#           }
-#         }
-#       }
-#     }
-#   }
-# }
-
-
-
-
  

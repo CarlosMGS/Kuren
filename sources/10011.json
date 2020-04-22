@@ -1,0 +1,2881 @@
+[{"COD":"ECV5354", "Nombre":"Total Nacional. Todas las edades. Tasa de riesgo de pobreza o exclusión social (indicador AROPE). Base 2013. ", "T3_Unidad":"Porcentaje", "T3_Escala":" ", "MetaData":[{"Id":16473, "Variable":{"Id":349, "Nombre":"Totales Territoriales", "Codigo":"23"}
+, "Nombre":"Total Nacional", "Codigo":"00"}
+,
+{"Id":15668, "Variable":{"Id":356, "Nombre":"Totales de edad", "Codigo":"21"}
+, "Nombre":"Total", "Codigo":"0"}
+,
+{"Id":284043, "Variable":{"Id":260, "Nombre":"Conceptos Demográficos", "Codigo":""}
+, "Nombre":"Tasa de riesgo de pobreza o exclusión social (indicador AROPE)", "Codigo":""}
+,
+{"Id":285495, "Variable":{"Id":429, "Nombre":"Cambios de conceotis", "Codigo":"26"}
+, "Nombre":"Base 2013", "Codigo":"00"}
+]
+, "Data":[{"Fecha":"2018-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2018, "Valor":26.1}
+,
+{"Fecha":"2017-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2017, "Valor":26.6}
+,
+{"Fecha":"2016-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2016, "Valor":27.9}
+,
+{"Fecha":"2015-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2015, "Valor":28.6}
+,
+{"Fecha":"2014-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2014, "Valor":29.2}
+,
+{"Fecha":"2013-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2013, "Valor":27.3}
+,
+{"Fecha":"2012-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2012, "Valor":27.2}
+,
+{"Fecha":"2011-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2011, "Valor":26.7}
+,
+{"Fecha":"2010-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2010, "Valor":26.1}
+,
+{"Fecha":"2009-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2009, "Valor":24.7}
+,
+{"Fecha":"2008-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2008, "Valor":23.8}
+]
+}
+,
+{"COD":"ECV5476", "Nombre":"Total Nacional. Todas las edades. En riesgo de pobreza (renta año anterior a la entrevista). Base 2013. ", "T3_Unidad":"Porcentaje", "T3_Escala":" ", "MetaData":[{"Id":16473, "Variable":{"Id":349, "Nombre":"Totales Territoriales", "Codigo":"23"}
+, "Nombre":"Total Nacional", "Codigo":"00"}
+,
+{"Id":15668, "Variable":{"Id":356, "Nombre":"Totales de edad", "Codigo":"21"}
+, "Nombre":"Total", "Codigo":"0"}
+,
+{"Id":284044, "Variable":{"Id":260, "Nombre":"Conceptos Demográficos", "Codigo":""}
+, "Nombre":"En riesgo de pobreza (renta año anterior a la entrevista)", "Codigo":""}
+,
+{"Id":285495, "Variable":{"Id":429, "Nombre":"Cambios de conceotis", "Codigo":"26"}
+, "Nombre":"Base 2013", "Codigo":"00"}
+]
+, "Data":[{"Fecha":"2018-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2018, "Valor":21.5}
+,
+{"Fecha":"2017-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2017, "Valor":21.6}
+,
+{"Fecha":"2016-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2016, "Valor":22.3}
+,
+{"Fecha":"2015-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2015, "Valor":22.1}
+,
+{"Fecha":"2014-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2014, "Valor":22.2}
+,
+{"Fecha":"2013-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2013, "Valor":20.4}
+,
+{"Fecha":"2012-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2012, "Valor":20.8}
+,
+{"Fecha":"2011-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2011, "Valor":20.6}
+,
+{"Fecha":"2010-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2010, "Valor":20.7}
+,
+{"Fecha":"2009-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2009, "Valor":20.4}
+,
+{"Fecha":"2008-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2008, "Valor":19.8}
+]
+}
+,
+{"COD":"ECV5475", "Nombre":"Total Nacional. Todas las edades. Con carencia material severa. Base 2013. ", "T3_Unidad":"Porcentaje", "T3_Escala":" ", "MetaData":[{"Id":16473, "Variable":{"Id":349, "Nombre":"Totales Territoriales", "Codigo":"23"}
+, "Nombre":"Total Nacional", "Codigo":"00"}
+,
+{"Id":15668, "Variable":{"Id":356, "Nombre":"Totales de edad", "Codigo":"21"}
+, "Nombre":"Total", "Codigo":"0"}
+,
+{"Id":284281, "Variable":{"Id":260, "Nombre":"Conceptos Demográficos", "Codigo":""}
+, "Nombre":"Con carencia material severa", "Codigo":""}
+,
+{"Id":285495, "Variable":{"Id":429, "Nombre":"Cambios de conceotis", "Codigo":"26"}
+, "Nombre":"Base 2013", "Codigo":"00"}
+]
+, "Data":[{"Fecha":"2018-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2018, "Valor":5.4}
+,
+{"Fecha":"2017-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2017, "Valor":5.1}
+,
+{"Fecha":"2016-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2016, "Valor":5.8}
+,
+{"Fecha":"2015-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2015, "Valor":6.4}
+,
+{"Fecha":"2014-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2014, "Valor":7.1}
+,
+{"Fecha":"2013-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2013, "Valor":6.2}
+,
+{"Fecha":"2012-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2012, "Valor":5.8}
+,
+{"Fecha":"2011-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2011, "Valor":4.5}
+,
+{"Fecha":"2010-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2010, "Valor":4.9}
+,
+{"Fecha":"2009-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2009, "Valor":4.5}
+,
+{"Fecha":"2008-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2008, "Valor":3.6}
+]
+}
+,
+{"COD":"ECV5474", "Nombre":"Total Nacional. Todas las edades. Viviendo en hogares con baja intensidad en el trabajo (de 0 a 59 años). Base 2013. ", "T3_Unidad":"Porcentaje", "T3_Escala":" ", "MetaData":[{"Id":16473, "Variable":{"Id":349, "Nombre":"Totales Territoriales", "Codigo":"23"}
+, "Nombre":"Total Nacional", "Codigo":"00"}
+,
+{"Id":15668, "Variable":{"Id":356, "Nombre":"Totales de edad", "Codigo":"21"}
+, "Nombre":"Total", "Codigo":"0"}
+,
+{"Id":291160, "Variable":{"Id":260, "Nombre":"Conceptos Demográficos", "Codigo":""}
+, "Nombre":"Viviendo en hogares con baja intensidad en el trabajo (de 0 a 59 años)", "Codigo":""}
+,
+{"Id":285495, "Variable":{"Id":429, "Nombre":"Cambios de conceotis", "Codigo":"26"}
+, "Nombre":"Base 2013", "Codigo":"00"}
+]
+, "Data":[{"Fecha":"2018-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2018, "Valor":10.7}
+,
+{"Fecha":"2017-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2017, "Valor":12.8}
+,
+{"Fecha":"2016-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2016, "Valor":14.9}
+,
+{"Fecha":"2015-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2015, "Valor":15.4}
+,
+{"Fecha":"2014-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2014, "Valor":17.1}
+,
+{"Fecha":"2013-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2013, "Valor":15.7}
+,
+{"Fecha":"2012-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2012, "Valor":14.3}
+,
+{"Fecha":"2011-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2011, "Valor":13.4}
+,
+{"Fecha":"2010-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2010, "Valor":10.8}
+,
+{"Fecha":"2009-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2009, "Valor":7.6}
+,
+{"Fecha":"2008-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2008, "Valor":6.6}
+]
+}
+,
+{"COD":"ECV5353", "Nombre":"Andalucía. Todas las edades. Tasa de riesgo de pobreza o exclusión social (indicador AROPE). Base 2013. ", "T3_Unidad":"Porcentaje", "T3_Escala":" ", "MetaData":[{"Id":8997, "Variable":{"Id":70, "Nombre":"Comunidades y Ciudades Autónomas", "Codigo":"1"}
+, "Nombre":"Andalucía", "Codigo":"01"}
+,
+{"Id":15668, "Variable":{"Id":356, "Nombre":"Totales de edad", "Codigo":"21"}
+, "Nombre":"Total", "Codigo":"0"}
+,
+{"Id":284043, "Variable":{"Id":260, "Nombre":"Conceptos Demográficos", "Codigo":""}
+, "Nombre":"Tasa de riesgo de pobreza o exclusión social (indicador AROPE)", "Codigo":""}
+,
+{"Id":285495, "Variable":{"Id":429, "Nombre":"Cambios de conceotis", "Codigo":"26"}
+, "Nombre":"Base 2013", "Codigo":"00"}
+]
+, "Data":[{"Fecha":"2018-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2018, "Valor":38.2}
+,
+{"Fecha":"2017-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2017, "Valor":37.3}
+,
+{"Fecha":"2016-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2016, "Valor":41.7}
+,
+{"Fecha":"2015-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2015, "Valor":43.2}
+,
+{"Fecha":"2014-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2014, "Valor":42.3}
+,
+{"Fecha":"2013-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2013, "Valor":38.3}
+,
+{"Fecha":"2012-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2012, "Valor":36.9}
+,
+{"Fecha":"2011-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2011, "Valor":38.4}
+,
+{"Fecha":"2010-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2010, "Valor":35.0}
+,
+{"Fecha":"2009-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2009, "Valor":33.3}
+,
+{"Fecha":"2008-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2008, "Valor":31.6}
+]
+}
+,
+{"COD":"ECV5473", "Nombre":"Andalucía. Todas las edades. En riesgo de pobreza (renta año anterior a la entrevista). Base 2013. ", "T3_Unidad":"Porcentaje", "T3_Escala":" ", "MetaData":[{"Id":8997, "Variable":{"Id":70, "Nombre":"Comunidades y Ciudades Autónomas", "Codigo":"1"}
+, "Nombre":"Andalucía", "Codigo":"01"}
+,
+{"Id":15668, "Variable":{"Id":356, "Nombre":"Totales de edad", "Codigo":"21"}
+, "Nombre":"Total", "Codigo":"0"}
+,
+{"Id":284044, "Variable":{"Id":260, "Nombre":"Conceptos Demográficos", "Codigo":""}
+, "Nombre":"En riesgo de pobreza (renta año anterior a la entrevista)", "Codigo":""}
+,
+{"Id":285495, "Variable":{"Id":429, "Nombre":"Cambios de conceotis", "Codigo":"26"}
+, "Nombre":"Base 2013", "Codigo":"00"}
+]
+, "Data":[{"Fecha":"2018-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2018, "Valor":32.0}
+,
+{"Fecha":"2017-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2017, "Valor":31.0}
+,
+{"Fecha":"2016-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2016, "Valor":35.4}
+,
+{"Fecha":"2015-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2015, "Valor":35.7}
+,
+{"Fecha":"2014-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2014, "Valor":33.3}
+,
+{"Fecha":"2013-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2013, "Valor":29.1}
+,
+{"Fecha":"2012-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2012, "Valor":28.3}
+,
+{"Fecha":"2011-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2011, "Valor":30.7}
+,
+{"Fecha":"2010-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2010, "Valor":28.3}
+,
+{"Fecha":"2009-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2009, "Valor":28.8}
+,
+{"Fecha":"2008-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2008, "Valor":27.3}
+]
+}
+,
+{"COD":"ECV5472", "Nombre":"Andalucía. Todas las edades. Con carencia material severa. Base 2013. ", "T3_Unidad":"Porcentaje", "T3_Escala":" ", "MetaData":[{"Id":8997, "Variable":{"Id":70, "Nombre":"Comunidades y Ciudades Autónomas", "Codigo":"1"}
+, "Nombre":"Andalucía", "Codigo":"01"}
+,
+{"Id":15668, "Variable":{"Id":356, "Nombre":"Totales de edad", "Codigo":"21"}
+, "Nombre":"Total", "Codigo":"0"}
+,
+{"Id":284281, "Variable":{"Id":260, "Nombre":"Conceptos Demográficos", "Codigo":""}
+, "Nombre":"Con carencia material severa", "Codigo":""}
+,
+{"Id":285495, "Variable":{"Id":429, "Nombre":"Cambios de conceotis", "Codigo":"26"}
+, "Nombre":"Base 2013", "Codigo":"00"}
+]
+, "Data":[{"Fecha":"2018-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2018, "Valor":8.0}
+,
+{"Fecha":"2017-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2017, "Valor":5.2}
+,
+{"Fecha":"2016-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2016, "Valor":7.1}
+,
+{"Fecha":"2015-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2015, "Valor":8.0}
+,
+{"Fecha":"2014-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2014, "Valor":9.5}
+,
+{"Fecha":"2013-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2013, "Valor":7.0}
+,
+{"Fecha":"2012-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2012, "Valor":7.5}
+,
+{"Fecha":"2011-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2011, "Valor":6.3}
+,
+{"Fecha":"2010-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2010, "Valor":5.6}
+,
+{"Fecha":"2009-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2009, "Valor":5.7}
+,
+{"Fecha":"2008-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2008, "Valor":5.4}
+]
+}
+,
+{"COD":"ECV5471", "Nombre":"Andalucía. Todas las edades. Viviendo en hogares con baja intensidad en el trabajo (de 0 a 59 años). Base 2013. ", "T3_Unidad":"Porcentaje", "T3_Escala":" ", "MetaData":[{"Id":8997, "Variable":{"Id":70, "Nombre":"Comunidades y Ciudades Autónomas", "Codigo":"1"}
+, "Nombre":"Andalucía", "Codigo":"01"}
+,
+{"Id":15668, "Variable":{"Id":356, "Nombre":"Totales de edad", "Codigo":"21"}
+, "Nombre":"Total", "Codigo":"0"}
+,
+{"Id":291160, "Variable":{"Id":260, "Nombre":"Conceptos Demográficos", "Codigo":""}
+, "Nombre":"Viviendo en hogares con baja intensidad en el trabajo (de 0 a 59 años)", "Codigo":""}
+,
+{"Id":285495, "Variable":{"Id":429, "Nombre":"Cambios de conceotis", "Codigo":"26"}
+, "Nombre":"Base 2013", "Codigo":"00"}
+]
+, "Data":[{"Fecha":"2018-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2018, "Valor":18.1}
+,
+{"Fecha":"2017-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2017, "Valor":21.9}
+,
+{"Fecha":"2016-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2016, "Valor":23.5}
+,
+{"Fecha":"2015-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2015, "Valor":24.9}
+,
+{"Fecha":"2014-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2014, "Valor":27.4}
+,
+{"Fecha":"2013-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2013, "Valor":25.3}
+,
+{"Fecha":"2012-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2012, "Valor":20.6}
+,
+{"Fecha":"2011-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2011, "Valor":20.1}
+,
+{"Fecha":"2010-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2010, "Valor":14.7}
+,
+{"Fecha":"2009-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2009, "Valor":11.4}
+,
+{"Fecha":"2008-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2008, "Valor":10.1}
+]
+}
+,
+{"COD":"ECV5352", "Nombre":"Aragón. Todas las edades. Tasa de riesgo de pobreza o exclusión social (indicador AROPE). Base 2013. ", "T3_Unidad":"Porcentaje", "T3_Escala":" ", "MetaData":[{"Id":8998, "Variable":{"Id":70, "Nombre":"Comunidades y Ciudades Autónomas", "Codigo":"1"}
+, "Nombre":"Aragón", "Codigo":"02"}
+,
+{"Id":15668, "Variable":{"Id":356, "Nombre":"Totales de edad", "Codigo":"21"}
+, "Nombre":"Total", "Codigo":"0"}
+,
+{"Id":284043, "Variable":{"Id":260, "Nombre":"Conceptos Demográficos", "Codigo":""}
+, "Nombre":"Tasa de riesgo de pobreza o exclusión social (indicador AROPE)", "Codigo":""}
+,
+{"Id":285495, "Variable":{"Id":429, "Nombre":"Cambios de conceotis", "Codigo":"26"}
+, "Nombre":"Base 2013", "Codigo":"00"}
+]
+, "Data":[{"Fecha":"2018-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2018, "Valor":17.7}
+,
+{"Fecha":"2017-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2017, "Valor":15.8}
+,
+{"Fecha":"2016-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2016, "Valor":18.7}
+,
+{"Fecha":"2015-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2015, "Valor":17.7}
+,
+{"Fecha":"2014-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2014, "Valor":20.7}
+,
+{"Fecha":"2013-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2013, "Valor":19.8}
+,
+{"Fecha":"2012-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2012, "Valor":18.4}
+,
+{"Fecha":"2011-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2011, "Valor":18.6}
+,
+{"Fecha":"2010-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2010, "Valor":17.5}
+,
+{"Fecha":"2009-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2009, "Valor":12.6}
+,
+{"Fecha":"2008-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2008, "Valor":17.1}
+]
+}
+,
+{"COD":"ECV5470", "Nombre":"Aragón. Todas las edades. En riesgo de pobreza (renta año anterior a la entrevista). Base 2013. ", "T3_Unidad":"Porcentaje", "T3_Escala":" ", "MetaData":[{"Id":8998, "Variable":{"Id":70, "Nombre":"Comunidades y Ciudades Autónomas", "Codigo":"1"}
+, "Nombre":"Aragón", "Codigo":"02"}
+,
+{"Id":15668, "Variable":{"Id":356, "Nombre":"Totales de edad", "Codigo":"21"}
+, "Nombre":"Total", "Codigo":"0"}
+,
+{"Id":284044, "Variable":{"Id":260, "Nombre":"Conceptos Demográficos", "Codigo":""}
+, "Nombre":"En riesgo de pobreza (renta año anterior a la entrevista)", "Codigo":""}
+,
+{"Id":285495, "Variable":{"Id":429, "Nombre":"Cambios de conceotis", "Codigo":"26"}
+, "Nombre":"Base 2013", "Codigo":"00"}
+]
+, "Data":[{"Fecha":"2018-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2018, "Valor":14.2}
+,
+{"Fecha":"2017-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2017, "Valor":13.3}
+,
+{"Fecha":"2016-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2016, "Valor":15.7}
+,
+{"Fecha":"2015-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2015, "Valor":14.4}
+,
+{"Fecha":"2014-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2014, "Valor":16.9}
+,
+{"Fecha":"2013-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2013, "Valor":16.1}
+,
+{"Fecha":"2012-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2012, "Valor":14.5}
+,
+{"Fecha":"2011-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2011, "Valor":15.5}
+,
+{"Fecha":"2010-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2010, "Valor":14.2}
+,
+{"Fecha":"2009-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2009, "Valor":11.3}
+,
+{"Fecha":"2008-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2008, "Valor":14.9}
+]
+}
+,
+{"COD":"ECV5469", "Nombre":"Aragón. Todas las edades. Con carencia material severa. Base 2013. ", "T3_Unidad":"Porcentaje", "T3_Escala":" ", "MetaData":[{"Id":8998, "Variable":{"Id":70, "Nombre":"Comunidades y Ciudades Autónomas", "Codigo":"1"}
+, "Nombre":"Aragón", "Codigo":"02"}
+,
+{"Id":15668, "Variable":{"Id":356, "Nombre":"Totales de edad", "Codigo":"21"}
+, "Nombre":"Total", "Codigo":"0"}
+,
+{"Id":284281, "Variable":{"Id":260, "Nombre":"Conceptos Demográficos", "Codigo":""}
+, "Nombre":"Con carencia material severa", "Codigo":""}
+,
+{"Id":285495, "Variable":{"Id":429, "Nombre":"Cambios de conceotis", "Codigo":"26"}
+, "Nombre":"Base 2013", "Codigo":"00"}
+]
+, "Data":[{"Fecha":"2018-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2018, "Valor":1.2}
+,
+{"Fecha":"2017-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2017, "Valor":0.5}
+,
+{"Fecha":"2016-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2016, "Valor":2.9}
+,
+{"Fecha":"2015-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2015, "Valor":2.2}
+,
+{"Fecha":"2014-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2014, "Valor":4.2}
+,
+{"Fecha":"2013-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2013, "Valor":3.3}
+,
+{"Fecha":"2012-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2012, "Valor":2.5}
+,
+{"Fecha":"2011-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2011, "Valor":0.9}
+,
+{"Fecha":"2010-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2010, "Valor":2.4}
+,
+{"Fecha":"2009-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2009, "Valor":0.2}
+,
+{"Fecha":"2008-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2008, "Valor":0.4}
+]
+}
+,
+{"COD":"ECV5468", "Nombre":"Aragón. Todas las edades. Viviendo en hogares con baja intensidad en el trabajo (de 0 a 59 años). Base 2013. ", "T3_Unidad":"Porcentaje", "T3_Escala":" ", "MetaData":[{"Id":8998, "Variable":{"Id":70, "Nombre":"Comunidades y Ciudades Autónomas", "Codigo":"1"}
+, "Nombre":"Aragón", "Codigo":"02"}
+,
+{"Id":15668, "Variable":{"Id":356, "Nombre":"Totales de edad", "Codigo":"21"}
+, "Nombre":"Total", "Codigo":"0"}
+,
+{"Id":291160, "Variable":{"Id":260, "Nombre":"Conceptos Demográficos", "Codigo":""}
+, "Nombre":"Viviendo en hogares con baja intensidad en el trabajo (de 0 a 59 años)", "Codigo":""}
+,
+{"Id":285495, "Variable":{"Id":429, "Nombre":"Cambios de conceotis", "Codigo":"26"}
+, "Nombre":"Base 2013", "Codigo":"00"}
+]
+, "Data":[{"Fecha":"2018-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2018, "Valor":5.6}
+,
+{"Fecha":"2017-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2017, "Valor":5.9}
+,
+{"Fecha":"2016-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2016, "Valor":7.6}
+,
+{"Fecha":"2015-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2015, "Valor":6.9}
+,
+{"Fecha":"2014-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2014, "Valor":10.5}
+,
+{"Fecha":"2013-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2013, "Valor":10.2}
+,
+{"Fecha":"2012-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2012, "Valor":11.8}
+,
+{"Fecha":"2011-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2011, "Valor":7.5}
+,
+{"Fecha":"2010-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2010, "Valor":5.6}
+,
+{"Fecha":"2009-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2009, "Valor":2.6}
+,
+{"Fecha":"2008-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2008, "Valor":4.7}
+]
+}
+,
+{"COD":"ECV5351", "Nombre":"Asturias, Principado de. Todas las edades. Tasa de riesgo de pobreza o exclusión social (indicador AROPE). Base 2013. ", "T3_Unidad":"Porcentaje", "T3_Escala":" ", "MetaData":[{"Id":8999, "Variable":{"Id":70, "Nombre":"Comunidades y Ciudades Autónomas", "Codigo":"1"}
+, "Nombre":"Asturias, Principado de", "Codigo":"03"}
+,
+{"Id":15668, "Variable":{"Id":356, "Nombre":"Totales de edad", "Codigo":"21"}
+, "Nombre":"Total", "Codigo":"0"}
+,
+{"Id":284043, "Variable":{"Id":260, "Nombre":"Conceptos Demográficos", "Codigo":""}
+, "Nombre":"Tasa de riesgo de pobreza o exclusión social (indicador AROPE)", "Codigo":""}
+,
+{"Id":285495, "Variable":{"Id":429, "Nombre":"Cambios de conceotis", "Codigo":"26"}
+, "Nombre":"Base 2013", "Codigo":"00"}
+]
+, "Data":[{"Fecha":"2018-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2018, "Valor":20.9}
+,
+{"Fecha":"2017-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2017, "Valor":17.2}
+,
+{"Fecha":"2016-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2016, "Valor":18.5}
+,
+{"Fecha":"2015-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2015, "Valor":24.2}
+,
+{"Fecha":"2014-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2014, "Valor":23.4}
+,
+{"Fecha":"2013-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2013, "Valor":21.8}
+,
+{"Fecha":"2012-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2012, "Valor":24.5}
+,
+{"Fecha":"2011-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2011, "Valor":20.4}
+,
+{"Fecha":"2010-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2010, "Valor":16.5}
+,
+{"Fecha":"2009-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2009, "Valor":18.8}
+,
+{"Fecha":"2008-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2008, "Valor":19.5}
+]
+}
+,
+{"COD":"ECV5467", "Nombre":"Asturias, Principado de. Todas las edades. En riesgo de pobreza (renta año anterior a la entrevista). Base 2013. ", "T3_Unidad":"Porcentaje", "T3_Escala":" ", "MetaData":[{"Id":8999, "Variable":{"Id":70, "Nombre":"Comunidades y Ciudades Autónomas", "Codigo":"1"}
+, "Nombre":"Asturias, Principado de", "Codigo":"03"}
+,
+{"Id":15668, "Variable":{"Id":356, "Nombre":"Totales de edad", "Codigo":"21"}
+, "Nombre":"Total", "Codigo":"0"}
+,
+{"Id":284044, "Variable":{"Id":260, "Nombre":"Conceptos Demográficos", "Codigo":""}
+, "Nombre":"En riesgo de pobreza (renta año anterior a la entrevista)", "Codigo":""}
+,
+{"Id":285495, "Variable":{"Id":429, "Nombre":"Cambios de conceotis", "Codigo":"26"}
+, "Nombre":"Base 2013", "Codigo":"00"}
+]
+, "Data":[{"Fecha":"2018-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2018, "Valor":14.0}
+,
+{"Fecha":"2017-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2017, "Valor":12.6}
+,
+{"Fecha":"2016-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2016, "Valor":13.4}
+,
+{"Fecha":"2015-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2015, "Valor":16.7}
+,
+{"Fecha":"2014-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2014, "Valor":16.7}
+,
+{"Fecha":"2013-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2013, "Valor":14.1}
+,
+{"Fecha":"2012-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2012, "Valor":13.0}
+,
+{"Fecha":"2011-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2011, "Valor":14.1}
+,
+{"Fecha":"2010-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2010, "Valor":11.5}
+,
+{"Fecha":"2009-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2009, "Valor":13.0}
+,
+{"Fecha":"2008-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2008, "Valor":13.2}
+]
+}
+,
+{"COD":"ECV5466", "Nombre":"Asturias, Principado de. Todas las edades. Con carencia material severa. Base 2013. ", "T3_Unidad":"Porcentaje", "T3_Escala":" ", "MetaData":[{"Id":8999, "Variable":{"Id":70, "Nombre":"Comunidades y Ciudades Autónomas", "Codigo":"1"}
+, "Nombre":"Asturias, Principado de", "Codigo":"03"}
+,
+{"Id":15668, "Variable":{"Id":356, "Nombre":"Totales de edad", "Codigo":"21"}
+, "Nombre":"Total", "Codigo":"0"}
+,
+{"Id":284281, "Variable":{"Id":260, "Nombre":"Conceptos Demográficos", "Codigo":""}
+, "Nombre":"Con carencia material severa", "Codigo":""}
+,
+{"Id":285495, "Variable":{"Id":429, "Nombre":"Cambios de conceotis", "Codigo":"26"}
+, "Nombre":"Base 2013", "Codigo":"00"}
+]
+, "Data":[{"Fecha":"2018-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2018, "Valor":6.0}
+,
+{"Fecha":"2017-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2017, "Valor":3.5}
+,
+{"Fecha":"2016-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2016, "Valor":3.9}
+,
+{"Fecha":"2015-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2015, "Valor":6.9}
+,
+{"Fecha":"2014-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2014, "Valor":5.1}
+,
+{"Fecha":"2013-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2013, "Valor":4.2}
+,
+{"Fecha":"2012-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2012, "Valor":3.3}
+,
+{"Fecha":"2011-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2011, "Valor":0.8}
+,
+{"Fecha":"2010-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2010, "Valor":1.1}
+,
+{"Fecha":"2009-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2009, "Valor":1.4}
+,
+{"Fecha":"2008-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2008, "Valor":1.6}
+]
+}
+,
+{"COD":"ECV5465", "Nombre":"Asturias, Principado de. Todas las edades. Viviendo en hogares con baja intensidad en el trabajo (de 0 a 59 años). Base 2013. ", "T3_Unidad":"Porcentaje", "T3_Escala":" ", "MetaData":[{"Id":8999, "Variable":{"Id":70, "Nombre":"Comunidades y Ciudades Autónomas", "Codigo":"1"}
+, "Nombre":"Asturias, Principado de", "Codigo":"03"}
+,
+{"Id":15668, "Variable":{"Id":356, "Nombre":"Totales de edad", "Codigo":"21"}
+, "Nombre":"Total", "Codigo":"0"}
+,
+{"Id":291160, "Variable":{"Id":260, "Nombre":"Conceptos Demográficos", "Codigo":""}
+, "Nombre":"Viviendo en hogares con baja intensidad en el trabajo (de 0 a 59 años)", "Codigo":""}
+,
+{"Id":285495, "Variable":{"Id":429, "Nombre":"Cambios de conceotis", "Codigo":"26"}
+, "Nombre":"Base 2013", "Codigo":"00"}
+]
+, "Data":[{"Fecha":"2018-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2018, "Valor":13.6}
+,
+{"Fecha":"2017-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2017, "Valor":11.5}
+,
+{"Fecha":"2016-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2016, "Valor":14.7}
+,
+{"Fecha":"2015-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2015, "Valor":16.4}
+,
+{"Fecha":"2014-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2014, "Valor":18.0}
+,
+{"Fecha":"2013-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2013, "Valor":16.5}
+,
+{"Fecha":"2012-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2012, "Valor":22.6}
+,
+{"Fecha":"2011-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2011, "Valor":12.8}
+,
+{"Fecha":"2010-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2010, "Valor":8.8}
+,
+{"Fecha":"2009-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2009, "Valor":8.7}
+,
+{"Fecha":"2008-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2008, "Valor":9.1}
+]
+}
+,
+{"COD":"ECV5350", "Nombre":"Balears, Illes. Todas las edades. Tasa de riesgo de pobreza o exclusión social (indicador AROPE). Base 2013. ", "T3_Unidad":"Porcentaje", "T3_Escala":" ", "MetaData":[{"Id":9000, "Variable":{"Id":70, "Nombre":"Comunidades y Ciudades Autónomas", "Codigo":"1"}
+, "Nombre":"Balears, Illes", "Codigo":"04"}
+,
+{"Id":15668, "Variable":{"Id":356, "Nombre":"Totales de edad", "Codigo":"21"}
+, "Nombre":"Total", "Codigo":"0"}
+,
+{"Id":284043, "Variable":{"Id":260, "Nombre":"Conceptos Demográficos", "Codigo":""}
+, "Nombre":"Tasa de riesgo de pobreza o exclusión social (indicador AROPE)", "Codigo":""}
+,
+{"Id":285495, "Variable":{"Id":429, "Nombre":"Cambios de conceotis", "Codigo":"26"}
+, "Nombre":"Base 2013", "Codigo":"00"}
+]
+, "Data":[{"Fecha":"2018-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2018, "Valor":18.1}
+,
+{"Fecha":"2017-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2017, "Valor":24.7}
+,
+{"Fecha":"2016-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2016, "Valor":19.1}
+,
+{"Fecha":"2015-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2015, "Valor":26.3}
+,
+{"Fecha":"2014-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2014, "Valor":23.8}
+,
+{"Fecha":"2013-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2013, "Valor":27.8}
+,
+{"Fecha":"2012-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2012, "Valor":25.1}
+,
+{"Fecha":"2011-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2011, "Valor":26.7}
+,
+{"Fecha":"2010-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2010, "Valor":26.0}
+,
+{"Fecha":"2009-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2009, "Valor":24.3}
+,
+{"Fecha":"2008-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2008, "Valor":23.6}
+]
+}
+,
+{"COD":"ECV5464", "Nombre":"Balears, Illes. Todas las edades. En riesgo de pobreza (renta año anterior a la entrevista). Base 2013. ", "T3_Unidad":"Porcentaje", "T3_Escala":" ", "MetaData":[{"Id":9000, "Variable":{"Id":70, "Nombre":"Comunidades y Ciudades Autónomas", "Codigo":"1"}
+, "Nombre":"Balears, Illes", "Codigo":"04"}
+,
+{"Id":15668, "Variable":{"Id":356, "Nombre":"Totales de edad", "Codigo":"21"}
+, "Nombre":"Total", "Codigo":"0"}
+,
+{"Id":284044, "Variable":{"Id":260, "Nombre":"Conceptos Demográficos", "Codigo":""}
+, "Nombre":"En riesgo de pobreza (renta año anterior a la entrevista)", "Codigo":""}
+,
+{"Id":285495, "Variable":{"Id":429, "Nombre":"Cambios de conceotis", "Codigo":"26"}
+, "Nombre":"Base 2013", "Codigo":"00"}
+]
+, "Data":[{"Fecha":"2018-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2018, "Valor":15.4}
+,
+{"Fecha":"2017-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2017, "Valor":21.3}
+,
+{"Fecha":"2016-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2016, "Valor":15.5}
+,
+{"Fecha":"2015-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2015, "Valor":21.7}
+,
+{"Fecha":"2014-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2014, "Valor":17.9}
+,
+{"Fecha":"2013-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2013, "Valor":19.8}
+,
+{"Fecha":"2012-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2012, "Valor":19.9}
+,
+{"Fecha":"2011-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2011, "Valor":21.0}
+,
+{"Fecha":"2010-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2010, "Valor":22.7}
+,
+{"Fecha":"2009-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2009, "Valor":18.1}
+,
+{"Fecha":"2008-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2008, "Valor":18.1}
+]
+}
+,
+{"COD":"ECV5463", "Nombre":"Balears, Illes. Todas las edades. Con carencia material severa. Base 2013. ", "T3_Unidad":"Porcentaje", "T3_Escala":" ", "MetaData":[{"Id":9000, "Variable":{"Id":70, "Nombre":"Comunidades y Ciudades Autónomas", "Codigo":"1"}
+, "Nombre":"Balears, Illes", "Codigo":"04"}
+,
+{"Id":15668, "Variable":{"Id":356, "Nombre":"Totales de edad", "Codigo":"21"}
+, "Nombre":"Total", "Codigo":"0"}
+,
+{"Id":284281, "Variable":{"Id":260, "Nombre":"Conceptos Demográficos", "Codigo":""}
+, "Nombre":"Con carencia material severa", "Codigo":""}
+,
+{"Id":285495, "Variable":{"Id":429, "Nombre":"Cambios de conceotis", "Codigo":"26"}
+, "Nombre":"Base 2013", "Codigo":"00"}
+]
+, "Data":[{"Fecha":"2018-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2018, "Valor":5.3}
+,
+{"Fecha":"2017-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2017, "Valor":6.9}
+,
+{"Fecha":"2016-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2016, "Valor":3.7}
+,
+{"Fecha":"2015-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2015, "Valor":7.7}
+,
+{"Fecha":"2014-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2014, "Valor":9.8}
+,
+{"Fecha":"2013-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2013, "Valor":10.4}
+,
+{"Fecha":"2012-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2012, "Valor":7.9}
+,
+{"Fecha":"2011-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2011, "Valor":7.4}
+,
+{"Fecha":"2010-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2010, "Valor":4.7}
+,
+{"Fecha":"2009-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2009, "Valor":6.3}
+,
+{"Fecha":"2008-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2008, "Valor":3.6}
+]
+}
+,
+{"COD":"ECV5462", "Nombre":"Balears, Illes. Todas las edades. Viviendo en hogares con baja intensidad en el trabajo (de 0 a 59 años). Base 2013. ", "T3_Unidad":"Porcentaje", "T3_Escala":" ", "MetaData":[{"Id":9000, "Variable":{"Id":70, "Nombre":"Comunidades y Ciudades Autónomas", "Codigo":"1"}
+, "Nombre":"Balears, Illes", "Codigo":"04"}
+,
+{"Id":15668, "Variable":{"Id":356, "Nombre":"Totales de edad", "Codigo":"21"}
+, "Nombre":"Total", "Codigo":"0"}
+,
+{"Id":291160, "Variable":{"Id":260, "Nombre":"Conceptos Demográficos", "Codigo":""}
+, "Nombre":"Viviendo en hogares con baja intensidad en el trabajo (de 0 a 59 años)", "Codigo":""}
+,
+{"Id":285495, "Variable":{"Id":429, "Nombre":"Cambios de conceotis", "Codigo":"26"}
+, "Nombre":"Base 2013", "Codigo":"00"}
+]
+, "Data":[{"Fecha":"2018-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2018, "Valor":4.4}
+,
+{"Fecha":"2017-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2017, "Valor":3.7}
+,
+{"Fecha":"2016-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2016, "Valor":6.7}
+,
+{"Fecha":"2015-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2015, "Valor":8.4}
+,
+{"Fecha":"2014-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2014, "Valor":7.5}
+,
+{"Fecha":"2013-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2013, "Valor":7.1}
+,
+{"Fecha":"2012-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2012, "Valor":10.5}
+,
+{"Fecha":"2011-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2011, "Valor":13.1}
+,
+{"Fecha":"2010-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2010, "Valor":11.2}
+,
+{"Fecha":"2009-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2009, "Valor":5.0}
+,
+{"Fecha":"2008-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2008, "Valor":5.0}
+]
+}
+,
+{"COD":"ECV5349", "Nombre":"Canarias. Todas las edades. Tasa de riesgo de pobreza o exclusión social (indicador AROPE). Base 2013. ", "T3_Unidad":"Porcentaje", "T3_Escala":" ", "MetaData":[{"Id":9001, "Variable":{"Id":70, "Nombre":"Comunidades y Ciudades Autónomas", "Codigo":"1"}
+, "Nombre":"Canarias", "Codigo":"05"}
+,
+{"Id":15668, "Variable":{"Id":356, "Nombre":"Totales de edad", "Codigo":"21"}
+, "Nombre":"Total", "Codigo":"0"}
+,
+{"Id":284043, "Variable":{"Id":260, "Nombre":"Conceptos Demográficos", "Codigo":""}
+, "Nombre":"Tasa de riesgo de pobreza o exclusión social (indicador AROPE)", "Codigo":""}
+,
+{"Id":285495, "Variable":{"Id":429, "Nombre":"Cambios de conceotis", "Codigo":"26"}
+, "Nombre":"Base 2013", "Codigo":"00"}
+]
+, "Data":[{"Fecha":"2018-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2018, "Valor":36.4}
+,
+{"Fecha":"2017-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2017, "Valor":40.2}
+,
+{"Fecha":"2016-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2016, "Valor":44.6}
+,
+{"Fecha":"2015-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2015, "Valor":37.9}
+,
+{"Fecha":"2014-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2014, "Valor":37.0}
+,
+{"Fecha":"2013-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2013, "Valor":35.5}
+,
+{"Fecha":"2012-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2012, "Valor":40.3}
+,
+{"Fecha":"2011-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2011, "Valor":37.8}
+,
+{"Fecha":"2010-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2010, "Valor":35.7}
+,
+{"Fecha":"2009-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2009, "Valor":38.2}
+,
+{"Fecha":"2008-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2008, "Valor":34.8}
+]
+}
+,
+{"COD":"ECV5461", "Nombre":"Canarias. Todas las edades. En riesgo de pobreza (renta año anterior a la entrevista). Base 2013. ", "T3_Unidad":"Porcentaje", "T3_Escala":" ", "MetaData":[{"Id":9001, "Variable":{"Id":70, "Nombre":"Comunidades y Ciudades Autónomas", "Codigo":"1"}
+, "Nombre":"Canarias", "Codigo":"05"}
+,
+{"Id":15668, "Variable":{"Id":356, "Nombre":"Totales de edad", "Codigo":"21"}
+, "Nombre":"Total", "Codigo":"0"}
+,
+{"Id":284044, "Variable":{"Id":260, "Nombre":"Conceptos Demográficos", "Codigo":""}
+, "Nombre":"En riesgo de pobreza (renta año anterior a la entrevista)", "Codigo":""}
+,
+{"Id":285495, "Variable":{"Id":429, "Nombre":"Cambios de conceotis", "Codigo":"26"}
+, "Nombre":"Base 2013", "Codigo":"00"}
+]
+, "Data":[{"Fecha":"2018-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2018, "Valor":32.1}
+,
+{"Fecha":"2017-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2017, "Valor":30.5}
+,
+{"Fecha":"2016-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2016, "Valor":35.0}
+,
+{"Fecha":"2015-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2015, "Valor":28.5}
+,
+{"Fecha":"2014-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2014, "Valor":27.6}
+,
+{"Fecha":"2013-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2013, "Valor":28.4}
+,
+{"Fecha":"2012-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2012, "Valor":33.6}
+,
+{"Fecha":"2011-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2011, "Valor":30.1}
+,
+{"Fecha":"2010-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2010, "Valor":29.7}
+,
+{"Fecha":"2009-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2009, "Valor":30.4}
+,
+{"Fecha":"2008-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2008, "Valor":30.7}
+]
+}
+,
+{"COD":"ECV5460", "Nombre":"Canarias. Todas las edades. Con carencia material severa. Base 2013. ", "T3_Unidad":"Porcentaje", "T3_Escala":" ", "MetaData":[{"Id":9001, "Variable":{"Id":70, "Nombre":"Comunidades y Ciudades Autónomas", "Codigo":"1"}
+, "Nombre":"Canarias", "Codigo":"05"}
+,
+{"Id":15668, "Variable":{"Id":356, "Nombre":"Totales de edad", "Codigo":"21"}
+, "Nombre":"Total", "Codigo":"0"}
+,
+{"Id":284281, "Variable":{"Id":260, "Nombre":"Conceptos Demográficos", "Codigo":""}
+, "Nombre":"Con carencia material severa", "Codigo":""}
+,
+{"Id":285495, "Variable":{"Id":429, "Nombre":"Cambios de conceotis", "Codigo":"26"}
+, "Nombre":"Base 2013", "Codigo":"00"}
+]
+, "Data":[{"Fecha":"2018-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2018, "Valor":8.8}
+,
+{"Fecha":"2017-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2017, "Valor":13.6}
+,
+{"Fecha":"2016-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2016, "Valor":10.8}
+,
+{"Fecha":"2015-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2015, "Valor":12.4}
+,
+{"Fecha":"2014-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2014, "Valor":7.2}
+,
+{"Fecha":"2013-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2013, "Valor":8.5}
+,
+{"Fecha":"2012-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2012, "Valor":6.5}
+,
+{"Fecha":"2011-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2011, "Valor":3.9}
+,
+{"Fecha":"2010-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2010, "Valor":3.5}
+,
+{"Fecha":"2009-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2009, "Valor":12.7}
+,
+{"Fecha":"2008-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2008, "Valor":3.9}
+]
+}
+,
+{"COD":"ECV5459", "Nombre":"Canarias. Todas las edades. Viviendo en hogares con baja intensidad en el trabajo (de 0 a 59 años). Base 2013. ", "T3_Unidad":"Porcentaje", "T3_Escala":" ", "MetaData":[{"Id":9001, "Variable":{"Id":70, "Nombre":"Comunidades y Ciudades Autónomas", "Codigo":"1"}
+, "Nombre":"Canarias", "Codigo":"05"}
+,
+{"Id":15668, "Variable":{"Id":356, "Nombre":"Totales de edad", "Codigo":"21"}
+, "Nombre":"Total", "Codigo":"0"}
+,
+{"Id":291160, "Variable":{"Id":260, "Nombre":"Conceptos Demográficos", "Codigo":""}
+, "Nombre":"Viviendo en hogares con baja intensidad en el trabajo (de 0 a 59 años)", "Codigo":""}
+,
+{"Id":285495, "Variable":{"Id":429, "Nombre":"Cambios de conceotis", "Codigo":"26"}
+, "Nombre":"Base 2013", "Codigo":"00"}
+]
+, "Data":[{"Fecha":"2018-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2018, "Valor":16.3}
+,
+{"Fecha":"2017-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2017, "Valor":19.2}
+,
+{"Fecha":"2016-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2016, "Valor":29.5}
+,
+{"Fecha":"2015-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2015, "Valor":20.8}
+,
+{"Fecha":"2014-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2014, "Valor":28.1}
+,
+{"Fecha":"2013-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2013, "Valor":22.8}
+,
+{"Fecha":"2012-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2012, "Valor":21.5}
+,
+{"Fecha":"2011-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2011, "Valor":19.9}
+,
+{"Fecha":"2010-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2010, "Valor":14.8}
+,
+{"Fecha":"2009-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2009, "Valor":12.0}
+,
+{"Fecha":"2008-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2008, "Valor":9.3}
+]
+}
+,
+{"COD":"ECV5348", "Nombre":"Cantabria. Todas las edades. Tasa de riesgo de pobreza o exclusión social (indicador AROPE). Base 2013. ", "T3_Unidad":"Porcentaje", "T3_Escala":" ", "MetaData":[{"Id":9002, "Variable":{"Id":70, "Nombre":"Comunidades y Ciudades Autónomas", "Codigo":"1"}
+, "Nombre":"Cantabria", "Codigo":"06"}
+,
+{"Id":15668, "Variable":{"Id":356, "Nombre":"Totales de edad", "Codigo":"21"}
+, "Nombre":"Total", "Codigo":"0"}
+,
+{"Id":284043, "Variable":{"Id":260, "Nombre":"Conceptos Demográficos", "Codigo":""}
+, "Nombre":"Tasa de riesgo de pobreza o exclusión social (indicador AROPE)", "Codigo":""}
+,
+{"Id":285495, "Variable":{"Id":429, "Nombre":"Cambios de conceotis", "Codigo":"26"}
+, "Nombre":"Base 2013", "Codigo":"00"}
+]
+, "Data":[{"Fecha":"2018-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2018, "Valor":25.0}
+,
+{"Fecha":"2017-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2017, "Valor":20.5}
+,
+{"Fecha":"2016-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2016, "Valor":24.6}
+,
+{"Fecha":"2015-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2015, "Valor":20.4}
+,
+{"Fecha":"2014-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2014, "Valor":27.4}
+,
+{"Fecha":"2013-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2013, "Valor":25.3}
+,
+{"Fecha":"2012-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2012, "Valor":24.1}
+,
+{"Fecha":"2011-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2011, "Valor":23.0}
+,
+{"Fecha":"2010-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2010, "Valor":22.5}
+,
+{"Fecha":"2009-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2009, "Valor":17.3}
+,
+{"Fecha":"2008-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2008, "Valor":19.9}
+]
+}
+,
+{"COD":"ECV5458", "Nombre":"Cantabria. Todas las edades. En riesgo de pobreza (renta año anterior a la entrevista). Base 2013. ", "T3_Unidad":"Porcentaje", "T3_Escala":" ", "MetaData":[{"Id":9002, "Variable":{"Id":70, "Nombre":"Comunidades y Ciudades Autónomas", "Codigo":"1"}
+, "Nombre":"Cantabria", "Codigo":"06"}
+,
+{"Id":15668, "Variable":{"Id":356, "Nombre":"Totales de edad", "Codigo":"21"}
+, "Nombre":"Total", "Codigo":"0"}
+,
+{"Id":284044, "Variable":{"Id":260, "Nombre":"Conceptos Demográficos", "Codigo":""}
+, "Nombre":"En riesgo de pobreza (renta año anterior a la entrevista)", "Codigo":""}
+,
+{"Id":285495, "Variable":{"Id":429, "Nombre":"Cambios de conceotis", "Codigo":"26"}
+, "Nombre":"Base 2013", "Codigo":"00"}
+]
+, "Data":[{"Fecha":"2018-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2018, "Valor":19.9}
+,
+{"Fecha":"2017-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2017, "Valor":17.6}
+,
+{"Fecha":"2016-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2016, "Valor":15.3}
+,
+{"Fecha":"2015-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2015, "Valor":14.9}
+,
+{"Fecha":"2014-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2014, "Valor":20.6}
+,
+{"Fecha":"2013-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2013, "Valor":17.8}
+,
+{"Fecha":"2012-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2012, "Valor":17.7}
+,
+{"Fecha":"2011-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2011, "Valor":16.7}
+,
+{"Fecha":"2010-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2010, "Valor":20.1}
+,
+{"Fecha":"2009-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2009, "Valor":13.9}
+,
+{"Fecha":"2008-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2008, "Valor":14.3}
+]
+}
+,
+{"COD":"ECV5457", "Nombre":"Cantabria. Todas las edades. Con carencia material severa. Base 2013. ", "T3_Unidad":"Porcentaje", "T3_Escala":" ", "MetaData":[{"Id":9002, "Variable":{"Id":70, "Nombre":"Comunidades y Ciudades Autónomas", "Codigo":"1"}
+, "Nombre":"Cantabria", "Codigo":"06"}
+,
+{"Id":15668, "Variable":{"Id":356, "Nombre":"Totales de edad", "Codigo":"21"}
+, "Nombre":"Total", "Codigo":"0"}
+,
+{"Id":284281, "Variable":{"Id":260, "Nombre":"Conceptos Demográficos", "Codigo":""}
+, "Nombre":"Con carencia material severa", "Codigo":""}
+,
+{"Id":285495, "Variable":{"Id":429, "Nombre":"Cambios de conceotis", "Codigo":"26"}
+, "Nombre":"Base 2013", "Codigo":"00"}
+]
+, "Data":[{"Fecha":"2018-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2018, "Valor":3.6}
+,
+{"Fecha":"2017-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2017, "Valor":2.2}
+,
+{"Fecha":"2016-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2016, "Valor":7.5}
+,
+{"Fecha":"2015-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2015, "Valor":3.5}
+,
+{"Fecha":"2014-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2014, "Valor":3.5}
+,
+{"Fecha":"2013-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2013, "Valor":3.9}
+,
+{"Fecha":"2012-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2012, "Valor":2.3}
+,
+{"Fecha":"2011-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2011, "Valor":1.5}
+,
+{"Fecha":"2010-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2010, "Valor":1.5}
+,
+{"Fecha":"2009-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2009, "Valor":1.2}
+,
+{"Fecha":"2008-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2008, "Valor":1.0}
+]
+}
+,
+{"COD":"ECV5456", "Nombre":"Cantabria. Todas las edades. Viviendo en hogares con baja intensidad en el trabajo (de 0 a 59 años). Base 2013. ", "T3_Unidad":"Porcentaje", "T3_Escala":" ", "MetaData":[{"Id":9002, "Variable":{"Id":70, "Nombre":"Comunidades y Ciudades Autónomas", "Codigo":"1"}
+, "Nombre":"Cantabria", "Codigo":"06"}
+,
+{"Id":15668, "Variable":{"Id":356, "Nombre":"Totales de edad", "Codigo":"21"}
+, "Nombre":"Total", "Codigo":"0"}
+,
+{"Id":291160, "Variable":{"Id":260, "Nombre":"Conceptos Demográficos", "Codigo":""}
+, "Nombre":"Viviendo en hogares con baja intensidad en el trabajo (de 0 a 59 años)", "Codigo":""}
+,
+{"Id":285495, "Variable":{"Id":429, "Nombre":"Cambios de conceotis", "Codigo":"26"}
+, "Nombre":"Base 2013", "Codigo":"00"}
+]
+, "Data":[{"Fecha":"2018-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2018, "Valor":11.2}
+,
+{"Fecha":"2017-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2017, "Valor":9.3}
+,
+{"Fecha":"2016-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2016, "Valor":16.0}
+,
+{"Fecha":"2015-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2015, "Valor":15.5}
+,
+{"Fecha":"2014-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2014, "Valor":18.4}
+,
+{"Fecha":"2013-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2013, "Valor":11.1}
+,
+{"Fecha":"2012-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2012, "Valor":11.9}
+,
+{"Fecha":"2011-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2011, "Valor":13.8}
+,
+{"Fecha":"2010-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2010, "Valor":8.9}
+,
+{"Fecha":"2009-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2009, "Valor":6.8}
+,
+{"Fecha":"2008-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2008, "Valor":9.2}
+]
+}
+,
+{"COD":"ECV5347", "Nombre":"Castilla y León. Todas las edades. Tasa de riesgo de pobreza o exclusión social (indicador AROPE). Base 2013. ", "T3_Unidad":"Porcentaje", "T3_Escala":" ", "MetaData":[{"Id":9003, "Variable":{"Id":70, "Nombre":"Comunidades y Ciudades Autónomas", "Codigo":"1"}
+, "Nombre":"Castilla y León", "Codigo":"07"}
+,
+{"Id":15668, "Variable":{"Id":356, "Nombre":"Totales de edad", "Codigo":"21"}
+, "Nombre":"Total", "Codigo":"0"}
+,
+{"Id":284043, "Variable":{"Id":260, "Nombre":"Conceptos Demográficos", "Codigo":""}
+, "Nombre":"Tasa de riesgo de pobreza o exclusión social (indicador AROPE)", "Codigo":""}
+,
+{"Id":285495, "Variable":{"Id":429, "Nombre":"Cambios de conceotis", "Codigo":"26"}
+, "Nombre":"Base 2013", "Codigo":"00"}
+]
+, "Data":[{"Fecha":"2018-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2018, "Valor":19.5}
+,
+{"Fecha":"2017-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2017, "Valor":18.4}
+,
+{"Fecha":"2016-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2016, "Valor":23.2}
+,
+{"Fecha":"2015-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2015, "Valor":23.3}
+,
+{"Fecha":"2014-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2014, "Valor":26.1}
+,
+{"Fecha":"2013-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2013, "Valor":20.8}
+,
+{"Fecha":"2012-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2012, "Valor":20.4}
+,
+{"Fecha":"2011-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2011, "Valor":22.3}
+,
+{"Fecha":"2010-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2010, "Valor":23.8}
+,
+{"Fecha":"2009-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2009, "Valor":22.1}
+,
+{"Fecha":"2008-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2008, "Valor":21.4}
+]
+}
+,
+{"COD":"ECV5455", "Nombre":"Castilla y León. Todas las edades. En riesgo de pobreza (renta año anterior a la entrevista). Base 2013. ", "T3_Unidad":"Porcentaje", "T3_Escala":" ", "MetaData":[{"Id":9003, "Variable":{"Id":70, "Nombre":"Comunidades y Ciudades Autónomas", "Codigo":"1"}
+, "Nombre":"Castilla y León", "Codigo":"07"}
+,
+{"Id":15668, "Variable":{"Id":356, "Nombre":"Totales de edad", "Codigo":"21"}
+, "Nombre":"Total", "Codigo":"0"}
+,
+{"Id":284044, "Variable":{"Id":260, "Nombre":"Conceptos Demográficos", "Codigo":""}
+, "Nombre":"En riesgo de pobreza (renta año anterior a la entrevista)", "Codigo":""}
+,
+{"Id":285495, "Variable":{"Id":429, "Nombre":"Cambios de conceotis", "Codigo":"26"}
+, "Nombre":"Base 2013", "Codigo":"00"}
+]
+, "Data":[{"Fecha":"2018-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2018, "Valor":16.1}
+,
+{"Fecha":"2017-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2017, "Valor":15.4}
+,
+{"Fecha":"2016-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2016, "Valor":17.7}
+,
+{"Fecha":"2015-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2015, "Valor":18.3}
+,
+{"Fecha":"2014-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2014, "Valor":20.4}
+,
+{"Fecha":"2013-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2013, "Valor":17.5}
+,
+{"Fecha":"2012-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2012, "Valor":15.9}
+,
+{"Fecha":"2011-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2011, "Valor":17.6}
+,
+{"Fecha":"2010-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2010, "Valor":19.5}
+,
+{"Fecha":"2009-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2009, "Valor":18.8}
+,
+{"Fecha":"2008-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2008, "Valor":17.5}
+]
+}
+,
+{"COD":"ECV5454", "Nombre":"Castilla y León. Todas las edades. Con carencia material severa. Base 2013. ", "T3_Unidad":"Porcentaje", "T3_Escala":" ", "MetaData":[{"Id":9003, "Variable":{"Id":70, "Nombre":"Comunidades y Ciudades Autónomas", "Codigo":"1"}
+, "Nombre":"Castilla y León", "Codigo":"07"}
+,
+{"Id":15668, "Variable":{"Id":356, "Nombre":"Totales de edad", "Codigo":"21"}
+, "Nombre":"Total", "Codigo":"0"}
+,
+{"Id":284281, "Variable":{"Id":260, "Nombre":"Conceptos Demográficos", "Codigo":""}
+, "Nombre":"Con carencia material severa", "Codigo":""}
+,
+{"Id":285495, "Variable":{"Id":429, "Nombre":"Cambios de conceotis", "Codigo":"26"}
+, "Nombre":"Base 2013", "Codigo":"00"}
+]
+, "Data":[{"Fecha":"2018-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2018, "Valor":1.9}
+,
+{"Fecha":"2017-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2017, "Valor":1.0}
+,
+{"Fecha":"2016-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2016, "Valor":2.0}
+,
+{"Fecha":"2015-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2015, "Valor":2.3}
+,
+{"Fecha":"2014-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2014, "Valor":2.6}
+,
+{"Fecha":"2013-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2013, "Valor":1.8}
+,
+{"Fecha":"2012-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2012, "Valor":2.2}
+,
+{"Fecha":"2011-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2011, "Valor":3.7}
+,
+{"Fecha":"2010-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2010, "Valor":2.9}
+,
+{"Fecha":"2009-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2009, "Valor":2.1}
+,
+{"Fecha":"2008-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2008, "Valor":0.8}
+]
+}
+,
+{"COD":"ECV5453", "Nombre":"Castilla y León. Todas las edades. Viviendo en hogares con baja intensidad en el trabajo (de 0 a 59 años). Base 2013. ", "T3_Unidad":"Porcentaje", "T3_Escala":" ", "MetaData":[{"Id":9003, "Variable":{"Id":70, "Nombre":"Comunidades y Ciudades Autónomas", "Codigo":"1"}
+, "Nombre":"Castilla y León", "Codigo":"07"}
+,
+{"Id":15668, "Variable":{"Id":356, "Nombre":"Totales de edad", "Codigo":"21"}
+, "Nombre":"Total", "Codigo":"0"}
+,
+{"Id":291160, "Variable":{"Id":260, "Nombre":"Conceptos Demográficos", "Codigo":""}
+, "Nombre":"Viviendo en hogares con baja intensidad en el trabajo (de 0 a 59 años)", "Codigo":""}
+,
+{"Id":285495, "Variable":{"Id":429, "Nombre":"Cambios de conceotis", "Codigo":"26"}
+, "Nombre":"Base 2013", "Codigo":"00"}
+]
+, "Data":[{"Fecha":"2018-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2018, "Valor":8.8}
+,
+{"Fecha":"2017-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2017, "Valor":9.2}
+,
+{"Fecha":"2016-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2016, "Valor":14.2}
+,
+{"Fecha":"2015-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2015, "Valor":16.5}
+,
+{"Fecha":"2014-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2014, "Valor":17.7}
+,
+{"Fecha":"2013-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2013, "Valor":12.8}
+,
+{"Fecha":"2012-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2012, "Valor":9.7}
+,
+{"Fecha":"2011-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2011, "Valor":8.2}
+,
+{"Fecha":"2010-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2010, "Valor":10.4}
+,
+{"Fecha":"2009-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2009, "Valor":8.3}
+,
+{"Fecha":"2008-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2008, "Valor":5.5}
+]
+}
+,
+{"COD":"ECV5346", "Nombre":"Castilla - La Mancha. Todas las edades. Tasa de riesgo de pobreza o exclusión social (indicador AROPE). Base 2013. ", "T3_Unidad":"Porcentaje", "T3_Escala":" ", "MetaData":[{"Id":9004, "Variable":{"Id":70, "Nombre":"Comunidades y Ciudades Autónomas", "Codigo":"1"}
+, "Nombre":"Castilla - La Mancha", "Codigo":"08"}
+,
+{"Id":15668, "Variable":{"Id":356, "Nombre":"Totales de edad", "Codigo":"21"}
+, "Nombre":"Total", "Codigo":"0"}
+,
+{"Id":284043, "Variable":{"Id":260, "Nombre":"Conceptos Demográficos", "Codigo":""}
+, "Nombre":"Tasa de riesgo de pobreza o exclusión social (indicador AROPE)", "Codigo":""}
+,
+{"Id":285495, "Variable":{"Id":429, "Nombre":"Cambios de conceotis", "Codigo":"26"}
+, "Nombre":"Base 2013", "Codigo":"00"}
+]
+, "Data":[{"Fecha":"2018-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2018, "Valor":33.5}
+,
+{"Fecha":"2017-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2017, "Valor":33.9}
+,
+{"Fecha":"2016-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2016, "Valor":37.9}
+,
+{"Fecha":"2015-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2015, "Valor":36.7}
+,
+{"Fecha":"2014-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2014, "Valor":36.9}
+,
+{"Fecha":"2013-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2013, "Valor":36.7}
+,
+{"Fecha":"2012-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2012, "Valor":35.1}
+,
+{"Fecha":"2011-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2011, "Valor":35.3}
+,
+{"Fecha":"2010-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2010, "Valor":32.3}
+,
+{"Fecha":"2009-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2009, "Valor":28.6}
+,
+{"Fecha":"2008-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2008, "Valor":28.8}
+]
+}
+,
+{"COD":"ECV5452", "Nombre":"Castilla - La Mancha. Todas las edades. En riesgo de pobreza (renta año anterior a la entrevista). Base 2013. ", "T3_Unidad":"Porcentaje", "T3_Escala":" ", "MetaData":[{"Id":9004, "Variable":{"Id":70, "Nombre":"Comunidades y Ciudades Autónomas", "Codigo":"1"}
+, "Nombre":"Castilla - La Mancha", "Codigo":"08"}
+,
+{"Id":15668, "Variable":{"Id":356, "Nombre":"Totales de edad", "Codigo":"21"}
+, "Nombre":"Total", "Codigo":"0"}
+,
+{"Id":284044, "Variable":{"Id":260, "Nombre":"Conceptos Demográficos", "Codigo":""}
+, "Nombre":"En riesgo de pobreza (renta año anterior a la entrevista)", "Codigo":""}
+,
+{"Id":285495, "Variable":{"Id":429, "Nombre":"Cambios de conceotis", "Codigo":"26"}
+, "Nombre":"Base 2013", "Codigo":"00"}
+]
+, "Data":[{"Fecha":"2018-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2018, "Valor":29.9}
+,
+{"Fecha":"2017-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2017, "Valor":28.1}
+,
+{"Fecha":"2016-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2016, "Valor":31.7}
+,
+{"Fecha":"2015-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2015, "Valor":28.5}
+,
+{"Fecha":"2014-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2014, "Valor":28.4}
+,
+{"Fecha":"2013-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2013, "Valor":31.3}
+,
+{"Fecha":"2012-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2012, "Valor":30.0}
+,
+{"Fecha":"2011-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2011, "Valor":29.4}
+,
+{"Fecha":"2010-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2010, "Valor":28.3}
+,
+{"Fecha":"2009-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2009, "Valor":24.8}
+,
+{"Fecha":"2008-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2008, "Valor":26.4}
+]
+}
+,
+{"COD":"ECV5451", "Nombre":"Castilla - La Mancha. Todas las edades. Con carencia material severa. Base 2013. ", "T3_Unidad":"Porcentaje", "T3_Escala":" ", "MetaData":[{"Id":9004, "Variable":{"Id":70, "Nombre":"Comunidades y Ciudades Autónomas", "Codigo":"1"}
+, "Nombre":"Castilla - La Mancha", "Codigo":"08"}
+,
+{"Id":15668, "Variable":{"Id":356, "Nombre":"Totales de edad", "Codigo":"21"}
+, "Nombre":"Total", "Codigo":"0"}
+,
+{"Id":284281, "Variable":{"Id":260, "Nombre":"Conceptos Demográficos", "Codigo":""}
+, "Nombre":"Con carencia material severa", "Codigo":""}
+,
+{"Id":285495, "Variable":{"Id":429, "Nombre":"Cambios de conceotis", "Codigo":"26"}
+, "Nombre":"Base 2013", "Codigo":"00"}
+]
+, "Data":[{"Fecha":"2018-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2018, "Valor":7.2}
+,
+{"Fecha":"2017-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2017, "Valor":4.4}
+,
+{"Fecha":"2016-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2016, "Valor":7.6}
+,
+{"Fecha":"2015-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2015, "Valor":8.5}
+,
+{"Fecha":"2014-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2014, "Valor":8.7}
+,
+{"Fecha":"2013-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2013, "Valor":5.8}
+,
+{"Fecha":"2012-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2012, "Valor":5.7}
+,
+{"Fecha":"2011-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2011, "Valor":3.9}
+,
+{"Fecha":"2010-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2010, "Valor":3.8}
+,
+{"Fecha":"2009-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2009, "Valor":3.8}
+,
+{"Fecha":"2008-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2008, "Valor":2.4}
+]
+}
+,
+{"COD":"ECV5450", "Nombre":"Castilla - La Mancha. Todas las edades. Viviendo en hogares con baja intensidad en el trabajo (de 0 a 59 años). Base 2013. ", "T3_Unidad":"Porcentaje", "T3_Escala":" ", "MetaData":[{"Id":9004, "Variable":{"Id":70, "Nombre":"Comunidades y Ciudades Autónomas", "Codigo":"1"}
+, "Nombre":"Castilla - La Mancha", "Codigo":"08"}
+,
+{"Id":15668, "Variable":{"Id":356, "Nombre":"Totales de edad", "Codigo":"21"}
+, "Nombre":"Total", "Codigo":"0"}
+,
+{"Id":291160, "Variable":{"Id":260, "Nombre":"Conceptos Demográficos", "Codigo":""}
+, "Nombre":"Viviendo en hogares con baja intensidad en el trabajo (de 0 a 59 años)", "Codigo":""}
+,
+{"Id":285495, "Variable":{"Id":429, "Nombre":"Cambios de conceotis", "Codigo":"26"}
+, "Nombre":"Base 2013", "Codigo":"00"}
+]
+, "Data":[{"Fecha":"2018-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2018, "Valor":12.3}
+,
+{"Fecha":"2017-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2017, "Valor":12.8}
+,
+{"Fecha":"2016-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2016, "Valor":18.8}
+,
+{"Fecha":"2015-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2015, "Valor":15.6}
+,
+{"Fecha":"2014-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2014, "Valor":14.9}
+,
+{"Fecha":"2013-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2013, "Valor":19.9}
+,
+{"Fecha":"2012-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2012, "Valor":15.3}
+,
+{"Fecha":"2011-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2011, "Valor":14.8}
+,
+{"Fecha":"2010-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2010, "Valor":11.3}
+,
+{"Fecha":"2009-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2009, "Valor":6.0}
+,
+{"Fecha":"2008-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2008, "Valor":5.0}
+]
+}
+,
+{"COD":"ECV5345", "Nombre":"Cataluña. Todas las edades. Tasa de riesgo de pobreza o exclusión social (indicador AROPE). Base 2013. ", "T3_Unidad":"Porcentaje", "T3_Escala":" ", "MetaData":[{"Id":9005, "Variable":{"Id":70, "Nombre":"Comunidades y Ciudades Autónomas", "Codigo":"1"}
+, "Nombre":"Cataluña", "Codigo":"09"}
+,
+{"Id":15668, "Variable":{"Id":356, "Nombre":"Totales de edad", "Codigo":"21"}
+, "Nombre":"Total", "Codigo":"0"}
+,
+{"Id":284043, "Variable":{"Id":260, "Nombre":"Conceptos Demográficos", "Codigo":""}
+, "Nombre":"Tasa de riesgo de pobreza o exclusión social (indicador AROPE)", "Codigo":""}
+,
+{"Id":285495, "Variable":{"Id":429, "Nombre":"Cambios de conceotis", "Codigo":"26"}
+, "Nombre":"Base 2013", "Codigo":"00"}
+]
+, "Data":[{"Fecha":"2018-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2018, "Valor":18.9}
+,
+{"Fecha":"2017-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2017, "Valor":19.4}
+,
+{"Fecha":"2016-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2016, "Valor":17.9}
+,
+{"Fecha":"2015-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2015, "Valor":19.8}
+,
+{"Fecha":"2014-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2014, "Valor":21.8}
+,
+{"Fecha":"2013-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2013, "Valor":20.1}
+,
+{"Fecha":"2012-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2012, "Valor":22.6}
+,
+{"Fecha":"2011-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2011, "Valor":21.6}
+,
+{"Fecha":"2010-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2010, "Valor":19.8}
+,
+{"Fecha":"2009-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2009, "Valor":19.0}
+,
+{"Fecha":"2008-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2008, "Valor":15.6}
+]
+}
+,
+{"COD":"ECV5449", "Nombre":"Cataluña. Todas las edades. En riesgo de pobreza (renta año anterior a la entrevista). Base 2013. ", "T3_Unidad":"Porcentaje", "T3_Escala":" ", "MetaData":[{"Id":9005, "Variable":{"Id":70, "Nombre":"Comunidades y Ciudades Autónomas", "Codigo":"1"}
+, "Nombre":"Cataluña", "Codigo":"09"}
+,
+{"Id":15668, "Variable":{"Id":356, "Nombre":"Totales de edad", "Codigo":"21"}
+, "Nombre":"Total", "Codigo":"0"}
+,
+{"Id":284044, "Variable":{"Id":260, "Nombre":"Conceptos Demográficos", "Codigo":""}
+, "Nombre":"En riesgo de pobreza (renta año anterior a la entrevista)", "Codigo":""}
+,
+{"Id":285495, "Variable":{"Id":429, "Nombre":"Cambios de conceotis", "Codigo":"26"}
+, "Nombre":"Base 2013", "Codigo":"00"}
+]
+, "Data":[{"Fecha":"2018-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2018, "Valor":13.6}
+,
+{"Fecha":"2017-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2017, "Valor":15.0}
+,
+{"Fecha":"2016-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2016, "Valor":13.2}
+,
+{"Fecha":"2015-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2015, "Valor":13.9}
+,
+{"Fecha":"2014-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2014, "Valor":15.8}
+,
+{"Fecha":"2013-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2013, "Valor":13.9}
+,
+{"Fecha":"2012-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2012, "Valor":15.8}
+,
+{"Fecha":"2011-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2011, "Valor":14.2}
+,
+{"Fecha":"2010-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2010, "Valor":14.7}
+,
+{"Fecha":"2009-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2009, "Valor":15.2}
+,
+{"Fecha":"2008-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2008, "Valor":12.3}
+]
+}
+,
+{"COD":"ECV5448", "Nombre":"Cataluña. Todas las edades. Con carencia material severa. Base 2013. ", "T3_Unidad":"Porcentaje", "T3_Escala":" ", "MetaData":[{"Id":9005, "Variable":{"Id":70, "Nombre":"Comunidades y Ciudades Autónomas", "Codigo":"1"}
+, "Nombre":"Cataluña", "Codigo":"09"}
+,
+{"Id":15668, "Variable":{"Id":356, "Nombre":"Totales de edad", "Codigo":"21"}
+, "Nombre":"Total", "Codigo":"0"}
+,
+{"Id":284281, "Variable":{"Id":260, "Nombre":"Conceptos Demográficos", "Codigo":""}
+, "Nombre":"Con carencia material severa", "Codigo":""}
+,
+{"Id":285495, "Variable":{"Id":429, "Nombre":"Cambios de conceotis", "Codigo":"26"}
+, "Nombre":"Base 2013", "Codigo":"00"}
+]
+, "Data":[{"Fecha":"2018-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2018, "Valor":6.5}
+,
+{"Fecha":"2017-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2017, "Valor":5.0}
+,
+{"Fecha":"2016-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2016, "Valor":5.5}
+,
+{"Fecha":"2015-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2015, "Valor":6.7}
+,
+{"Fecha":"2014-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2014, "Valor":6.3}
+,
+{"Fecha":"2013-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2013, "Valor":6.1}
+,
+{"Fecha":"2012-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2012, "Valor":7.4}
+,
+{"Fecha":"2011-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2011, "Valor":7.2}
+,
+{"Fecha":"2010-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2010, "Valor":5.1}
+,
+{"Fecha":"2009-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2009, "Valor":3.1}
+,
+{"Fecha":"2008-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2008, "Valor":2.7}
+]
+}
+,
+{"COD":"ECV5447", "Nombre":"Cataluña. Todas las edades. Viviendo en hogares con baja intensidad en el trabajo (de 0 a 59 años). Base 2013. ", "T3_Unidad":"Porcentaje", "T3_Escala":" ", "MetaData":[{"Id":9005, "Variable":{"Id":70, "Nombre":"Comunidades y Ciudades Autónomas", "Codigo":"1"}
+, "Nombre":"Cataluña", "Codigo":"09"}
+,
+{"Id":15668, "Variable":{"Id":356, "Nombre":"Totales de edad", "Codigo":"21"}
+, "Nombre":"Total", "Codigo":"0"}
+,
+{"Id":291160, "Variable":{"Id":260, "Nombre":"Conceptos Demográficos", "Codigo":""}
+, "Nombre":"Viviendo en hogares con baja intensidad en el trabajo (de 0 a 59 años)", "Codigo":""}
+,
+{"Id":285495, "Variable":{"Id":429, "Nombre":"Cambios de conceotis", "Codigo":"26"}
+, "Nombre":"Base 2013", "Codigo":"00"}
+]
+, "Data":[{"Fecha":"2018-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2018, "Valor":5.8}
+,
+{"Fecha":"2017-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2017, "Valor":8.8}
+,
+{"Fecha":"2016-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2016, "Valor":7.2}
+,
+{"Fecha":"2015-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2015, "Valor":8.8}
+,
+{"Fecha":"2014-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2014, "Valor":12.0}
+,
+{"Fecha":"2013-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2013, "Valor":10.8}
+,
+{"Fecha":"2012-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2012, "Valor":11.5}
+,
+{"Fecha":"2011-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2011, "Valor":11.6}
+,
+{"Fecha":"2010-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2010, "Valor":9.0}
+,
+{"Fecha":"2009-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2009, "Valor":5.6}
+,
+{"Fecha":"2008-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2008, "Valor":5.2}
+]
+}
+,
+{"COD":"ECV5344", "Nombre":"Comunitat Valenciana. Todas las edades. Tasa de riesgo de pobreza o exclusión social (indicador AROPE). Base 2013. ", "T3_Unidad":"Porcentaje", "T3_Escala":" ", "MetaData":[{"Id":9006, "Variable":{"Id":70, "Nombre":"Comunidades y Ciudades Autónomas", "Codigo":"1"}
+, "Nombre":"Comunitat Valenciana", "Codigo":"10"}
+,
+{"Id":15668, "Variable":{"Id":356, "Nombre":"Totales de edad", "Codigo":"21"}
+, "Nombre":"Total", "Codigo":"0"}
+,
+{"Id":284043, "Variable":{"Id":260, "Nombre":"Conceptos Demográficos", "Codigo":""}
+, "Nombre":"Tasa de riesgo de pobreza o exclusión social (indicador AROPE)", "Codigo":""}
+,
+{"Id":285495, "Variable":{"Id":429, "Nombre":"Cambios de conceotis", "Codigo":"26"}
+, "Nombre":"Base 2013", "Codigo":"00"}
+]
+, "Data":[{"Fecha":"2018-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2018, "Valor":30.2}
+,
+{"Fecha":"2017-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2017, "Valor":31.3}
+,
+{"Fecha":"2016-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2016, "Valor":30.5}
+,
+{"Fecha":"2015-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2015, "Valor":32.9}
+,
+{"Fecha":"2014-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2014, "Valor":34.7}
+,
+{"Fecha":"2013-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2013, "Valor":31.7}
+,
+{"Fecha":"2012-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2012, "Valor":30.6}
+,
+{"Fecha":"2011-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2011, "Valor":27.9}
+,
+{"Fecha":"2010-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2010, "Valor":29.6}
+,
+{"Fecha":"2009-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2009, "Valor":26.5}
+,
+{"Fecha":"2008-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2008, "Valor":27.5}
+]
+}
+,
+{"COD":"ECV5446", "Nombre":"Comunitat Valenciana. Todas las edades. En riesgo de pobreza (renta año anterior a la entrevista). Base 2013. ", "T3_Unidad":"Porcentaje", "T3_Escala":" ", "MetaData":[{"Id":9006, "Variable":{"Id":70, "Nombre":"Comunidades y Ciudades Autónomas", "Codigo":"1"}
+, "Nombre":"Comunitat Valenciana", "Codigo":"10"}
+,
+{"Id":15668, "Variable":{"Id":356, "Nombre":"Totales de edad", "Codigo":"21"}
+, "Nombre":"Total", "Codigo":"0"}
+,
+{"Id":284044, "Variable":{"Id":260, "Nombre":"Conceptos Demográficos", "Codigo":""}
+, "Nombre":"En riesgo de pobreza (renta año anterior a la entrevista)", "Codigo":""}
+,
+{"Id":285495, "Variable":{"Id":429, "Nombre":"Cambios de conceotis", "Codigo":"26"}
+, "Nombre":"Base 2013", "Codigo":"00"}
+]
+, "Data":[{"Fecha":"2018-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2018, "Valor":26.0}
+,
+{"Fecha":"2017-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2017, "Valor":25.6}
+,
+{"Fecha":"2016-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2016, "Valor":24.4}
+,
+{"Fecha":"2015-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2015, "Valor":25.3}
+,
+{"Fecha":"2014-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2014, "Valor":26.2}
+,
+{"Fecha":"2013-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2013, "Valor":23.6}
+,
+{"Fecha":"2012-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2012, "Valor":25.0}
+,
+{"Fecha":"2011-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2011, "Valor":22.0}
+,
+{"Fecha":"2010-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2010, "Valor":22.7}
+,
+{"Fecha":"2009-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2009, "Valor":20.9}
+,
+{"Fecha":"2008-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2008, "Valor":23.6}
+]
+}
+,
+{"COD":"ECV5445", "Nombre":"Comunitat Valenciana. Todas las edades. Con carencia material severa. Base 2013. ", "T3_Unidad":"Porcentaje", "T3_Escala":" ", "MetaData":[{"Id":9006, "Variable":{"Id":70, "Nombre":"Comunidades y Ciudades Autónomas", "Codigo":"1"}
+, "Nombre":"Comunitat Valenciana", "Codigo":"10"}
+,
+{"Id":15668, "Variable":{"Id":356, "Nombre":"Totales de edad", "Codigo":"21"}
+, "Nombre":"Total", "Codigo":"0"}
+,
+{"Id":284281, "Variable":{"Id":260, "Nombre":"Conceptos Demográficos", "Codigo":""}
+, "Nombre":"Con carencia material severa", "Codigo":""}
+,
+{"Id":285495, "Variable":{"Id":429, "Nombre":"Cambios de conceotis", "Codigo":"26"}
+, "Nombre":"Base 2013", "Codigo":"00"}
+]
+, "Data":[{"Fecha":"2018-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2018, "Valor":2.9}
+,
+{"Fecha":"2017-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2017, "Valor":7.4}
+,
+{"Fecha":"2016-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2016, "Valor":7.5}
+,
+{"Fecha":"2015-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2015, "Valor":6.7}
+,
+{"Fecha":"2014-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2014, "Valor":11.3}
+,
+{"Fecha":"2013-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2013, "Valor":7.1}
+,
+{"Fecha":"2012-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2012, "Valor":6.4}
+,
+{"Fecha":"2011-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2011, "Valor":3.9}
+,
+{"Fecha":"2010-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2010, "Valor":5.6}
+,
+{"Fecha":"2009-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2009, "Valor":5.5}
+,
+{"Fecha":"2008-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2008, "Valor":4.0}
+]
+}
+,
+{"COD":"ECV5444", "Nombre":"Comunitat Valenciana. Todas las edades. Viviendo en hogares con baja intensidad en el trabajo (de 0 a 59 años). Base 2013. ", "T3_Unidad":"Porcentaje", "T3_Escala":" ", "MetaData":[{"Id":9006, "Variable":{"Id":70, "Nombre":"Comunidades y Ciudades Autónomas", "Codigo":"1"}
+, "Nombre":"Comunitat Valenciana", "Codigo":"10"}
+,
+{"Id":15668, "Variable":{"Id":356, "Nombre":"Totales de edad", "Codigo":"21"}
+, "Nombre":"Total", "Codigo":"0"}
+,
+{"Id":291160, "Variable":{"Id":260, "Nombre":"Conceptos Demográficos", "Codigo":""}
+, "Nombre":"Viviendo en hogares con baja intensidad en el trabajo (de 0 a 59 años)", "Codigo":""}
+,
+{"Id":285495, "Variable":{"Id":429, "Nombre":"Cambios de conceotis", "Codigo":"26"}
+, "Nombre":"Base 2013", "Codigo":"00"}
+]
+, "Data":[{"Fecha":"2018-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2018, "Valor":10.7}
+,
+{"Fecha":"2017-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2017, "Valor":13.6}
+,
+{"Fecha":"2016-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2016, "Valor":14.6}
+,
+{"Fecha":"2015-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2015, "Valor":18.1}
+,
+{"Fecha":"2014-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2014, "Valor":18.1}
+,
+{"Fecha":"2013-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2013, "Valor":16.9}
+,
+{"Fecha":"2012-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2012, "Valor":15.0}
+,
+{"Fecha":"2011-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2011, "Valor":14.7}
+,
+{"Fecha":"2010-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2010, "Valor":13.5}
+,
+{"Fecha":"2009-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2009, "Valor":7.8}
+,
+{"Fecha":"2008-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2008, "Valor":6.4}
+]
+}
+,
+{"COD":"ECV5343", "Nombre":"Extremadura. Todas las edades. Tasa de riesgo de pobreza o exclusión social (indicador AROPE). Base 2013. ", "T3_Unidad":"Porcentaje", "T3_Escala":" ", "MetaData":[{"Id":9007, "Variable":{"Id":70, "Nombre":"Comunidades y Ciudades Autónomas", "Codigo":"1"}
+, "Nombre":"Extremadura", "Codigo":"11"}
+,
+{"Id":15668, "Variable":{"Id":356, "Nombre":"Totales de edad", "Codigo":"21"}
+, "Nombre":"Total", "Codigo":"0"}
+,
+{"Id":284043, "Variable":{"Id":260, "Nombre":"Conceptos Demográficos", "Codigo":""}
+, "Nombre":"Tasa de riesgo de pobreza o exclusión social (indicador AROPE)", "Codigo":""}
+,
+{"Id":285495, "Variable":{"Id":429, "Nombre":"Cambios de conceotis", "Codigo":"26"}
+, "Nombre":"Base 2013", "Codigo":"00"}
+]
+, "Data":[{"Fecha":"2018-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2018, "Valor":44.6}
+,
+{"Fecha":"2017-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2017, "Valor":44.3}
+,
+{"Fecha":"2016-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2016, "Valor":35.8}
+,
+{"Fecha":"2015-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2015, "Valor":35.2}
+,
+{"Fecha":"2014-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2014, "Valor":39.8}
+,
+{"Fecha":"2013-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2013, "Valor":36.1}
+,
+{"Fecha":"2012-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2012, "Valor":35.2}
+,
+{"Fecha":"2011-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2011, "Valor":36.0}
+,
+{"Fecha":"2010-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2010, "Valor":40.3}
+,
+{"Fecha":"2009-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2009, "Valor":35.4}
+,
+{"Fecha":"2008-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2008, "Valor":37.9}
+]
+}
+,
+{"COD":"ECV5443", "Nombre":"Extremadura. Todas las edades. En riesgo de pobreza (renta año anterior a la entrevista). Base 2013. ", "T3_Unidad":"Porcentaje", "T3_Escala":" ", "MetaData":[{"Id":9007, "Variable":{"Id":70, "Nombre":"Comunidades y Ciudades Autónomas", "Codigo":"1"}
+, "Nombre":"Extremadura", "Codigo":"11"}
+,
+{"Id":15668, "Variable":{"Id":356, "Nombre":"Totales de edad", "Codigo":"21"}
+, "Nombre":"Total", "Codigo":"0"}
+,
+{"Id":284044, "Variable":{"Id":260, "Nombre":"Conceptos Demográficos", "Codigo":""}
+, "Nombre":"En riesgo de pobreza (renta año anterior a la entrevista)", "Codigo":""}
+,
+{"Id":285495, "Variable":{"Id":429, "Nombre":"Cambios de conceotis", "Codigo":"26"}
+, "Nombre":"Base 2013", "Codigo":"00"}
+]
+, "Data":[{"Fecha":"2018-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2018, "Valor":37.6}
+,
+{"Fecha":"2017-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2017, "Valor":38.8}
+,
+{"Fecha":"2016-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2016, "Valor":30.4}
+,
+{"Fecha":"2015-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2015, "Valor":29.0}
+,
+{"Fecha":"2014-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2014, "Valor":33.1}
+,
+{"Fecha":"2013-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2013, "Valor":30.9}
+,
+{"Fecha":"2012-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2012, "Valor":29.4}
+,
+{"Fecha":"2011-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2011, "Valor":31.7}
+,
+{"Fecha":"2010-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2010, "Valor":35.7}
+,
+{"Fecha":"2009-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2009, "Valor":30.9}
+,
+{"Fecha":"2008-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2008, "Valor":35.3}
+]
+}
+,
+{"COD":"ECV5442", "Nombre":"Extremadura. Todas las edades. Con carencia material severa. Base 2013. ", "T3_Unidad":"Porcentaje", "T3_Escala":" ", "MetaData":[{"Id":9007, "Variable":{"Id":70, "Nombre":"Comunidades y Ciudades Autónomas", "Codigo":"1"}
+, "Nombre":"Extremadura", "Codigo":"11"}
+,
+{"Id":15668, "Variable":{"Id":356, "Nombre":"Totales de edad", "Codigo":"21"}
+, "Nombre":"Total", "Codigo":"0"}
+,
+{"Id":284281, "Variable":{"Id":260, "Nombre":"Conceptos Demográficos", "Codigo":""}
+, "Nombre":"Con carencia material severa", "Codigo":""}
+,
+{"Id":285495, "Variable":{"Id":429, "Nombre":"Cambios de conceotis", "Codigo":"26"}
+, "Nombre":"Base 2013", "Codigo":"00"}
+]
+, "Data":[{"Fecha":"2018-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2018, "Valor":8.5}
+,
+{"Fecha":"2017-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2017, "Valor":5.6}
+,
+{"Fecha":"2016-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2016, "Valor":3.4}
+,
+{"Fecha":"2015-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2015, "Valor":2.4}
+,
+{"Fecha":"2014-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2014, "Valor":3.8}
+,
+{"Fecha":"2013-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2013, "Valor":3.7}
+,
+{"Fecha":"2012-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2012, "Valor":3.5}
+,
+{"Fecha":"2011-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2011, "Valor":2.0}
+,
+{"Fecha":"2010-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2010, "Valor":6.1}
+,
+{"Fecha":"2009-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2009, "Valor":1.3}
+,
+{"Fecha":"2008-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2008, "Valor":2.2}
+]
+}
+,
+{"COD":"ECV5441", "Nombre":"Extremadura. Todas las edades. Viviendo en hogares con baja intensidad en el trabajo (de 0 a 59 años). Base 2013. ", "T3_Unidad":"Porcentaje", "T3_Escala":" ", "MetaData":[{"Id":9007, "Variable":{"Id":70, "Nombre":"Comunidades y Ciudades Autónomas", "Codigo":"1"}
+, "Nombre":"Extremadura", "Codigo":"11"}
+,
+{"Id":15668, "Variable":{"Id":356, "Nombre":"Totales de edad", "Codigo":"21"}
+, "Nombre":"Total", "Codigo":"0"}
+,
+{"Id":291160, "Variable":{"Id":260, "Nombre":"Conceptos Demográficos", "Codigo":""}
+, "Nombre":"Viviendo en hogares con baja intensidad en el trabajo (de 0 a 59 años)", "Codigo":""}
+,
+{"Id":285495, "Variable":{"Id":429, "Nombre":"Cambios de conceotis", "Codigo":"26"}
+, "Nombre":"Base 2013", "Codigo":"00"}
+]
+, "Data":[{"Fecha":"2018-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2018, "Valor":15.3}
+,
+{"Fecha":"2017-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2017, "Valor":15.4}
+,
+{"Fecha":"2016-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2016, "Valor":20.3}
+,
+{"Fecha":"2015-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2015, "Valor":19.3}
+,
+{"Fecha":"2014-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2014, "Valor":22.2}
+,
+{"Fecha":"2013-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2013, "Valor":17.8}
+,
+{"Fecha":"2012-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2012, "Valor":17.9}
+,
+{"Fecha":"2011-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2011, "Valor":14.0}
+,
+{"Fecha":"2010-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2010, "Valor":15.0}
+,
+{"Fecha":"2009-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2009, "Valor":10.6}
+,
+{"Fecha":"2008-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2008, "Valor":8.8}
+]
+}
+,
+{"COD":"ECV5342", "Nombre":"Galicia. Todas las edades. Tasa de riesgo de pobreza o exclusión social (indicador AROPE). Base 2013. ", "T3_Unidad":"Porcentaje", "T3_Escala":" ", "MetaData":[{"Id":9008, "Variable":{"Id":70, "Nombre":"Comunidades y Ciudades Autónomas", "Codigo":"1"}
+, "Nombre":"Galicia", "Codigo":"12"}
+,
+{"Id":15668, "Variable":{"Id":356, "Nombre":"Totales de edad", "Codigo":"21"}
+, "Nombre":"Total", "Codigo":"0"}
+,
+{"Id":284043, "Variable":{"Id":260, "Nombre":"Conceptos Demográficos", "Codigo":""}
+, "Nombre":"Tasa de riesgo de pobreza o exclusión social (indicador AROPE)", "Codigo":""}
+,
+{"Id":285495, "Variable":{"Id":429, "Nombre":"Cambios de conceotis", "Codigo":"26"}
+, "Nombre":"Base 2013", "Codigo":"00"}
+]
+, "Data":[{"Fecha":"2018-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2018, "Valor":23.0}
+,
+{"Fecha":"2017-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2017, "Valor":22.6}
+,
+{"Fecha":"2016-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2016, "Valor":25.4}
+,
+{"Fecha":"2015-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2015, "Valor":25.7}
+,
+{"Fecha":"2014-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2014, "Valor":23.8}
+,
+{"Fecha":"2013-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2013, "Valor":24.3}
+,
+{"Fecha":"2012-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2012, "Valor":23.8}
+,
+{"Fecha":"2011-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2011, "Valor":21.0}
+,
+{"Fecha":"2010-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2010, "Valor":22.7}
+,
+{"Fecha":"2009-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2009, "Valor":24.6}
+,
+{"Fecha":"2008-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2008, "Valor":25.1}
+]
+}
+,
+{"COD":"ECV5440", "Nombre":"Galicia. Todas las edades. En riesgo de pobreza (renta año anterior a la entrevista). Base 2013. ", "T3_Unidad":"Porcentaje", "T3_Escala":" ", "MetaData":[{"Id":9008, "Variable":{"Id":70, "Nombre":"Comunidades y Ciudades Autónomas", "Codigo":"1"}
+, "Nombre":"Galicia", "Codigo":"12"}
+,
+{"Id":15668, "Variable":{"Id":356, "Nombre":"Totales de edad", "Codigo":"21"}
+, "Nombre":"Total", "Codigo":"0"}
+,
+{"Id":284044, "Variable":{"Id":260, "Nombre":"Conceptos Demográficos", "Codigo":""}
+, "Nombre":"En riesgo de pobreza (renta año anterior a la entrevista)", "Codigo":""}
+,
+{"Id":285495, "Variable":{"Id":429, "Nombre":"Cambios de conceotis", "Codigo":"26"}
+, "Nombre":"Base 2013", "Codigo":"00"}
+]
+, "Data":[{"Fecha":"2018-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2018, "Valor":18.8}
+,
+{"Fecha":"2017-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2017, "Valor":18.7}
+,
+{"Fecha":"2016-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2016, "Valor":19.0}
+,
+{"Fecha":"2015-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2015, "Valor":19.4}
+,
+{"Fecha":"2014-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2014, "Valor":15.4}
+,
+{"Fecha":"2013-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2013, "Valor":17.2}
+,
+{"Fecha":"2012-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2012, "Valor":18.3}
+,
+{"Fecha":"2011-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2011, "Valor":16.1}
+,
+{"Fecha":"2010-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2010, "Valor":18.1}
+,
+{"Fecha":"2009-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2009, "Valor":20.6}
+,
+{"Fecha":"2008-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2008, "Valor":20.9}
+]
+}
+,
+{"COD":"ECV5439", "Nombre":"Galicia. Todas las edades. Con carencia material severa. Base 2013. ", "T3_Unidad":"Porcentaje", "T3_Escala":" ", "MetaData":[{"Id":9008, "Variable":{"Id":70, "Nombre":"Comunidades y Ciudades Autónomas", "Codigo":"1"}
+, "Nombre":"Galicia", "Codigo":"12"}
+,
+{"Id":15668, "Variable":{"Id":356, "Nombre":"Totales de edad", "Codigo":"21"}
+, "Nombre":"Total", "Codigo":"0"}
+,
+{"Id":284281, "Variable":{"Id":260, "Nombre":"Conceptos Demográficos", "Codigo":""}
+, "Nombre":"Con carencia material severa", "Codigo":""}
+,
+{"Id":285495, "Variable":{"Id":429, "Nombre":"Cambios de conceotis", "Codigo":"26"}
+, "Nombre":"Base 2013", "Codigo":"00"}
+]
+, "Data":[{"Fecha":"2018-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2018, "Valor":1.6}
+,
+{"Fecha":"2017-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2017, "Valor":2.4}
+,
+{"Fecha":"2016-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2016, "Valor":4.1}
+,
+{"Fecha":"2015-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2015, "Valor":4.2}
+,
+{"Fecha":"2014-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2014, "Valor":5.5}
+,
+{"Fecha":"2013-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2013, "Valor":4.6}
+,
+{"Fecha":"2012-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2012, "Valor":4.1}
+,
+{"Fecha":"2011-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2011, "Valor":2.5}
+,
+{"Fecha":"2010-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2010, "Valor":4.4}
+,
+{"Fecha":"2009-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2009, "Valor":3.4}
+,
+{"Fecha":"2008-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2008, "Valor":3.0}
+]
+}
+,
+{"COD":"ECV5438", "Nombre":"Galicia. Todas las edades. Viviendo en hogares con baja intensidad en el trabajo (de 0 a 59 años). Base 2013. ", "T3_Unidad":"Porcentaje", "T3_Escala":" ", "MetaData":[{"Id":9008, "Variable":{"Id":70, "Nombre":"Comunidades y Ciudades Autónomas", "Codigo":"1"}
+, "Nombre":"Galicia", "Codigo":"12"}
+,
+{"Id":15668, "Variable":{"Id":356, "Nombre":"Totales de edad", "Codigo":"21"}
+, "Nombre":"Total", "Codigo":"0"}
+,
+{"Id":291160, "Variable":{"Id":260, "Nombre":"Conceptos Demográficos", "Codigo":""}
+, "Nombre":"Viviendo en hogares con baja intensidad en el trabajo (de 0 a 59 años)", "Codigo":""}
+,
+{"Id":285495, "Variable":{"Id":429, "Nombre":"Cambios de conceotis", "Codigo":"26"}
+, "Nombre":"Base 2013", "Codigo":"00"}
+]
+, "Data":[{"Fecha":"2018-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2018, "Valor":11.1}
+,
+{"Fecha":"2017-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2017, "Valor":12.0}
+,
+{"Fecha":"2016-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2016, "Valor":13.6}
+,
+{"Fecha":"2015-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2015, "Valor":13.8}
+,
+{"Fecha":"2014-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2014, "Valor":14.9}
+,
+{"Fecha":"2013-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2013, "Valor":14.1}
+,
+{"Fecha":"2012-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2012, "Valor":14.7}
+,
+{"Fecha":"2011-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2011, "Valor":11.9}
+,
+{"Fecha":"2010-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2010, "Valor":12.2}
+,
+{"Fecha":"2009-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2009, "Valor":7.9}
+,
+{"Fecha":"2008-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2008, "Valor":7.6}
+]
+}
+,
+{"COD":"ECV5341", "Nombre":"Madrid, Comunidad de. Todas las edades. Tasa de riesgo de pobreza o exclusión social (indicador AROPE). Base 2013. ", "T3_Unidad":"Porcentaje", "T3_Escala":" ", "MetaData":[{"Id":9009, "Variable":{"Id":70, "Nombre":"Comunidades y Ciudades Autónomas", "Codigo":"1"}
+, "Nombre":"Madrid, Comunidad de", "Codigo":"13"}
+,
+{"Id":15668, "Variable":{"Id":356, "Nombre":"Totales de edad", "Codigo":"21"}
+, "Nombre":"Total", "Codigo":"0"}
+,
+{"Id":284043, "Variable":{"Id":260, "Nombre":"Conceptos Demográficos", "Codigo":""}
+, "Nombre":"Tasa de riesgo de pobreza o exclusión social (indicador AROPE)", "Codigo":""}
+,
+{"Id":285495, "Variable":{"Id":429, "Nombre":"Cambios de conceotis", "Codigo":"26"}
+, "Nombre":"Base 2013", "Codigo":"00"}
+]
+, "Data":[{"Fecha":"2018-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2018, "Valor":19.0}
+,
+{"Fecha":"2017-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2017, "Valor":20.6}
+,
+{"Fecha":"2016-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2016, "Valor":21.7}
+,
+{"Fecha":"2015-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2015, "Valor":20.5}
+,
+{"Fecha":"2014-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2014, "Valor":19.2}
+,
+{"Fecha":"2013-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2013, "Valor":20.1}
+,
+{"Fecha":"2012-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2012, "Valor":19.8}
+,
+{"Fecha":"2011-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2011, "Valor":18.6}
+,
+{"Fecha":"2010-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2010, "Valor":19.3}
+,
+{"Fecha":"2009-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2009, "Valor":19.6}
+,
+{"Fecha":"2008-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2008, "Valor":19.3}
+]
+}
+,
+{"COD":"ECV5437", "Nombre":"Madrid, Comunidad de. Todas las edades. En riesgo de pobreza (renta año anterior a la entrevista). Base 2013. ", "T3_Unidad":"Porcentaje", "T3_Escala":" ", "MetaData":[{"Id":9009, "Variable":{"Id":70, "Nombre":"Comunidades y Ciudades Autónomas", "Codigo":"1"}
+, "Nombre":"Madrid, Comunidad de", "Codigo":"13"}
+,
+{"Id":15668, "Variable":{"Id":356, "Nombre":"Totales de edad", "Codigo":"21"}
+, "Nombre":"Total", "Codigo":"0"}
+,
+{"Id":284044, "Variable":{"Id":260, "Nombre":"Conceptos Demográficos", "Codigo":""}
+, "Nombre":"En riesgo de pobreza (renta año anterior a la entrevista)", "Codigo":""}
+,
+{"Id":285495, "Variable":{"Id":429, "Nombre":"Cambios de conceotis", "Codigo":"26"}
+, "Nombre":"Base 2013", "Codigo":"00"}
+]
+, "Data":[{"Fecha":"2018-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2018, "Valor":16.1}
+,
+{"Fecha":"2017-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2017, "Valor":16.9}
+,
+{"Fecha":"2016-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2016, "Valor":18.2}
+,
+{"Fecha":"2015-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2015, "Valor":15.1}
+,
+{"Fecha":"2014-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2014, "Valor":14.7}
+,
+{"Fecha":"2013-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2013, "Valor":13.4}
+,
+{"Fecha":"2012-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2012, "Valor":14.2}
+,
+{"Fecha":"2011-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2011, "Valor":14.0}
+,
+{"Fecha":"2010-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2010, "Valor":14.4}
+,
+{"Fecha":"2009-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2009, "Valor":15.9}
+,
+{"Fecha":"2008-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2008, "Valor":14.9}
+]
+}
+,
+{"COD":"ECV5436", "Nombre":"Madrid, Comunidad de. Todas las edades. Con carencia material severa. Base 2013. ", "T3_Unidad":"Porcentaje", "T3_Escala":" ", "MetaData":[{"Id":9009, "Variable":{"Id":70, "Nombre":"Comunidades y Ciudades Autónomas", "Codigo":"1"}
+, "Nombre":"Madrid, Comunidad de", "Codigo":"13"}
+,
+{"Id":15668, "Variable":{"Id":356, "Nombre":"Totales de edad", "Codigo":"21"}
+, "Nombre":"Total", "Codigo":"0"}
+,
+{"Id":284281, "Variable":{"Id":260, "Nombre":"Conceptos Demográficos", "Codigo":""}
+, "Nombre":"Con carencia material severa", "Codigo":""}
+,
+{"Id":285495, "Variable":{"Id":429, "Nombre":"Cambios de conceotis", "Codigo":"26"}
+, "Nombre":"Base 2013", "Codigo":"00"}
+]
+, "Data":[{"Fecha":"2018-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2018, "Valor":4.7}
+,
+{"Fecha":"2017-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2017, "Valor":5.4}
+,
+{"Fecha":"2016-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2016, "Valor":4.3}
+,
+{"Fecha":"2015-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2015, "Valor":5.7}
+,
+{"Fecha":"2014-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2014, "Valor":4.8}
+,
+{"Fecha":"2013-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2013, "Valor":7.3}
+,
+{"Fecha":"2012-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2012, "Valor":5.6}
+,
+{"Fecha":"2011-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2011, "Valor":2.7}
+,
+{"Fecha":"2010-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2010, "Valor":5.3}
+,
+{"Fecha":"2009-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2009, "Valor":4.7}
+,
+{"Fecha":"2008-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2008, "Valor":5.2}
+]
+}
+,
+{"COD":"ECV5435", "Nombre":"Madrid, Comunidad de. Todas las edades. Viviendo en hogares con baja intensidad en el trabajo (de 0 a 59 años). Base 2013. ", "T3_Unidad":"Porcentaje", "T3_Escala":" ", "MetaData":[{"Id":9009, "Variable":{"Id":70, "Nombre":"Comunidades y Ciudades Autónomas", "Codigo":"1"}
+, "Nombre":"Madrid, Comunidad de", "Codigo":"13"}
+,
+{"Id":15668, "Variable":{"Id":356, "Nombre":"Totales de edad", "Codigo":"21"}
+, "Nombre":"Total", "Codigo":"0"}
+,
+{"Id":291160, "Variable":{"Id":260, "Nombre":"Conceptos Demográficos", "Codigo":""}
+, "Nombre":"Viviendo en hogares con baja intensidad en el trabajo (de 0 a 59 años)", "Codigo":""}
+,
+{"Id":285495, "Variable":{"Id":429, "Nombre":"Cambios de conceotis", "Codigo":"26"}
+, "Nombre":"Base 2013", "Codigo":"00"}
+]
+, "Data":[{"Fecha":"2018-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2018, "Valor":6.5}
+,
+{"Fecha":"2017-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2017, "Valor":9.2}
+,
+{"Fecha":"2016-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2016, "Valor":10.4}
+,
+{"Fecha":"2015-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2015, "Valor":10.5}
+,
+{"Fecha":"2014-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2014, "Valor":9.6}
+,
+{"Fecha":"2013-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2013, "Valor":9.3}
+,
+{"Fecha":"2012-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2012, "Valor":8.2}
+,
+{"Fecha":"2011-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2011, "Valor":7.9}
+,
+{"Fecha":"2010-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2010, "Valor":5.6}
+,
+{"Fecha":"2009-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2009, "Valor":5.1}
+,
+{"Fecha":"2008-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2008, "Valor":3.5}
+]
+}
+,
+{"COD":"ECV5340", "Nombre":"Murcia, Región de. Todas las edades. Tasa de riesgo de pobreza o exclusión social (indicador AROPE). Base 2013. ", "T3_Unidad":"Porcentaje", "T3_Escala":" ", "MetaData":[{"Id":9010, "Variable":{"Id":70, "Nombre":"Comunidades y Ciudades Autónomas", "Codigo":"1"}
+, "Nombre":"Murcia, Región de", "Codigo":"14"}
+,
+{"Id":15668, "Variable":{"Id":356, "Nombre":"Totales de edad", "Codigo":"21"}
+, "Nombre":"Total", "Codigo":"0"}
+,
+{"Id":284043, "Variable":{"Id":260, "Nombre":"Conceptos Demográficos", "Codigo":""}
+, "Nombre":"Tasa de riesgo de pobreza o exclusión social (indicador AROPE)", "Codigo":""}
+,
+{"Id":285495, "Variable":{"Id":429, "Nombre":"Cambios de conceotis", "Codigo":"26"}
+, "Nombre":"Base 2013", "Codigo":"00"}
+]
+, "Data":[{"Fecha":"2018-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2018, "Valor":32.7}
+,
+{"Fecha":"2017-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2017, "Valor":34.7}
+,
+{"Fecha":"2016-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2016, "Valor":34.8}
+,
+{"Fecha":"2015-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2015, "Valor":38.8}
+,
+{"Fecha":"2014-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2014, "Valor":44.9}
+,
+{"Fecha":"2013-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2013, "Valor":34.1}
+,
+{"Fecha":"2012-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2012, "Valor":33.5}
+,
+{"Fecha":"2011-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2011, "Valor":31.9}
+,
+{"Fecha":"2010-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2010, "Valor":37.5}
+,
+{"Fecha":"2009-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2009, "Valor":33.3}
+,
+{"Fecha":"2008-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2008, "Valor":27.5}
+]
+}
+,
+{"COD":"ECV5434", "Nombre":"Murcia, Región de. Todas las edades. En riesgo de pobreza (renta año anterior a la entrevista). Base 2013. ", "T3_Unidad":"Porcentaje", "T3_Escala":" ", "MetaData":[{"Id":9010, "Variable":{"Id":70, "Nombre":"Comunidades y Ciudades Autónomas", "Codigo":"1"}
+, "Nombre":"Murcia, Región de", "Codigo":"14"}
+,
+{"Id":15668, "Variable":{"Id":356, "Nombre":"Totales de edad", "Codigo":"21"}
+, "Nombre":"Total", "Codigo":"0"}
+,
+{"Id":284044, "Variable":{"Id":260, "Nombre":"Conceptos Demográficos", "Codigo":""}
+, "Nombre":"En riesgo de pobreza (renta año anterior a la entrevista)", "Codigo":""}
+,
+{"Id":285495, "Variable":{"Id":429, "Nombre":"Cambios de conceotis", "Codigo":"26"}
+, "Nombre":"Base 2013", "Codigo":"00"}
+]
+, "Data":[{"Fecha":"2018-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2018, "Valor":28.6}
+,
+{"Fecha":"2017-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2017, "Valor":30.1}
+,
+{"Fecha":"2016-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2016, "Valor":28.9}
+,
+{"Fecha":"2015-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2015, "Valor":31.8}
+,
+{"Fecha":"2014-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2014, "Valor":37.2}
+,
+{"Fecha":"2013-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2013, "Valor":26.8}
+,
+{"Fecha":"2012-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2012, "Valor":25.2}
+,
+{"Fecha":"2011-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2011, "Valor":25.8}
+,
+{"Fecha":"2010-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2010, "Valor":29.8}
+,
+{"Fecha":"2009-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2009, "Valor":29.1}
+,
+{"Fecha":"2008-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2008, "Valor":24.5}
+]
+}
+,
+{"COD":"ECV5433", "Nombre":"Murcia, Región de. Todas las edades. Con carencia material severa. Base 2013. ", "T3_Unidad":"Porcentaje", "T3_Escala":" ", "MetaData":[{"Id":9010, "Variable":{"Id":70, "Nombre":"Comunidades y Ciudades Autónomas", "Codigo":"1"}
+, "Nombre":"Murcia, Región de", "Codigo":"14"}
+,
+{"Id":15668, "Variable":{"Id":356, "Nombre":"Totales de edad", "Codigo":"21"}
+, "Nombre":"Total", "Codigo":"0"}
+,
+{"Id":284281, "Variable":{"Id":260, "Nombre":"Conceptos Demográficos", "Codigo":""}
+, "Nombre":"Con carencia material severa", "Codigo":""}
+,
+{"Id":285495, "Variable":{"Id":429, "Nombre":"Cambios de conceotis", "Codigo":"26"}
+, "Nombre":"Base 2013", "Codigo":"00"}
+]
+, "Data":[{"Fecha":"2018-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2018, "Valor":5.7}
+,
+{"Fecha":"2017-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2017, "Valor":6.2}
+,
+{"Fecha":"2016-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2016, "Valor":9.5}
+,
+{"Fecha":"2015-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2015, "Valor":9.0}
+,
+{"Fecha":"2014-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2014, "Valor":11.8}
+,
+{"Fecha":"2013-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2013, "Valor":9.0}
+,
+{"Fecha":"2012-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2012, "Valor":9.1}
+,
+{"Fecha":"2011-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2011, "Valor":5.8}
+,
+{"Fecha":"2010-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2010, "Valor":15.0}
+,
+{"Fecha":"2009-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2009, "Valor":8.2}
+,
+{"Fecha":"2008-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2008, "Valor":5.4}
+]
+}
+,
+{"COD":"ECV5432", "Nombre":"Murcia, Región de. Todas las edades. Viviendo en hogares con baja intensidad en el trabajo (de 0 a 59 años). Base 2013. ", "T3_Unidad":"Porcentaje", "T3_Escala":" ", "MetaData":[{"Id":9010, "Variable":{"Id":70, "Nombre":"Comunidades y Ciudades Autónomas", "Codigo":"1"}
+, "Nombre":"Murcia, Región de", "Codigo":"14"}
+,
+{"Id":15668, "Variable":{"Id":356, "Nombre":"Totales de edad", "Codigo":"21"}
+, "Nombre":"Total", "Codigo":"0"}
+,
+{"Id":291160, "Variable":{"Id":260, "Nombre":"Conceptos Demográficos", "Codigo":""}
+, "Nombre":"Viviendo en hogares con baja intensidad en el trabajo (de 0 a 59 años)", "Codigo":""}
+,
+{"Id":285495, "Variable":{"Id":429, "Nombre":"Cambios de conceotis", "Codigo":"26"}
+, "Nombre":"Base 2013", "Codigo":"00"}
+]
+, "Data":[{"Fecha":"2018-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2018, "Valor":10.0}
+,
+{"Fecha":"2017-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2017, "Valor":12.6}
+,
+{"Fecha":"2016-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2016, "Valor":13.4}
+,
+{"Fecha":"2015-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2015, "Valor":16.1}
+,
+{"Fecha":"2014-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2014, "Valor":22.2}
+,
+{"Fecha":"2013-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2013, "Valor":17.3}
+,
+{"Fecha":"2012-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2012, "Valor":16.0}
+,
+{"Fecha":"2011-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2011, "Valor":14.5}
+,
+{"Fecha":"2010-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2010, "Valor":11.2}
+,
+{"Fecha":"2009-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2009, "Valor":7.6}
+,
+{"Fecha":"2008-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2008, "Valor":5.5}
+]
+}
+,
+{"COD":"ECV5339", "Nombre":"Navarra, Comunidad Foral de. Todas las edades. Tasa de riesgo de pobreza o exclusión social (indicador AROPE). Base 2013. ", "T3_Unidad":"Porcentaje", "T3_Escala":" ", "MetaData":[{"Id":9011, "Variable":{"Id":70, "Nombre":"Comunidades y Ciudades Autónomas", "Codigo":"1"}
+, "Nombre":"Navarra, Comunidad Foral de", "Codigo":"15"}
+,
+{"Id":15668, "Variable":{"Id":356, "Nombre":"Totales de edad", "Codigo":"21"}
+, "Nombre":"Total", "Codigo":"0"}
+,
+{"Id":284043, "Variable":{"Id":260, "Nombre":"Conceptos Demográficos", "Codigo":""}
+, "Nombre":"Tasa de riesgo de pobreza o exclusión social (indicador AROPE)", "Codigo":""}
+,
+{"Id":285495, "Variable":{"Id":429, "Nombre":"Cambios de conceotis", "Codigo":"26"}
+, "Nombre":"Base 2013", "Codigo":"00"}
+]
+, "Data":[{"Fecha":"2018-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2018, "Valor":12.6}
+,
+{"Fecha":"2017-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2017, "Valor":13.5}
+,
+{"Fecha":"2016-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2016, "Valor":13.0}
+,
+{"Fecha":"2015-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2015, "Valor":13.0}
+,
+{"Fecha":"2014-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2014, "Valor":14.5}
+,
+{"Fecha":"2013-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2013, "Valor":14.5}
+,
+{"Fecha":"2012-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2012, "Valor":12.0}
+,
+{"Fecha":"2011-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2011, "Valor":13.1}
+,
+{"Fecha":"2010-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2010, "Valor":13.8}
+,
+{"Fecha":"2009-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2009, "Valor":10.4}
+,
+{"Fecha":"2008-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2008, "Valor":8.6}
+]
+}
+,
+{"COD":"ECV5431", "Nombre":"Navarra, Comunidad Foral de. Todas las edades. En riesgo de pobreza (renta año anterior a la entrevista). Base 2013. ", "T3_Unidad":"Porcentaje", "T3_Escala":" ", "MetaData":[{"Id":9011, "Variable":{"Id":70, "Nombre":"Comunidades y Ciudades Autónomas", "Codigo":"1"}
+, "Nombre":"Navarra, Comunidad Foral de", "Codigo":"15"}
+,
+{"Id":15668, "Variable":{"Id":356, "Nombre":"Totales de edad", "Codigo":"21"}
+, "Nombre":"Total", "Codigo":"0"}
+,
+{"Id":284044, "Variable":{"Id":260, "Nombre":"Conceptos Demográficos", "Codigo":""}
+, "Nombre":"En riesgo de pobreza (renta año anterior a la entrevista)", "Codigo":""}
+,
+{"Id":285495, "Variable":{"Id":429, "Nombre":"Cambios de conceotis", "Codigo":"26"}
+, "Nombre":"Base 2013", "Codigo":"00"}
+]
+, "Data":[{"Fecha":"2018-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2018, "Valor":8.9}
+,
+{"Fecha":"2017-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2017, "Valor":8.3}
+,
+{"Fecha":"2016-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2016, "Valor":9.0}
+,
+{"Fecha":"2015-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2015, "Valor":9.6}
+,
+{"Fecha":"2014-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2014, "Valor":11.9}
+,
+{"Fecha":"2013-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2013, "Valor":9.9}
+,
+{"Fecha":"2012-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2012, "Valor":7.0}
+,
+{"Fecha":"2011-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2011, "Valor":8.1}
+,
+{"Fecha":"2010-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2010, "Valor":10.7}
+,
+{"Fecha":"2009-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2009, "Valor":7.8}
+,
+{"Fecha":"2008-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2008, "Valor":5.9}
+]
+}
+,
+{"COD":"ECV5430", "Nombre":"Navarra, Comunidad Foral de. Todas las edades. Con carencia material severa. Base 2013. ", "T3_Unidad":"Porcentaje", "T3_Escala":" ", "MetaData":[{"Id":9011, "Variable":{"Id":70, "Nombre":"Comunidades y Ciudades Autónomas", "Codigo":"1"}
+, "Nombre":"Navarra, Comunidad Foral de", "Codigo":"15"}
+,
+{"Id":15668, "Variable":{"Id":356, "Nombre":"Totales de edad", "Codigo":"21"}
+, "Nombre":"Total", "Codigo":"0"}
+,
+{"Id":284281, "Variable":{"Id":260, "Nombre":"Conceptos Demográficos", "Codigo":""}
+, "Nombre":"Con carencia material severa", "Codigo":""}
+,
+{"Id":285495, "Variable":{"Id":429, "Nombre":"Cambios de conceotis", "Codigo":"26"}
+, "Nombre":"Base 2013", "Codigo":"00"}
+]
+, "Data":[{"Fecha":"2018-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2018, "Valor":5.9}
+,
+{"Fecha":"2017-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2017, "Valor":0.3}
+,
+{"Fecha":"2016-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2016, "Valor":3.4}
+,
+{"Fecha":"2015-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2015, "Valor":2.2}
+,
+{"Fecha":"2014-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2014, "Valor":1.2}
+,
+{"Fecha":"2013-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2013, "Valor":0.6}
+,
+{"Fecha":"2012-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2012, "Valor":4.1}
+,
+{"Fecha":"2011-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2011, "Valor":4.4}
+,
+{"Fecha":"2010-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2010, "Valor":2.5}
+,
+{"Fecha":"2009-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2009, "Valor":2.1}
+,
+{"Fecha":"2008-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2008, "Valor":1.5}
+]
+}
+,
+{"COD":"ECV5429", "Nombre":"Navarra, Comunidad Foral de. Todas las edades. Viviendo en hogares con baja intensidad en el trabajo (de 0 a 59 años). Base 2013. ", "T3_Unidad":"Porcentaje", "T3_Escala":" ", "MetaData":[{"Id":9011, "Variable":{"Id":70, "Nombre":"Comunidades y Ciudades Autónomas", "Codigo":"1"}
+, "Nombre":"Navarra, Comunidad Foral de", "Codigo":"15"}
+,
+{"Id":15668, "Variable":{"Id":356, "Nombre":"Totales de edad", "Codigo":"21"}
+, "Nombre":"Total", "Codigo":"0"}
+,
+{"Id":291160, "Variable":{"Id":260, "Nombre":"Conceptos Demográficos", "Codigo":""}
+, "Nombre":"Viviendo en hogares con baja intensidad en el trabajo (de 0 a 59 años)", "Codigo":""}
+,
+{"Id":285495, "Variable":{"Id":429, "Nombre":"Cambios de conceotis", "Codigo":"26"}
+, "Nombre":"Base 2013", "Codigo":"00"}
+]
+, "Data":[{"Fecha":"2018-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2018, "Valor":8.1}
+,
+{"Fecha":"2017-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2017, "Valor":8.2}
+,
+{"Fecha":"2016-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2016, "Valor":8.4}
+,
+{"Fecha":"2015-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2015, "Valor":7.1}
+,
+{"Fecha":"2014-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2014, "Valor":7.5}
+,
+{"Fecha":"2013-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2013, "Valor":8.0}
+,
+{"Fecha":"2012-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2012, "Valor":8.0}
+,
+{"Fecha":"2011-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2011, "Valor":5.0}
+,
+{"Fecha":"2010-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2010, "Valor":5.1}
+,
+{"Fecha":"2009-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2009, "Valor":3.8}
+,
+{"Fecha":"2008-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2008, "Valor":3.1}
+]
+}
+,
+{"COD":"ECV5338", "Nombre":"País Vasco. Todas las edades. Tasa de riesgo de pobreza o exclusión social (indicador AROPE). Base 2013. ", "T3_Unidad":"Porcentaje", "T3_Escala":" ", "MetaData":[{"Id":9012, "Variable":{"Id":70, "Nombre":"Comunidades y Ciudades Autónomas", "Codigo":"1"}
+, "Nombre":"País Vasco", "Codigo":"16"}
+,
+{"Id":15668, "Variable":{"Id":356, "Nombre":"Totales de edad", "Codigo":"21"}
+, "Nombre":"Total", "Codigo":"0"}
+,
+{"Id":284043, "Variable":{"Id":260, "Nombre":"Conceptos Demográficos", "Codigo":""}
+, "Nombre":"Tasa de riesgo de pobreza o exclusión social (indicador AROPE)", "Codigo":""}
+,
+{"Id":285495, "Variable":{"Id":429, "Nombre":"Cambios de conceotis", "Codigo":"26"}
+, "Nombre":"Base 2013", "Codigo":"00"}
+]
+, "Data":[{"Fecha":"2018-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2018, "Valor":12.1}
+,
+{"Fecha":"2017-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2017, "Valor":14.5}
+,
+{"Fecha":"2016-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2016, "Valor":15.9}
+,
+{"Fecha":"2015-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2015, "Valor":17.6}
+,
+{"Fecha":"2014-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2014, "Valor":15.3}
+,
+{"Fecha":"2013-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2013, "Valor":16.8}
+,
+{"Fecha":"2012-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2012, "Valor":17.7}
+,
+{"Fecha":"2011-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2011, "Valor":18.9}
+,
+{"Fecha":"2010-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2010, "Valor":16.3}
+,
+{"Fecha":"2009-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2009, "Valor":14.8}
+,
+{"Fecha":"2008-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2008, "Valor":13.9}
+]
+}
+,
+{"COD":"ECV5428", "Nombre":"País Vasco. Todas las edades. En riesgo de pobreza (renta año anterior a la entrevista). Base 2013. ", "T3_Unidad":"Porcentaje", "T3_Escala":" ", "MetaData":[{"Id":9012, "Variable":{"Id":70, "Nombre":"Comunidades y Ciudades Autónomas", "Codigo":"1"}
+, "Nombre":"País Vasco", "Codigo":"16"}
+,
+{"Id":15668, "Variable":{"Id":356, "Nombre":"Totales de edad", "Codigo":"21"}
+, "Nombre":"Total", "Codigo":"0"}
+,
+{"Id":284044, "Variable":{"Id":260, "Nombre":"Conceptos Demográficos", "Codigo":""}
+, "Nombre":"En riesgo de pobreza (renta año anterior a la entrevista)", "Codigo":""}
+,
+{"Id":285495, "Variable":{"Id":429, "Nombre":"Cambios de conceotis", "Codigo":"26"}
+, "Nombre":"Base 2013", "Codigo":"00"}
+]
+, "Data":[{"Fecha":"2018-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2018, "Valor":8.6}
+,
+{"Fecha":"2017-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2017, "Valor":9.7}
+,
+{"Fecha":"2016-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2016, "Valor":9.0}
+,
+{"Fecha":"2015-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2015, "Valor":10.9}
+,
+{"Fecha":"2014-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2014, "Valor":10.2}
+,
+{"Fecha":"2013-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2013, "Valor":10.5}
+,
+{"Fecha":"2012-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2012, "Valor":13.3}
+,
+{"Fecha":"2011-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2011, "Valor":13.8}
+,
+{"Fecha":"2010-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2010, "Valor":11.7}
+,
+{"Fecha":"2009-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2009, "Valor":10.0}
+,
+{"Fecha":"2008-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2008, "Valor":9.1}
+]
+}
+,
+{"COD":"ECV5427", "Nombre":"País Vasco. Todas las edades. Con carencia material severa. Base 2013. ", "T3_Unidad":"Porcentaje", "T3_Escala":" ", "MetaData":[{"Id":9012, "Variable":{"Id":70, "Nombre":"Comunidades y Ciudades Autónomas", "Codigo":"1"}
+, "Nombre":"País Vasco", "Codigo":"16"}
+,
+{"Id":15668, "Variable":{"Id":356, "Nombre":"Totales de edad", "Codigo":"21"}
+, "Nombre":"Total", "Codigo":"0"}
+,
+{"Id":284281, "Variable":{"Id":260, "Nombre":"Conceptos Demográficos", "Codigo":""}
+, "Nombre":"Con carencia material severa", "Codigo":""}
+,
+{"Id":285495, "Variable":{"Id":429, "Nombre":"Cambios de conceotis", "Codigo":"26"}
+, "Nombre":"Base 2013", "Codigo":"00"}
+]
+, "Data":[{"Fecha":"2018-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2018, "Valor":3.2}
+,
+{"Fecha":"2017-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2017, "Valor":3.7}
+,
+{"Fecha":"2016-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2016, "Valor":4.2}
+,
+{"Fecha":"2015-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2015, "Valor":4.6}
+,
+{"Fecha":"2014-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2014, "Valor":4.8}
+,
+{"Fecha":"2013-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2013, "Valor":4.8}
+,
+{"Fecha":"2012-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2012, "Valor":2.1}
+,
+{"Fecha":"2011-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2011, "Valor":4.0}
+,
+{"Fecha":"2010-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2010, "Valor":2.1}
+,
+{"Fecha":"2009-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2009, "Valor":3.4}
+,
+{"Fecha":"2008-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2008, "Valor":2.8}
+]
+}
+,
+{"COD":"ECV5426", "Nombre":"País Vasco. Todas las edades. Viviendo en hogares con baja intensidad en el trabajo (de 0 a 59 años). Base 2013. ", "T3_Unidad":"Porcentaje", "T3_Escala":" ", "MetaData":[{"Id":9012, "Variable":{"Id":70, "Nombre":"Comunidades y Ciudades Autónomas", "Codigo":"1"}
+, "Nombre":"País Vasco", "Codigo":"16"}
+,
+{"Id":15668, "Variable":{"Id":356, "Nombre":"Totales de edad", "Codigo":"21"}
+, "Nombre":"Total", "Codigo":"0"}
+,
+{"Id":291160, "Variable":{"Id":260, "Nombre":"Conceptos Demográficos", "Codigo":""}
+, "Nombre":"Viviendo en hogares con baja intensidad en el trabajo (de 0 a 59 años)", "Codigo":""}
+,
+{"Id":285495, "Variable":{"Id":429, "Nombre":"Cambios de conceotis", "Codigo":"26"}
+, "Nombre":"Base 2013", "Codigo":"00"}
+]
+, "Data":[{"Fecha":"2018-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2018, "Valor":7.1}
+,
+{"Fecha":"2017-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2017, "Valor":7.7}
+,
+{"Fecha":"2016-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2016, "Valor":13.7}
+,
+{"Fecha":"2015-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2015, "Valor":14.3}
+,
+{"Fecha":"2014-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2014, "Valor":12.2}
+,
+{"Fecha":"2013-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2013, "Valor":13.0}
+,
+{"Fecha":"2012-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2012, "Valor":11.1}
+,
+{"Fecha":"2011-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2011, "Valor":9.8}
+,
+{"Fecha":"2010-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2010, "Valor":8.8}
+,
+{"Fecha":"2009-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2009, "Valor":5.5}
+,
+{"Fecha":"2008-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2008, "Valor":6.5}
+]
+}
+,
+{"COD":"ECV5337", "Nombre":"Rioja, La. Todas las edades. Tasa de riesgo de pobreza o exclusión social (indicador AROPE). Base 2013. ", "T3_Unidad":"Porcentaje", "T3_Escala":" ", "MetaData":[{"Id":9013, "Variable":{"Id":70, "Nombre":"Comunidades y Ciudades Autónomas", "Codigo":"1"}
+, "Nombre":"Rioja, La", "Codigo":"17"}
+,
+{"Id":15668, "Variable":{"Id":356, "Nombre":"Totales de edad", "Codigo":"21"}
+, "Nombre":"Total", "Codigo":"0"}
+,
+{"Id":284043, "Variable":{"Id":260, "Nombre":"Conceptos Demográficos", "Codigo":""}
+, "Nombre":"Tasa de riesgo de pobreza o exclusión social (indicador AROPE)", "Codigo":""}
+,
+{"Id":285495, "Variable":{"Id":429, "Nombre":"Cambios de conceotis", "Codigo":"26"}
+, "Nombre":"Base 2013", "Codigo":"00"}
+]
+, "Data":[{"Fecha":"2018-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2018, "Valor":20.4}
+,
+{"Fecha":"2017-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2017, "Valor":14.4}
+,
+{"Fecha":"2016-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2016, "Valor":17.4}
+,
+{"Fecha":"2015-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2015, "Valor":22.1}
+,
+{"Fecha":"2014-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2014, "Valor":20.1}
+,
+{"Fecha":"2013-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2013, "Valor":22.2}
+,
+{"Fecha":"2012-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2012, "Valor":22.6}
+,
+{"Fecha":"2011-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2011, "Valor":26.1}
+,
+{"Fecha":"2010-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2010, "Valor":27.3}
+,
+{"Fecha":"2009-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2009, "Valor":19.5}
+,
+{"Fecha":"2008-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2008, "Valor":19.6}
+]
+}
+,
+{"COD":"ECV5425", "Nombre":"Rioja, La. Todas las edades. En riesgo de pobreza (renta año anterior a la entrevista). Base 2013. ", "T3_Unidad":"Porcentaje", "T3_Escala":" ", "MetaData":[{"Id":9013, "Variable":{"Id":70, "Nombre":"Comunidades y Ciudades Autónomas", "Codigo":"1"}
+, "Nombre":"Rioja, La", "Codigo":"17"}
+,
+{"Id":15668, "Variable":{"Id":356, "Nombre":"Totales de edad", "Codigo":"21"}
+, "Nombre":"Total", "Codigo":"0"}
+,
+{"Id":284044, "Variable":{"Id":260, "Nombre":"Conceptos Demográficos", "Codigo":""}
+, "Nombre":"En riesgo de pobreza (renta año anterior a la entrevista)", "Codigo":""}
+,
+{"Id":285495, "Variable":{"Id":429, "Nombre":"Cambios de conceotis", "Codigo":"26"}
+, "Nombre":"Base 2013", "Codigo":"00"}
+]
+, "Data":[{"Fecha":"2018-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2018, "Valor":16.6}
+,
+{"Fecha":"2017-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2017, "Valor":9.7}
+,
+{"Fecha":"2016-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2016, "Valor":11.9}
+,
+{"Fecha":"2015-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2015, "Valor":17.1}
+,
+{"Fecha":"2014-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2014, "Valor":16.2}
+,
+{"Fecha":"2013-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2013, "Valor":19.3}
+,
+{"Fecha":"2012-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2012, "Valor":16.8}
+,
+{"Fecha":"2011-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2011, "Valor":20.6}
+,
+{"Fecha":"2010-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2010, "Valor":21.2}
+,
+{"Fecha":"2009-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2009, "Valor":17.2}
+,
+{"Fecha":"2008-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2008, "Valor":16.2}
+]
+}
+,
+{"COD":"ECV5424", "Nombre":"Rioja, La. Todas las edades. Con carencia material severa. Base 2013. ", "T3_Unidad":"Porcentaje", "T3_Escala":" ", "MetaData":[{"Id":9013, "Variable":{"Id":70, "Nombre":"Comunidades y Ciudades Autónomas", "Codigo":"1"}
+, "Nombre":"Rioja, La", "Codigo":"17"}
+,
+{"Id":15668, "Variable":{"Id":356, "Nombre":"Totales de edad", "Codigo":"21"}
+, "Nombre":"Total", "Codigo":"0"}
+,
+{"Id":284281, "Variable":{"Id":260, "Nombre":"Conceptos Demográficos", "Codigo":""}
+, "Nombre":"Con carencia material severa", "Codigo":""}
+,
+{"Id":285495, "Variable":{"Id":429, "Nombre":"Cambios de conceotis", "Codigo":"26"}
+, "Nombre":"Base 2013", "Codigo":"00"}
+]
+, "Data":[{"Fecha":"2018-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2018, "Valor":3.5}
+,
+{"Fecha":"2017-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2017, "Valor":2.9}
+,
+{"Fecha":"2016-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2016, "Valor":5.9}
+,
+{"Fecha":"2015-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2015, "Valor":4.8}
+,
+{"Fecha":"2014-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2014, "Valor":5.6}
+,
+{"Fecha":"2013-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2013, "Valor":6.6}
+,
+{"Fecha":"2012-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2012, "Valor":6.3}
+,
+{"Fecha":"2011-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2011, "Valor":5.5}
+,
+{"Fecha":"2010-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2010, "Valor":5.3}
+,
+{"Fecha":"2009-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2009, "Valor":1.7}
+,
+{"Fecha":"2008-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2008, "Valor":2.8}
+]
+}
+,
+{"COD":"ECV5423", "Nombre":"Rioja, La. Todas las edades. Viviendo en hogares con baja intensidad en el trabajo (de 0 a 59 años). Base 2013. ", "T3_Unidad":"Porcentaje", "T3_Escala":" ", "MetaData":[{"Id":9013, "Variable":{"Id":70, "Nombre":"Comunidades y Ciudades Autónomas", "Codigo":"1"}
+, "Nombre":"Rioja, La", "Codigo":"17"}
+,
+{"Id":15668, "Variable":{"Id":356, "Nombre":"Totales de edad", "Codigo":"21"}
+, "Nombre":"Total", "Codigo":"0"}
+,
+{"Id":291160, "Variable":{"Id":260, "Nombre":"Conceptos Demográficos", "Codigo":""}
+, "Nombre":"Viviendo en hogares con baja intensidad en el trabajo (de 0 a 59 años)", "Codigo":""}
+,
+{"Id":285495, "Variable":{"Id":429, "Nombre":"Cambios de conceotis", "Codigo":"26"}
+, "Nombre":"Base 2013", "Codigo":"00"}
+]
+, "Data":[{"Fecha":"2018-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2018, "Valor":8.8}
+,
+{"Fecha":"2017-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2017, "Valor":5.4}
+,
+{"Fecha":"2016-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2016, "Valor":9.2}
+,
+{"Fecha":"2015-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2015, "Valor":10.4}
+,
+{"Fecha":"2014-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2014, "Valor":10.7}
+,
+{"Fecha":"2013-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2013, "Valor":10.4}
+,
+{"Fecha":"2012-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2012, "Valor":10.4}
+,
+{"Fecha":"2011-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2011, "Valor":13.1}
+,
+{"Fecha":"2010-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2010, "Valor":13.9}
+,
+{"Fecha":"2009-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2009, "Valor":5.1}
+,
+{"Fecha":"2008-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2008, "Valor":3.2}
+]
+}
+,
+{"COD":"ECV5336", "Nombre":"Ceuta. Todas las edades. Tasa de riesgo de pobreza o exclusión social (indicador AROPE). Base 2013. ", "T3_Unidad":"Porcentaje", "T3_Escala":" ", "MetaData":[{"Id":9015, "Variable":{"Id":70, "Nombre":"Comunidades y Ciudades Autónomas", "Codigo":"1"}
+, "Nombre":"Ceuta", "Codigo":"18"}
+,
+{"Id":15668, "Variable":{"Id":356, "Nombre":"Totales de edad", "Codigo":"21"}
+, "Nombre":"Total", "Codigo":"0"}
+,
+{"Id":284043, "Variable":{"Id":260, "Nombre":"Conceptos Demográficos", "Codigo":""}
+, "Nombre":"Tasa de riesgo de pobreza o exclusión social (indicador AROPE)", "Codigo":""}
+,
+{"Id":285495, "Variable":{"Id":429, "Nombre":"Cambios de conceotis", "Codigo":"26"}
+, "Nombre":"Base 2013", "Codigo":"00"}
+]
+, "Data":[{"Fecha":"2018-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2018, "Valor":49.3}
+,
+{"Fecha":"2017-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2017, "Valor":35.8}
+,
+{"Fecha":"2016-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2016, "Valor":41.9}
+,
+{"Fecha":"2015-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2015, "Valor":41.7}
+,
+{"Fecha":"2014-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2014, "Valor":47.9}
+,
+{"Fecha":"2013-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2013, "Valor":47.0}
+,
+{"Fecha":"2012-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2012, "Valor":38.4}
+,
+{"Fecha":"2011-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2011, "Valor":33.6}
+,
+{"Fecha":"2010-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2010, "Valor":35.9}
+,
+{"Fecha":"2009-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2009, "Valor":37.3}
+,
+{"Fecha":"2008-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2008, "Valor":43.4}
+]
+}
+,
+{"COD":"ECV5422", "Nombre":"Ceuta. Todas las edades. En riesgo de pobreza (renta año anterior a la entrevista). Base 2013. ", "T3_Unidad":"Porcentaje", "T3_Escala":" ", "MetaData":[{"Id":9015, "Variable":{"Id":70, "Nombre":"Comunidades y Ciudades Autónomas", "Codigo":"1"}
+, "Nombre":"Ceuta", "Codigo":"18"}
+,
+{"Id":15668, "Variable":{"Id":356, "Nombre":"Totales de edad", "Codigo":"21"}
+, "Nombre":"Total", "Codigo":"0"}
+,
+{"Id":284044, "Variable":{"Id":260, "Nombre":"Conceptos Demográficos", "Codigo":""}
+, "Nombre":"En riesgo de pobreza (renta año anterior a la entrevista)", "Codigo":""}
+,
+{"Id":285495, "Variable":{"Id":429, "Nombre":"Cambios de conceotis", "Codigo":"26"}
+, "Nombre":"Base 2013", "Codigo":"00"}
+]
+, "Data":[{"Fecha":"2018-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2018, "Valor":38.3}
+,
+{"Fecha":"2017-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2017, "Valor":32.5}
+,
+{"Fecha":"2016-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2016, "Valor":36.0}
+,
+{"Fecha":"2015-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2015, "Valor":31.0}
+,
+{"Fecha":"2014-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2014, "Valor":44.3}
+,
+{"Fecha":"2013-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2013, "Valor":40.8}
+,
+{"Fecha":"2012-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2012, "Valor":32.2}
+,
+{"Fecha":"2011-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2011, "Valor":26.3}
+,
+{"Fecha":"2010-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2010, "Valor":31.3}
+,
+{"Fecha":"2009-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2009, "Valor":36.4}
+,
+{"Fecha":"2008-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2008, "Valor":40.1}
+]
+}
+,
+{"COD":"ECV5421", "Nombre":"Ceuta. Todas las edades. Con carencia material severa. Base 2013. ", "T3_Unidad":"Porcentaje", "T3_Escala":" ", "MetaData":[{"Id":9015, "Variable":{"Id":70, "Nombre":"Comunidades y Ciudades Autónomas", "Codigo":"1"}
+, "Nombre":"Ceuta", "Codigo":"18"}
+,
+{"Id":15668, "Variable":{"Id":356, "Nombre":"Totales de edad", "Codigo":"21"}
+, "Nombre":"Total", "Codigo":"0"}
+,
+{"Id":284281, "Variable":{"Id":260, "Nombre":"Conceptos Demográficos", "Codigo":""}
+, "Nombre":"Con carencia material severa", "Codigo":""}
+,
+{"Id":285495, "Variable":{"Id":429, "Nombre":"Cambios de conceotis", "Codigo":"26"}
+, "Nombre":"Base 2013", "Codigo":"00"}
+]
+, "Data":[{"Fecha":"2018-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2018, "Valor":15.7}
+,
+{"Fecha":"2017-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2017, "Valor":3.8}
+,
+{"Fecha":"2016-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2016, "Valor":3.5}
+,
+{"Fecha":"2015-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2015, "Valor":16.6}
+,
+{"Fecha":"2014-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2014, "Valor":12.4}
+,
+{"Fecha":"2013-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2013, "Valor":15.3}
+,
+{"Fecha":"2012-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2012, "Valor":19.5}
+,
+{"Fecha":"2011-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2011, "Valor":7.6}
+,
+{"Fecha":"2010-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2010, "Valor":4.5}
+,
+{"Fecha":"2009-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2009, "Valor":10.1}
+,
+{"Fecha":"2008-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2008, "Valor":2.4}
+]
+}
+,
+{"COD":"ECV5420", "Nombre":"Ceuta. Todas las edades. Viviendo en hogares con baja intensidad en el trabajo (de 0 a 59 años). Base 2013. ", "T3_Unidad":"Porcentaje", "T3_Escala":" ", "MetaData":[{"Id":9015, "Variable":{"Id":70, "Nombre":"Comunidades y Ciudades Autónomas", "Codigo":"1"}
+, "Nombre":"Ceuta", "Codigo":"18"}
+,
+{"Id":15668, "Variable":{"Id":356, "Nombre":"Totales de edad", "Codigo":"21"}
+, "Nombre":"Total", "Codigo":"0"}
+,
+{"Id":291160, "Variable":{"Id":260, "Nombre":"Conceptos Demográficos", "Codigo":""}
+, "Nombre":"Viviendo en hogares con baja intensidad en el trabajo (de 0 a 59 años)", "Codigo":""}
+,
+{"Id":285495, "Variable":{"Id":429, "Nombre":"Cambios de conceotis", "Codigo":"26"}
+, "Nombre":"Base 2013", "Codigo":"00"}
+]
+, "Data":[{"Fecha":"2018-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2018, "Valor":34.6}
+,
+{"Fecha":"2017-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2017, "Valor":30.6}
+,
+{"Fecha":"2016-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2016, "Valor":12.2}
+,
+{"Fecha":"2015-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2015, "Valor":10.0}
+,
+{"Fecha":"2014-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2014, "Valor":26.2}
+,
+{"Fecha":"2013-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2013, "Valor":24.7}
+,
+{"Fecha":"2012-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2012, "Valor":23.2}
+,
+{"Fecha":"2011-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2011, "Valor":17.2}
+,
+{"Fecha":"2010-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2010, "Valor":21.8}
+,
+{"Fecha":"2009-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2009, "Valor":25.3}
+,
+{"Fecha":"2008-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2008, "Valor":22.5}
+]
+}
+,
+{"COD":"ECV5335", "Nombre":"Melilla. Todas las edades. Tasa de riesgo de pobreza o exclusión social (indicador AROPE). Base 2013. ", "T3_Unidad":"Porcentaje", "T3_Escala":" ", "MetaData":[{"Id":8995, "Variable":{"Id":70, "Nombre":"Comunidades y Ciudades Autónomas", "Codigo":"1"}
+, "Nombre":"Melilla", "Codigo":"19"}
+,
+{"Id":15668, "Variable":{"Id":356, "Nombre":"Totales de edad", "Codigo":"21"}
+, "Nombre":"Total", "Codigo":"0"}
+,
+{"Id":284043, "Variable":{"Id":260, "Nombre":"Conceptos Demográficos", "Codigo":""}
+, "Nombre":"Tasa de riesgo de pobreza o exclusión social (indicador AROPE)", "Codigo":""}
+,
+{"Id":285495, "Variable":{"Id":429, "Nombre":"Cambios de conceotis", "Codigo":"26"}
+, "Nombre":"Base 2013", "Codigo":"00"}
+]
+, "Data":[{"Fecha":"2018-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2018, "Valor":24.1}
+,
+{"Fecha":"2017-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2017, "Valor":29.4}
+,
+{"Fecha":"2016-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2016, "Valor":29.3}
+,
+{"Fecha":"2015-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2015, "Valor":31.8}
+,
+{"Fecha":"2014-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2014, "Valor":25.8}
+,
+{"Fecha":"2013-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2013, "Valor":31.4}
+,
+{"Fecha":"2012-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2012, "Valor":14.5}
+,
+{"Fecha":"2011-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2011, "Valor":34.7}
+,
+{"Fecha":"2010-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2010, "Valor":35.4}
+,
+{"Fecha":"2009-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2009, "Valor":33.9}
+,
+{"Fecha":"2008-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2008, "Valor":24.6}
+]
+}
+,
+{"COD":"ECV5419", "Nombre":"Melilla. Todas las edades. En riesgo de pobreza (renta año anterior a la entrevista). Base 2013. ", "T3_Unidad":"Porcentaje", "T3_Escala":" ", "MetaData":[{"Id":8995, "Variable":{"Id":70, "Nombre":"Comunidades y Ciudades Autónomas", "Codigo":"1"}
+, "Nombre":"Melilla", "Codigo":"19"}
+,
+{"Id":15668, "Variable":{"Id":356, "Nombre":"Totales de edad", "Codigo":"21"}
+, "Nombre":"Total", "Codigo":"0"}
+,
+{"Id":284044, "Variable":{"Id":260, "Nombre":"Conceptos Demográficos", "Codigo":""}
+, "Nombre":"En riesgo de pobreza (renta año anterior a la entrevista)", "Codigo":""}
+,
+{"Id":285495, "Variable":{"Id":429, "Nombre":"Cambios de conceotis", "Codigo":"26"}
+, "Nombre":"Base 2013", "Codigo":"00"}
+]
+, "Data":[{"Fecha":"2018-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2018, "Valor":21.4}
+,
+{"Fecha":"2017-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2017, "Valor":26.2}
+,
+{"Fecha":"2016-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2016, "Valor":21.8}
+,
+{"Fecha":"2015-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2015, "Valor":25.8}
+,
+{"Fecha":"2014-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2014, "Valor":19.2}
+,
+{"Fecha":"2013-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2013, "Valor":21.7}
+,
+{"Fecha":"2012-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2012, "Valor":8.6}
+,
+{"Fecha":"2011-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2011, "Valor":26.5}
+,
+{"Fecha":"2010-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2010, "Valor":25.8}
+,
+{"Fecha":"2009-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2009, "Valor":30.0}
+,
+{"Fecha":"2008-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2008, "Valor":17.7}
+]
+}
+,
+{"COD":"ECV5418", "Nombre":"Melilla. Todas las edades. Con carencia material severa. Base 2013. ", "T3_Unidad":"Porcentaje", "T3_Escala":" ", "MetaData":[{"Id":8995, "Variable":{"Id":70, "Nombre":"Comunidades y Ciudades Autónomas", "Codigo":"1"}
+, "Nombre":"Melilla", "Codigo":"19"}
+,
+{"Id":15668, "Variable":{"Id":356, "Nombre":"Totales de edad", "Codigo":"21"}
+, "Nombre":"Total", "Codigo":"0"}
+,
+{"Id":284281, "Variable":{"Id":260, "Nombre":"Conceptos Demográficos", "Codigo":""}
+, "Nombre":"Con carencia material severa", "Codigo":""}
+,
+{"Id":285495, "Variable":{"Id":429, "Nombre":"Cambios de conceotis", "Codigo":"26"}
+, "Nombre":"Base 2013", "Codigo":"00"}
+]
+, "Data":[{"Fecha":"2018-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2018, "Valor":8.6}
+,
+{"Fecha":"2017-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2017, "Valor":9.4}
+,
+{"Fecha":"2016-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2016, "Valor":13.2}
+,
+{"Fecha":"2015-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2015, "Valor":15.1}
+,
+{"Fecha":"2014-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2014, "Valor":7.4}
+,
+{"Fecha":"2013-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2013, "Valor":14.8}
+,
+{"Fecha":"2012-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2012, "Valor":1.0}
+,
+{"Fecha":"2011-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2011, "Valor":6.4}
+,
+{"Fecha":"2010-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2010, "Valor":9.7}
+,
+{"Fecha":"2009-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2009, "Valor":0.9}
+,
+{"Fecha":"2008-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2008, "Valor":10.9}
+]
+}
+,
+{"COD":"ECV5417", "Nombre":"Melilla. Todas las edades. Viviendo en hogares con baja intensidad en el trabajo (de 0 a 59 años). Base 2013. ", "T3_Unidad":"Porcentaje", "T3_Escala":" ", "MetaData":[{"Id":8995, "Variable":{"Id":70, "Nombre":"Comunidades y Ciudades Autónomas", "Codigo":"1"}
+, "Nombre":"Melilla", "Codigo":"19"}
+,
+{"Id":15668, "Variable":{"Id":356, "Nombre":"Totales de edad", "Codigo":"21"}
+, "Nombre":"Total", "Codigo":"0"}
+,
+{"Id":291160, "Variable":{"Id":260, "Nombre":"Conceptos Demográficos", "Codigo":""}
+, "Nombre":"Viviendo en hogares con baja intensidad en el trabajo (de 0 a 59 años)", "Codigo":""}
+,
+{"Id":285495, "Variable":{"Id":429, "Nombre":"Cambios de conceotis", "Codigo":"26"}
+, "Nombre":"Base 2013", "Codigo":"00"}
+]
+, "Data":[{"Fecha":"2018-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2018, "Valor":15.6}
+,
+{"Fecha":"2017-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2017, "Valor":13.9}
+,
+{"Fecha":"2016-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2016, "Valor":18.0}
+,
+{"Fecha":"2015-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2015, "Valor":14.5}
+,
+{"Fecha":"2014-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2014, "Valor":18.0}
+,
+{"Fecha":"2013-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2013, "Valor":20.5}
+,
+{"Fecha":"2012-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2012, "Valor":9.7}
+,
+{"Fecha":"2011-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2011, "Valor":18.0}
+,
+{"Fecha":"2010-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2010, "Valor":10.4}
+,
+{"Fecha":"2009-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2009, "Valor":13.6}
+,
+{"Fecha":"2008-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2008, "Valor":6.0}
+]
+}
+]
+

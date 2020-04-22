@@ -85,8 +85,10 @@ GO
 if not exists (select * from sysobjects where name='edu_achieved' and xtype='U')
 create table edu_achieved (
 id_e int identity(1,1) NOT NULL, -- Auto_increment: empieza en el valor uno y aumenta de uno en uno.
-_period int NOT NULL,
+_period varchar(10) NOT NULL,
+_year int NOT NULL,
 _state varchar(100) NOT NULL,
+province varchar(100) NOT NULL,
 edu_ach varchar(100) NOT NULL,
 perc int NOT NULL
 )
@@ -103,8 +105,10 @@ GO
 if not exists (select * from sysobjects where name='companies' and xtype='U')
 create table companies (
 id_c int identity(1,1) NOT NULL, -- Auto_increment: empieza en el valor uno y aumenta de uno en uno.
-_period int NOT NULL,
+_period varchar(10) NOT NULL,
+_year int nOT NULL,
 _state varchar(100) NOT NULL,
+province varchar(100) NOT NULL,
 quantity int NOT NULL,
 class varchar(100) NOT NULL
 )
@@ -120,8 +124,10 @@ GO
 if not exists (select * from sysobjects where name='poverty' and xtype='U')
 create table poverty (
 id_p int identity(1,1) NOT NULL, -- Auto_increment: empieza en el valor uno y aumenta de uno en uno.
-_period int NOT NULL,
+_period varchar(10) NOT NULL,
+_year int NOT NULL,
 _state varchar(100) NOT NULL,
+province varchar(100) NOT NULL,
 class varchar(100) NOT NULL,
 perc real NOT NULL
 )
@@ -137,8 +143,10 @@ GO
 if not exists (select * from sysobjects where name='migration' and xtype='U')
 create table migration (
 id int identity(1,1) NOT NULL, -- Auto_increment: empieza en el valor uno y aumenta de uno en uno.
+_period varchar(10) NOT NULL,
+_year int NOT NULL,
 _state varchar(100) NOT NULL,
-_period int NOT NULL,
+province varchar(100) NOT NULL,
 flow int NOT NULL,
 age int NOT NULL
 )

@@ -39,7 +39,7 @@ colnames(prov_ca)[1] <- "Provincias"
 colnames(prov_ca)[2] <- "Comunidades"
 
 
-com_loaded <- sqlQuery(conn, "select * from dbo.companies")
+com_loaded <- sqlQuery(con, "select * from dbo.companies")
 
 if(nrow(company) > nrow(com_loaded)){
   for (i in 1:nrow(company)){
@@ -47,6 +47,6 @@ if(nrow(company) > nrow(com_loaded)){
     insert_query <- paste("INSERT INTO dbo.companies (_period, _year, _state, province, quantity, class)
              VALUES ('Full','", company$Year[i], "','",prov_ca$Comunidades[c_index],"','",company$Provincia[i],"','",company$Total[i],"','",company$Condicion[i],"')", sep="")
     
-    sqlQuery(conn, insert_query)
+    sqlQuery(con, insert_query)
   }
 }

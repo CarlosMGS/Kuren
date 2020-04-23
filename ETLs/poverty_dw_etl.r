@@ -6,7 +6,7 @@ library(jsonlite)
 detach("package:jsonlite", unload=TRUE)
 
 #establecemos el directorio de trabajo
-setwd("C:/Users/CGil/Documents/MIN")
+#setwd("C:/Users/CGil/Documents/MIN")
 
 
 #lectura del json
@@ -103,16 +103,16 @@ for(i in 1:11){
 }
 
 #conexion con la base de datos
-conn <- odbcDriverConnect('driver={SQL Server};server=DESKTOP-BM96OLK;database=Mineria;trusted_connection=true')
+con <- odbcDriverConnect('driver={SQL Server};server=localhost;database=Mineria;trusted_connection=true')
 
-pov_loaded <- sqlQuery(conn, "select * from dbo.poverty")
+pov_loaded <- sqlQuery(con, "select * from dbo.poverty")
 
 if(nrow(values) > nrow(pov_loaded)){
   for (i in 1:nrow(values)){
     insert_query <- paste("INSERT INTO dbo.poverty (_period, _year, _state, province, class, perc )
              VALUES ('Full','", values$year[i], "','",values$province[i],"','Full','",values$risk[i],"','",values$prct[i],"')", sep="")
   
-    sqlQuery(conn, insert_query)
+    sqlQuery(con, insert_query)
   }
 }
 

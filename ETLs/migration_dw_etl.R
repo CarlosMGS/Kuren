@@ -5,7 +5,7 @@ library(pracma)
 library(rjson)
 
 #establecemos conexi?n
-con <- odbcDriverConnect("driver={SQL Server Native Client 11.0};Server=DESKTOP-BM96OLK ; Database=Mineria;Uid=; Pwd=; trusted_connection=yes")
+con <- odbcDriverConnect("driver={SQL Server Native Client 11.0};Server=localhost ; Database=Mineria;Uid=; Pwd=; trusted_connection=yes")
 
 setwd("C:/Users/CGIL/Documents/MIN")
 
@@ -45,7 +45,7 @@ data <- data[-2]
 data <- data[data$Edad < 1000,]
 
 
-mig_loaded <- sqlQuery(conn, "select * from dbo.migration")
+mig_loaded <- sqlQuery(con, "select * from dbo.migration")
 
 if(nrow(data) > nrow(mig_loaded)){
   for (i in 1:nrow(data)){
@@ -53,6 +53,6 @@ if(nrow(data) > nrow(mig_loaded)){
     insert_query <- paste("INSERT INTO dbo.migration (_period, _year, _state, province, flow, age )
              VALUES ('",data$Periodo[i],"','", data$Year[i], "','",prov_ca$Comunidades[c_index],"','",data$Provincias[i],"','",data$Total[i],"','",data$Edad[i],"')", sep="")
     
-    sqlQuery(conn, insert_query)
+    sqlQuery(con, insert_query)
   }
 }

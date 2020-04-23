@@ -5,9 +5,9 @@ library(pracma)
 library(rjson)
 
 #establecemos conexi?n
-con <- odbcDriverConnect("driver={SQL Server Native Client 11.0};Server=DESKTOP-BM96OLK ; Database=Mineria;Uid=; Pwd=; trusted_connection=yes")
+con <- odbcDriverConnect("driver={SQL Server Native Client 11.0};Server=localhost ; Database=Mineria;Uid=; Pwd=; trusted_connection=yes")
 
-#setwd("C:/Users/dipdn/Desktop/MIN")
+setwd("C:/Users/dipdn/Desktop/MIN")
 
 data <- sqlQuery(con, "select * from dbo.migration")
 
@@ -23,7 +23,7 @@ colnames(data)[6] <- "Edad"
 
 
 #agrupamos por años y comunidades paraa adaptar los datos
-data <- group_by(data, Comunidad, Edad, Year) %>% summarise(sum <- sum(Total))
+data <- group_by(data, Comunidad, Edad,Year) %>% summarise(sum <- sum(Total))
 
 colnames(data)[4] <- "Total"
 
@@ -97,16 +97,24 @@ for(i in 1:nrow(company)){
 
 #----------------------------------------------------------------------------------------------------#
 #educacion
-education <- sqlQuery(con, "select * from dbo.edu_achieved")
+edudf <- sqlQuery(con, "select * from dbo.edu_achieved where _period = 'T4'")
+
+edudf <- edudf[,-1]
+edudf <- edudf[,-1]
+
+colnames(edudf)[1]<-"Year"
+colnames(edudf)[2]<-"Comunidad"
+colnames(edudf)[3]<-"Provincia"
+colnames(edudf)[4]<-"Achieved"
+colnames(edudf)[5]<-"Porcentaje"
 
 
-
-unique(edudf$achieved)
+unique(edudf$Achieved)
 data <- data[rep(seq_len(nrow(data)), each=7),]
 data["id_e"] <- rep(1:7, nrow(data)/7)
 
 data <- data [order(data[,3],data[,1],data[,6]), ]
-edudf <- edudf[order(edudf[,3],edudf[,1]),]
+edudf <- edudf[order(edudf[,1],edudf[,2]),]
 
 data$Year<-as.numeric(data$Year)
 
@@ -130,7 +138,7 @@ if(nrow(dim_edu) < nrow(edudf)){
   for(i in 1:nrow(edudf)){
     
       insert_query <- paste("INSERT INTO dbo.dim_edu_achieved (edu_ach, perc)
-             VALUES ('", edudf$achieved[i], "','",edudf[i,4],"')", sep="")
+             VALUES ('", edudf$Achieved[i], "','",edudf[i,5],"')", sep="")
     
     sqlQuery(con, insert_query)
   }
@@ -138,109 +146,36 @@ if(nrow(dim_edu) < nrow(edudf)){
 
 #----------------------------------------------------------------------------------------#
 #pobreza
-poverty <- fromJSON(file="10011.json")
+poverty <- sqlQuery(con, "select * from dbo.poverty")
 
-#creamos tres listas para las dimensiones
-provinces <- list()
-ages <- list()
-risks <- list()
+poverty <- poverty[,-1]
+poverty <- poverty[,-1]
 
-provinces <-NULL
-ages <-NULL
-risks <- NULL
+colnames(poverty)[1]<-"Year"
+colnames(poverty)[2]<-"Comunidad"
+colnames(poverty)[3]<-"Provincia"
+colnames(poverty)[4]<-"Tipo"
+colnames(poverty)[5]<-"Porcentaje"
 
-provinces[80] <- "aaa"
-ages[80] <- "aaa"
-risks[80] <- "aaa"
-
-typeof(ages)
-
-
-#rellenamos las dimensiones
-for(i in 1:80){
-  provinces[i] <- poverty[[i]][[5]][[1]][3]
-  ages[i] <- poverty[[i]][[5]][[2]][3]
-  risks[i] <- poverty[[i]][[5]][[3]][3]
-  
-}
-
-#convertimos las listas a arrays para rellenar el df
-provinces <- unlist(provinces, use.names=FALSE)
-ages <- unlist(ages, use.names=FALSE)
-risks <- unlist(risks, use.names=FALSE)
-
-#creamos el dataframe
-values <- data.frame(
-  "province" = provinces,
-  "ages"= ages,
-  "risk"=risks,
-  "2018"=1:80,
-  "2017"=1:80,
-  "2016"=1:80,
-  "2015"=1:80,
-  "2014"=1:80,
-  "2013"=1:80,
-  "2012"=1:80,
-  "2011"=1:80,
-  "2010"=1:80,
-  "2009"=1:80,
-  "2008"=1:80
-)
-
-values
-
-#rellenamos los valores para los porcentajes
-for(i in 1:80){
-  
-  for(j in 1:11){
-    
-    values[i, j+3]<-poverty[[i]][[6]][[j]][5]
-    
-  }
-  
-}
-
-values
-
-colnames(values)
-
-values <- values[values$province != "Total Nacional",]
-values <- values[,-2]
-
-
-#transformamos las columnas de los años en una unica columna añadiendo mas filas
-
-values <- values[rep(seq_len(nrow(values)), each=11),]
-values["year"] <- rep(2008:2018, 76)
-values["prct"] <- 1:836
-
-for(i in 0:75){
-  for(j in 1:11){
-    values[i*11 + j,15] <- values[i*11+j,2+j]
-  }
-}
-
-#eliminamos las columnas sobrantes
-for(i in 1:11){
-  values <- values[,-3]
-}
-
-values <- values[order(values[,1], values[,3]), ]
+values <- poverty
+values <- values[order(values[,1], values[,2]), ]
 
 dim_pov <- sqlQuery(con, "SELECT * FROM dbo.dim_poverty")
 
 data <- data[rep(seq_len(nrow(data)), each=4),]
 data["id_p"] <- rep(1:4, nrow(data)/4)
 
-data <- data [order(data[,1],data[,3],data[,5]), ]
+data <- data [order(data[,1],data[,3],data[,7]), ]
 
-values <- values[order(values[,3], values[,1]), ]
 data <- data [order(data[,3], data[,1]), ]
+values <- values[order(values[,1], values[,2]), ]
 
+z <- 90*7*9
+index <- 91*7*9+1
 
 for(i in 0:(nrow(values)-1)){
-  for(j in 0:90*7*9){
-    data[i*91*7*9+j+1,7] <- i+1
+  for(j in 0:z){
+    data[i*index+j,7] <- i+1
   }
 }
 
@@ -254,7 +189,7 @@ for(i in r:h){
 for(i in 1:nrow(values)){
   
   insert_query <- paste("INSERT INTO dbo.dim_poverty (class, perc)
-           VALUES ('", values$risk[i], "','",values$prct[i],"')", sep="")
+           VALUES ('", values$Tipo[i], "','",values$Porcentaje[i],"')", sep="")
   
   sqlQuery(con, insert_query)
 }

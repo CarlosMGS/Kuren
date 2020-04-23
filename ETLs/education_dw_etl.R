@@ -91,7 +91,7 @@ for(i in 1:24){
 }
 
 
-edu_loaded <- sqlQuery(conn, "select * from dbo.edu_achieved")
+edu_loaded <- sqlQuery(con, "select * from dbo.edu_achieved")
 
 if(nrow(edudf) > nrow(edu_loaded)){
   for (i in 1:nrow(edudf)){
@@ -99,6 +99,6 @@ if(nrow(edudf) > nrow(edu_loaded)){
     insert_query <- paste("INSERT INTO dbo.edu_achieved (_period, _year, _state, province, edu_ach, perc)
              VALUES ('", edudf$period[i], "','",edudf$year[i],"','",edudf$states[i],"','Full','",edudf$achieved[i],"','",edudf$prct[i],"')", sep="")
     
-    sqlQuery(conn, insert_query)
+    sqlQuery(con, insert_query)
   }
 }

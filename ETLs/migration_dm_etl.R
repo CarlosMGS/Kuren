@@ -5,65 +5,25 @@ library(pracma)
 library(rjson)
 
 #establecemos conexi?n
-con <- odbcDriverConnect("driver={SQL Server Native Client 11.0};Server=localhost ; Database=Mineria;Uid=; Pwd=; trusted_connection=yes")
+con <- odbcDriverConnect("driver={SQL Server Native Client 11.0};Server=DESKTOP-BM96OLK ; Database=Mineria;Uid=; Pwd=; trusted_connection=yes")
 
-setwd("C:/Users/dipdn/Desktop/MIN")
+#setwd("C:/Users/dipdn/Desktop/MIN")
 
-data <- read.csv2("24448.csv", encoding = "UTF-8")
+data <- sqlQuery(con, "select * from dbo.migration")
 
-colnames(data)[1] <- "Provincias"
+data <- data[,-1]
 
-data$Provincias <- gsub("[1-90]", "", data$Provincias)
-data$Provincias <- gsub(" ", "", data$Provincias)
+colnames(data)[1] <- "Trimestre"
+colnames(data)[2] <- "Year"
+colnames(data)[3] <- "Comunidad"
+colnames(data)[4] <- "Provincia"
+colnames(data)[5] <- "Total"
+colnames(data)[6] <- "Edad"
 
-data$Edad <- gsub("[^1-90]", "", data$Edad)
-data$Edad = as.integer(data$Edad)
-data$Edad[is.na(data$Edad)] = 1000
-
-data$Year <- substr(data$Periodo, 1,4) 
-data$Periodo <- substr(data$Periodo, 5,6) 
-
-data<- transform(data,Total <- as.integer(Total))
-
-#cargamos csv con la relaci?n entre Comunidades y Provincias
-prov_ca <- read.csv2("list-pro.csv", sep=";" , header = TRUE, encoding="UTF-8")
-prov_ca <- prov_ca[-1]
-prov_ca <- prov_ca[-3]
-prov_ca <- prov_ca[-2]
-prov_ca <- prov_ca[-2]
-prov_ca <- prov_ca[-2]
-
-
-colnames(prov_ca)[1] <- "Provincias"
-colnames(prov_ca)[2] <- "Comunidades"
-
-prov <- unique(data$Provincias)
-prov
-
-#eliminamos filas donde sexo se diferencie
-data <- data[data$Sexo == "Ambos sexos",]
-unique(data$Sexo)
-
-data <- data[-2]
-
-
-data <- data[-3]
-
-data[, 3] <- as.numeric(as.character( data[, 3] ))
-
-
-
-
-#para cada provincia guardamos la comunidad autónoma a la que pertenece
-for(i in 1:nrow(data)){
-  c_index <- match(data$Provincias[i], prov_ca$Provincias)
-  
-  data$Provincias[i] <- as.character(prov_ca$Comunidades[c_index])
-}
 
 
 #agrupamos por años y comunidades paraa adaptar los datos
-data <- group_by(data, Provincias, Edad, Year) %>% summarise(sum <- sum(Total))
+data <- group_by(data, Comunidad, Edad, Year) %>% summarise(sum <- sum(Total))
 
 colnames(data)[4] <- "Total"
 
@@ -81,42 +41,34 @@ unique(data$Year)
 
 #cargamos fuentes de dimensiones
 #empresas
-company <- read.csv2("302.csv", encoding = "UTF-8")
+company <- sqlQuery(con, "select * from dbo.companies")
 
-
+company <- company[,-1]
+company <- company[,-1]
 
 #eliminamos el total y nos quedamos con aquellas filas con un tipo de empresa específico
-colnames(company)[2]<-"Condicion"
-colnames(company)[1]<-"Provincia"
-colnames(company)[3]<-"Year"
+colnames(company)[1]<-"Year"
+colnames(company)[2]<-"Comunidad"
+colnames(company)[3]<-"Provincia"
+colnames(company)[4]<-"Total"
+colnames(company)[5]<-"Condicion"
 
-company$Provincia <- gsub("[1-90]", "", company$Provincia)
-company$Provincia <- gsub(" ", "", company$Provincia)
-
-#eliminamos los totales
-company <- company[company$Condicion != "Total",]
-company <- company[company$Provincia != "TotalNacional",]
 
 #eliminamos los años anteriores a 2008
-
-company[, 3] <- as.numeric(as.character( company[, 3] ))
 company <- company[company$Year > 2007,]
 
-#agrupamos por comunidad
-for(i in 1:nrow(company)){
-  c_index <- match(company$Provincia[i], prov_ca$Provincias)
-  
-  company$Provincia[i] <- as.character(prov_ca$Comunidades[c_index])
-}
-
-company[, 4] <- as.numeric(as.character( company[, 4] ))
-company <- group_by(company, Provincia, Condicion, Year) %>% summarise(sum <- sum(Total))
+company <- group_by(company, Comunidad, Condicion, Year) %>% summarise(sum <- sum(Total))
 colnames(company)[4]<- "Total"
 
 #Añadimos a los hechos el id por cada tipo de empresa
 unique(company$Condicion)
 data <- data[rep(seq_len(nrow(data)), each=9),]
 data["id_c"] <- rep(1:9, nrow(data)/9)
+
+
+data$Comunidad <- as.character(data$Comunidad)
+company$Comunidad <- as.character(company$Comunidad)
+company$Condicion <- as.character(company$Condicion)
 
 data <- data [order(data[,1],data[,3],data[,5]), ]
 company <- company[order(company[,1],company[,3]),]
@@ -145,85 +97,9 @@ for(i in 1:nrow(company)){
 
 #----------------------------------------------------------------------------------------------------#
 #educacion
-education <- fromJSON(file="education.json")
-
-#str(education)
-data.class(education)
-
-#Dimensiones
-gender <- list()
-states <- list()
-achieved <- list() #Nivel de formacion conseguido
+education <- sqlQuery(con, "select * from dbo.edu_achieved")
 
 
-gender <- NULL
-states <- NULL
-achieved <- NULL
-
-
-for(i in 1:480){
-  gender[i] <- education[[i]][[6]][[2]][[3]]
-  states[i] <- education[[i]][[6]][[3]][[3]]
-  achieved[i] <- education[[i]][[6]][[4]][[3]]
-}
-
-
-states <- unlist(states, use.names = FALSE)
-gender <- unlist(gender, use.names = FALSE)
-achieved <- unlist(achieved, use.names = FALSE)
-
-edudf <- data.frame(
-  "gender" = gender,
-  "states" = states,
-  "achieved" = achieved
-)
-
-periodos <- education[[1]][[7]]
-
-for(i in 1:480){
-  for(j in 1:24){
-    year <- paste(periodos[[j]][[3]], periodos[[j]][[4]], sep = "")
-    if(i == 1){
-      if(!year %in% colnames(edudf)){
-        edudf[year] <- 1:480
-      }
-    }
-    edudf[i, year] <- education[[i]][[7]][[j]][[5]]
-  }
-}
-
-for(i in 1:6){
-  for(j in 1:3){
-    edudf <- edudf[,-(4+i)]
-  }  
-}
-
-unique(data$Year)
-
-#Eliminamos filas sobrantes o poco relevantes
-#Eliminamos de la columna "achieved" las filas que contengan "Total" ya que no es relevante
-edudf <- edudf[edudf$achieved != "Total", ]
-#Eliminamos las filas en las que se diferenciaba por sexo
-edudf <- edudf[edudf$gender == "Ambos sexos", ]
-#Eliminamos las filas que daban el Total Nacional ya que no son relevantes
-edudf <- edudf[edudf$states != "Total Nacional", ]
-#Eliminamos la primera columna "gender"
-edudf<-edudf[, -1]
-
-edudf <- edudf[rep(seq_len(nrow(edudf)), each=6),]
-edudf["year"] <- rep(2014:2019, 133)
-edudf["prct"] <- 1:798
-
-for(i in 0:132){
-  for(j in 1:6){
-    edudf[i*6 + j,10] <- edudf[i*6+j,2+j]
-  }
-}
-
-#eliminamos las columnas sobrantes
-for(i in 1:6){
-  edudf <- edudf[,-3]
-}
 
 unique(edudf$achieved)
 data <- data[rep(seq_len(nrow(data)), each=7),]

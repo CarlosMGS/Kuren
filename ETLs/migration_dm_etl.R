@@ -193,4 +193,27 @@ for(i in 1:nrow(values)){
   
   sqlQuery(con, insert_query)
 }
+
+
+for(i in 1:nrow(data)){
+  if(is.na(data$id_e[i])){
+    
+    insert_query <- paste("INSERT INTO dbo.facts_migration (comunidad, n_year, flow, age, id_pov, id_com, id_edu)
+           VALUES ('", data$Comunidad[i], "','",data$Year[i], "','",data$Total[i], "','",data$Edad[i], "','",data$id_p[i], "','",data$id_com[i], "', NULL)", sep="")
+  
+  }else if(is.na(data$id_p[i])){
+      
+    insert_query <- paste("INSERT INTO dbo.facts_migration (comunidad, n_year, flow, age, id_pov, id_com, id_edu)
+           VALUES ('", data$Comunidad[i], "','",data$Year[i], "','",data$Total[i], "','",data$Edad[i], "', NULL ,'",data$id_com[i], "','",data$id_edu[i],"')", sep="")
+    
+  }else{
+    
+    insert_query <- paste("INSERT INTO dbo.facts_migration (comunidad, n_year, flow, age, id_pov, id_com, id_edu)
+           VALUES ('", data$Comunidad[i], "','",data$Year[i], "','",data$Total[i], "','",data$Edad[i], "','",data$id_p[i], "','",data$id_com[i], "','",data$id_edu[i],"')", sep="")
+    
+  }
+  
+  sqlQuery(con, insert_query)
+  
+}
  

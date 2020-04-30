@@ -5,7 +5,8 @@ library(pracma)
 library(rjson)
 
 #establecemos conexi?n
-con <- odbcDriverConnect("driver={SQL Server Native Client 11.0};Server=localhost ; Database=Mineria;Uid=; Pwd=; trusted_connection=yes")
+#con <- odbcDriverConnect("driver={SQL Server Native Client 11.0};Server=localhost ; Database=Mineria;Uid=; Pwd=; trusted_connection=yes")
+con <- odbcDriverConnect("driver={SQL Server Native Client 11.0};Server=min-serv.database.windows.net ; Database=Mineria;Uid=usuariomin; Pwd=dctaMineria5")
 
 setwd("C:/Users/dipdn/Desktop/MIN")
 
@@ -101,12 +102,19 @@ edudf <- sqlQuery(con, "select * from dbo.edu_achieved where _period = 'T4'")
 edudf <- edudf[,-1]
 edudf <- edudf[,-1]
 
+
+
 colnames(edudf)[1]<-"Year"
 colnames(edudf)[2]<-"Comunidad"
 colnames(edudf)[3]<-"Provincia"
 colnames(edudf)[4]<-"Achieved"
 colnames(edudf)[5]<-"Porcentaje"
 
+edudf$Comunidad <- as.character(edudf$Comunidad)
+
+edudf$Comunidad <- replace(edudf$Comunidad, edudf$Comunidad == "Castilla - La Mancha", "Castilla-La Mancha")
+
+edudf$Comunidad <- as.factor(edudf$Comunidad)
 
 unique(edudf$Achieved)
 
@@ -115,6 +123,21 @@ data <- data [order(data[,3],data[,1],data[,6]), ]
 edudf <- edudf[order(edudf[,1],edudf[,2]),]
 
 data$Year<-as.numeric(data$Year)
+
+
+
+
+
+data <- data [order(data[,1],data[,3]), ]
+edudf <- edudf[order(edudf$Year,edudf$Comunidad),]
+
+edudf["id_e"] <- 1:nrow(edudf)
+
+data <- left_join(data, edudf, by=c("Year", "Comunidad"))
+
+
+unique(data$Comunidad)
+
 
 
 
@@ -144,18 +167,36 @@ colnames(poverty)[3]<-"Provincia"
 colnames(poverty)[4]<-"Tipo"
 colnames(poverty)[5]<-"Porcentaje"
 
+poverty$Comunidad <- as.character(poverty$Comunidad)
+
+poverty$Comunidad <- replace(poverty$Comunidad, poverty$Comunidad == "Castilla - La Mancha", "Castilla-La Mancha")
+
+poverty$Comunidad <- as.factor(poverty$Comunidad)
+
+
 values <- poverty
 values <- values[order(values[,1], values[,2]), ]
 
 dim_pov <- sqlQuery(con, "SELECT * FROM dbo.dim_poverty")
 
 
-values["id_p"] <- 1: nrow(values)
+#values["id_p"] <- 1: nrow(values)
 
-data <- data [order(data[,1],data[,3],data[,7]), ]
+#data <- data [order(data[,1],data[,3],data[,7]), ]
 
-data <- data [order(data[,3], data[,1]), ]
-values <- values[order(values[,1], values[,2]), ]
+#data <- data [order(data[,3], data[,1]), ]
+#values <- values[order(values[,1], values[,2]), ]
+
+
+
+
+data <- data [order(data$Year,data$Comunidad), ]
+values <- values[order(values$Year,values$Comunidad),]
+
+values["id_p"] <- 1:nrow(values)
+
+data <- left_join(data, values, by=c("Year", "Comunidad"))
+
 
 
 
@@ -167,22 +208,25 @@ for(i in 1:nrow(values)){
   sqlQuery(con, insert_query)
 }
 
+colnames(data)[4] <- "Flow"
 
+insert_query
+########################################################################
 for(i in 1:nrow(data)){
   if(is.na(data$id_e[i])){
     
     insert_query <- paste("INSERT INTO dbo.facts_migration (comunidad, n_year, flow, age, id_pov, id_com, id_edu)
-           VALUES ('", data$Comunidad[i], "','",data$Year[i], "','",data$Total[i], "','",data$Edad[i], "','",data$id_p[i], "','",data$id_com[i], "', NULL)", sep="")
+           VALUES ('", data$Comunidad[i], "','",data$Year[i], "','",data$Flow[i], "','",data$Edad[i], "','",data$id_p[i], "','",data$id_c[i], "', NULL)", sep="")
   
   }else if(is.na(data$id_p[i])){
       
     insert_query <- paste("INSERT INTO dbo.facts_migration (comunidad, n_year, flow, age, id_pov, id_com, id_edu)
-           VALUES ('", data$Comunidad[i], "','",data$Year[i], "','",data$Total[i], "','",data$Edad[i], "', NULL ,'",data$id_com[i], "','",data$id_edu[i],"')", sep="")
+           VALUES ('", data$Comunidad[i], "','",data$Year[i], "','",data$Flow[i], "','",data$Edad[i], "', NULL ,'",data$id_c[i], "','",data$id_e[i],"')", sep="")
     
   }else{
     
     insert_query <- paste("INSERT INTO dbo.facts_migration (comunidad, n_year, flow, age, id_pov, id_com, id_edu)
-           VALUES ('", data$Comunidad[i], "','",data$Year[i], "','",data$Total[i], "','",data$Edad[i], "','",data$id_p[i], "','",data$id_com[i], "','",data$id_edu[i],"')", sep="")
+           VALUES ('", data$Comunidad[i], "','",data$Year[i], "','",data$Flow[i], "','",data$Edad[i], "','",data$id_p[i], "','",data$id_c[i], "','",data$id_e[i],"')", sep="")
     
   }
   

@@ -5,9 +5,9 @@ library(pracma)
 library(rjson)
 
 #establecemos conexi?n
-con <- odbcDriverConnect("driver={SQL Server Native Client 11.0};Server=DESKTOP-BM96OLK ; Database=Mineria;Uid=; Pwd=; trusted_connection=yes")
+con <- odbcDriverConnect("driver={SQL Server Native Client 11.0};Server=localhost ; Database=Mineria;Uid=; Pwd=; trusted_connection=yes")
 
-setwd("C:/Users/CGIL/Documents/MIN")
+setwd("C:/Users/dipdn/Desktop/MIN")
 
 
 company <- read.csv2("302.csv", encoding = "UTF-8")

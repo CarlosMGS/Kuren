@@ -102,8 +102,6 @@ for(i in 1:11){
   values <- values[,-3]
 }
 
-#conexion con la base de datos
-con <- odbcDriverConnect('driver={SQL Server};server=localhost;database=Mineria;trusted_connection=true')
 
 pov_loaded <- sqlQuery(con, "select * from dbo.poverty")
 

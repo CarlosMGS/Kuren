@@ -62,26 +62,25 @@ colnames(company)[4]<- "Total"
 
 #Añadimos a los hechos el id por cada tipo de empresa
 unique(company$Condicion)
-data <- data[rep(seq_len(nrow(data)), each=9),]
-data["id_c"] <- rep(1:9, nrow(data)/9)
+
 
 
 data$Comunidad <- as.character(data$Comunidad)
 company$Comunidad <- as.character(company$Comunidad)
 company$Condicion <- as.character(company$Condicion)
 
-data <- data [order(data[,1],data[,3],data[,5]), ]
-company <- company[order(company[,1],company[,3]),]
+##########################################
 
-for(i in 0:nrow(company)-1){
-  
+data <- data [order(data[,1],data[,3]), ]
+company <- company[order(company$Year,company$Comunidad),]
 
-  for(j in 0:90){
-  
-    data[i*91+j+1,5] <- i+1
-  
-  }
-}
+company["id_c"] <- 1:nrow(company)
+
+data <- left_join(data, company, by=c("Year", "Comunidad"))
+
+
+################################################
+
 
 company$Total <- as.integer(company$Total)
 #cargamos los datos de empresas en su correspondiente dimension en el DW
@@ -110,26 +109,14 @@ colnames(edudf)[5]<-"Porcentaje"
 
 
 unique(edudf$Achieved)
-data <- data[rep(seq_len(nrow(data)), each=7),]
-data["id_e"] <- rep(1:7, nrow(data)/7)
+
 
 data <- data [order(data[,3],data[,1],data[,6]), ]
 edudf <- edudf[order(edudf[,1],edudf[,2]),]
 
 data$Year<-as.numeric(data$Year)
 
-for(i in 0:((nrow(edudf)/2)-1)){
-  for(j in 0:1637){
-      data[i*1638+j+1,6] <- NA
-  }
-}
 
-
-for(i in 0:(nrow(edudf)-1)){
-  for(j in 0:(1637/2)){
-    data[i*819+(nrow(data)/2)+j+1,6] <- i+1
-  }
-}
 
 #cargamos los datos de la educacion conseguida en su correspondiente dimension en el DW
 dim_edu <- sqlQuery(con, "SELECT * FROM dbo.dim_edu_achieved")
@@ -162,29 +149,15 @@ values <- values[order(values[,1], values[,2]), ]
 
 dim_pov <- sqlQuery(con, "SELECT * FROM dbo.dim_poverty")
 
-data <- data[rep(seq_len(nrow(data)), each=4),]
-data["id_p"] <- rep(1:4, nrow(data)/4)
+
+values["id_p"] <- 1: nrow(values)
 
 data <- data [order(data[,1],data[,3],data[,7]), ]
 
 data <- data [order(data[,3], data[,1]), ]
 values <- values[order(values[,1], values[,2]), ]
 
-z <- 90*7*9
-index <- 91*7*9+1
 
-for(i in 0:(nrow(values)-1)){
-  for(j in 0:z){
-    data[i*index+j,7] <- i+1
-  }
-}
-
-r <- 76077*7*9
-h <- 82992*7*9
-
-for(i in r:h){
-  data[i, 7] <- NA
-}
 
 for(i in 1:nrow(values)){
   

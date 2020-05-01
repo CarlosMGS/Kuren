@@ -5,8 +5,8 @@ library(pracma)
 library(rjson)
 
 #establecemos conexi?n
-#con <- odbcDriverConnect("driver={SQL Server Native Client 11.0};Server=localhost ; Database=Mineria;Uid=; Pwd=; trusted_connection=yes")
-con <- odbcDriverConnect("driver={SQL Server Native Client 11.0};Server=min-serv.database.windows.net ; Database=Mineria;Uid=usuariomin; Pwd=dctaMineria5")
+con <- odbcDriverConnect("driver={SQL Server Native Client 11.0};Server=localhost ; Database=Mineria;Uid=; Pwd=; trusted_connection=yes")
+#con <- odbcDriverConnect("driver={SQL Server Native Client 11.0};Server=min-serv.database.windows.net ; Database=Mineria;Uid=usuariomin; Pwd=dctaMineria5")
 
 setwd("C:/Users/dipdn/Desktop/MIN")
 
@@ -65,10 +65,15 @@ colnames(company)[4]<- "Total"
 unique(company$Condicion)
 
 
+install.packages("tidyr")
+library(tidyr)
+
+company <- spread(company, Condicion, Total)
+
 
 data$Comunidad <- as.character(data$Comunidad)
 company$Comunidad <- as.character(company$Comunidad)
-company$Condicion <- as.character(company$Condicion)
+
 
 ##########################################
 
@@ -88,8 +93,8 @@ company$Total <- as.integer(company$Total)
 dim_com <- sqlQuery(con, "SELECT * FROM dbo.dim_companies")
 
 for(i in 1:nrow(company)){
-    insert_query <- paste("INSERT INTO dbo.dim_companies (quantity, class)
-             VALUES ('", company[i,4], "','",company$Condicion[i],"')", sep="")
+    insert_query <- paste("INSERT INTO dbo.dim_companies (anonima , resp_limit, colectiva, comanditaria, bienes, coop, asociaciones, autonomos, personas)
+             VALUES ('",company[i,7], "','",company[i,11], "','",company[i,8], "','",company[i,9],"','",company[i,4], "','",company[i,10], "','",company[i,3], "','",company[i,5], "','",company[i,6], "')", sep="")
     
     sqlQuery(con, insert_query)
 }
@@ -118,13 +123,11 @@ edudf$Comunidad <- as.factor(edudf$Comunidad)
 
 unique(edudf$Achieved)
 
-
-data <- data [order(data[,3],data[,1],data[,6]), ]
-edudf <- edudf[order(edudf[,1],edudf[,2]),]
-
 data$Year<-as.numeric(data$Year)
 
 
+
+edudf <- spread(edudf, Achieved, Porcentaje)
 
 
 
@@ -147,8 +150,8 @@ dim_edu <- sqlQuery(con, "SELECT * FROM dbo.dim_edu_achieved")
 if(nrow(dim_edu) < nrow(edudf)){
   for(i in 1:nrow(edudf)){
     
-      insert_query <- paste("INSERT INTO dbo.dim_edu_achieved (edu_ach, perc)
-             VALUES ('", edudf$Achieved[i], "','",edudf[i,5],"')", sep="")
+      insert_query <- paste("INSERT INTO dbo.dim_edu_achieved (analfabets, primaria_inco, primaria, first_secun, second_secun, second_secun_pro, superior)
+             VALUES ('", edudf[i,4], "','", edudf[i,7], "','", edudf[i,5],  "','", edudf[i,8],"','", edudf[i,10], "','", edudf[i,9], "','",edudf[i,6],"')", sep="")
     
     sqlQuery(con, insert_query)
   }
@@ -187,7 +190,7 @@ dim_pov <- sqlQuery(con, "SELECT * FROM dbo.dim_poverty")
 #data <- data [order(data[,3], data[,1]), ]
 #values <- values[order(values[,1], values[,2]), ]
 
-
+values <- spread(values, Tipo, Porcentaje)
 
 
 data <- data [order(data$Year,data$Comunidad), ]
@@ -202,8 +205,8 @@ data <- left_join(data, values, by=c("Year", "Comunidad"))
 
 for(i in 1:nrow(values)){
   
-  insert_query <- paste("INSERT INTO dbo.dim_poverty (class, perc)
-           VALUES ('", values$Tipo[i], "','",values$Porcentaje[i],"')", sep="")
+  insert_query <- paste("INSERT INTO dbo.dim_poverty (tasa_riesgo, riesgo_pobreza, car_material, hog_baja_int )
+           VALUES ('", values[i,6], "','", values[i,5], "','", values[i,4], "','",values[i,7],"')", sep="")
   
   sqlQuery(con, insert_query)
 }

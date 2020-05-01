@@ -6,8 +6,13 @@ USE Mineria
 if not exists (select * from sysobjects where name='dim_edu_achieved' and xtype='U')
 create table dim_edu_achieved (
 id_e int identity(1,1) NOT NULL, -- Auto_increment: empieza en el valor uno y aumenta de uno en uno.
-edu_ach varchar(120) NOT NULL,
-perc real NOT NULL
+analfabets real NOT NULL, -- Analfabetos
+primaria_inco real NOT NULL, -- Estudios primarios incompletos
+primaria real NOT NULL, -- Educacion primaria
+first_secun real NOT NULL, -- Primera etapa de Educación Secundaria y similar
+second_secun real NOT NULL, -- Segunda etapa de educación secundaria, con orientacion general
+second_secun_pro real NOT NULL, -- Segunda etapa de educación secundaria, con orientacion profesional
+superior real NOT NULL -- Educacion superior
 )
 
 GO
@@ -20,8 +25,15 @@ GO
 if not exists (select * from sysobjects where name='dim_companies' and xtype='U')
 create table dim_companies (
 id_c int identity(1,1) NOT NULL, -- Auto_increment: empieza en el valor uno y aumenta de uno en uno.
-quantity int NOT NULL,
-class varchar(120) NOT NULL
+anonima int NOT NULL, -- Sociedades anonimas
+resp_limit int NOT NULL, -- Sociedades de responsabilidad limitada
+colectiva int NOT NULL, -- Sociedades colectivas
+comanditaria int NOT NULL, -- Sociedades comanditarias
+bienes int NOT NULL, -- Comunidades de bienes
+coop int NOT NULL, -- Sociedades cooperativas
+asociaciones int NOT NULL, -- Asociaciones y otros tipos
+autonomos int NOT NULL, -- Organizaciones autonomas y otros
+personas int NOT NULL -- Personas fisicas
 )
 
 GO
@@ -35,8 +47,10 @@ GO
 if not exists (select * from sysobjects where name='dim_poverty' and xtype='U')
 create table dim_poverty (
 id_p int identity(1,1) NOT NULL, -- Auto_increment: empieza en el valor uno y aumenta de uno en uno.
-class varchar(120) NOT NULL,
-perc real NOT NULL
+tasa_riesgo real NOT NULL, --Tasa de riesgo de pobreza o exclusión social
+riesgo_pobreza real NOT NULL, --Riesgo de pobreza
+car_material real NOT NULL, --Carencia material severa
+hog_baja_int real NOT NULL --Hogar con baja intensidad en el trabajo
 )
 
 GO

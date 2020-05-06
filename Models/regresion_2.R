@@ -32,9 +32,75 @@ for(i in 1:length(mig)){
   mig[is.na(mig[,i]), i] <- -1
 }
 
-cor(mig$flow, mig$car_material)
+#Funcion lm() con todos los datos
+fit <- lm(mig$flow ~ ., mig)
 
-andalusia30 <- mig[mig$comunidad=="Andalucía" && mig$age == 30, 3]
+#attributes(fit)
+#summary
 
-plot(cpi, xaxt="n", ylab="CPI", xlab="")
+#4 graficos a la vez
+layout(matrix(c(1,2,3,4),2,2)) # optional 4 graphs/page
+plot(fit)
 
+#Cajas y bigotes
+boxplot(mig$flow,horizontal =T ) 
+
+#Histograma
+hist(mig$flow, xlab="",ylab="",main="") 
+
+#Grafica de la regresion lineal
+plot(mig[c("n_year", "flow")])
+
+abline(lm(mig$flow ~ mig$n_year))
+
+#Grafica de densidad
+d <- density(mig$flow)
+plot(d, main="Densidad")
+polygon(d, col="red", border="blue")
+
+
+############################################
+#####Funcion para mostrar por comunidad#####
+############################################
+
+grafPorComunidad <- function(n){
+  div <- mig[mig$comunidad == n, ]
+  
+  #Funcion lm() con todos los datos
+  div <- div[,-1]
+  fit <- lm(div$flow ~ ., div)
+  
+  #attributes(fit)
+  summary(fit)
+  
+  #4 graficos a la vez
+  layout(matrix(c(1,2,3,4),2,2)) # optional 4 graphs/page
+  plot(fit, main = n)
+  
+  #Cajas y bigotes
+  boxplot(div$flow,horizontal =T, main = n ) 
+  
+  #Histograma
+  hist(div$flow, xlab="",ylab="",main="") 
+  
+  #Grafica de la regresion lineal
+  plot(div[c("n_year", "flow")])
+  
+  abline(lm(div$flow ~ div$n_year))
+  
+  #Grafica de densidad
+  d <- density(div$flow)
+  plot(d, main="Densidad")
+  polygon(d, col="red", border="blue")
+}
+
+#Prueba con Cataluña
+grafPorComunidad("Cataluña")
+
+#Eliminamos duplicados
+com <- mig$comunidad[!duplicated(mig$comunidad)]
+
+#Se hace por cada COmunidad
+for(n in 1:19){
+  grafPorComunidad(com[n]);
+}

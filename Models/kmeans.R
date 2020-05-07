@@ -1,6 +1,6 @@
 library(RODBC)
 library(dplyr)
-library(rjson)
+library(plyr)
 library(stats)
 library(fpc)
 library(dbscan)
@@ -11,7 +11,7 @@ rm(list = ls())
 gc()
 
 #conexion a la bd
-con <- odbcDriverConnect("driver={SQL Server Native Client 11.0};Server=DESKTOP-BM96OLK ; Database=Mineria;Uid=; Pwd=; trusted_connection=yes")
+con <- odbcDriverConnect("driver={SQL Server Native Client 11.0};Server=min-serv.database.windows.net ; Database=Mineria;Uid=usuariomin; Pwd=dctaMineria5")
 
 #establecemos semilla para la aleatoriedad
 set.seed(89767)
@@ -110,13 +110,59 @@ plot3d(mig2[c("n_year", "flow", "age")], type = "s", col = as.integer(mig$comuni
 
 ########### 4.categorizando por grupos de edad
 
+mig2 <- mig
+
+#quitamos las columnas de los ids
+mig2$id <- NULL
+mig2$id_c <- NULL
+mig2$id_com <- NULL
+mig2$id_e <- NULL
+mig2$id_edu <- NULL
+mig2$id_p <- NULL
+mig2$id_pov <- NULL
+mig2["grupo_edad"] <- ""
+
+#cambiamos los NA por -1 para que funcione el kmeans 
+for(i in 1:length(mig2)){
+  mig2[is.na(mig2[,i]), i] <- -1
+}
+
+#ifs para colocar cada edad en su categoria
+
+for(i in 1:nrow(mig2)){
+  if(mig$age[i] < 18){
+    mig2$grupo_edad[i] <- "menores"
+  }else if(mig$age[i] >= 18 && mig$age[i] < 39){
+    mig2$grupo_edad[i] <- "j�venes"
+  }else if(mig$age[i] >= 39 && mig$age[i] < 66){
+    mig2$grupo_edad[i] <- "adultos"
+  }else{
+    mig2$grupo_edad[i] <- "tercera_edad"
+  }
+}
+
 mig3 <- mig2
 
 columnas <- colnames(mig2)[-4]
 columnas <- columnas[-3]
-mig3<-plyr::ddply(mig3, columnas, plyr::summarize, flow=sum(flow))
+mig3<-plyr::ddply(mig2, columnas, plyr::summarize, flow=sum(flow))
+mig4<-plyr::ddply(mig2, columnas, plyr::summarize, flow=sum(flow))
 
 sum( is.na( mig3 ) ) > 0
 
-#uso de kameans
+mig3$comunidad<- NULL
+mig3$grupo_edad <- as.integer(as.factor(mig3$grupo_edad))
+
+#uso de kmeans
 (kmeans.result <- kmeans(mig3, 19))
+
+table(mig4$comunidad, kmeans.result$cluster)
+
+# Abre el sistema gráfico donde mostrar las gráficas
+open3d() 
+
+#pasamos el kmeans del apartado 1
+plot3d(mig4[c("n_year", "flow", "grupo_edad")], type = "s", col = kmeans.result$cluster)
+#agrupamos por comunidades para comparar
+plot3d(mig4[c("n_year", "flow", "grupo_edad")], type = "s", col = as.integer(as.factor(mig4$comunidad)))
+

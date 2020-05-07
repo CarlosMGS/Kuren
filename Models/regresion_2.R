@@ -1,6 +1,7 @@
 library(RODBC)
 library(dplyr)
 library(stats)
+library(plyr)
 
 
 #liberamos memoria
@@ -104,3 +105,52 @@ com <- mig$comunidad[!duplicated(mig$comunidad)]
 for(n in 1:19){
   grafPorComunidad(com[n]);
 }
+
+
+################################################
+#####Funcion para mostrar por grupo de edad#####
+################################################
+
+# 0-17 menores
+# 18-38 jóvenes
+# 39-65 adultos
+# +65 3a edad
+
+#añadimos columna para la categoría en una copia
+mig2 <- mig
+mig2["grupo_edad"] <- ""
+
+#ifs para colocar cada edad en su categoria
+
+for(i in 1:nrow(mig2)){
+  if(mig$age[i] < 18){
+    mig2$grupo_edad[i] <- "menores"
+  }else if(mig$age[i] >= 18 && mig$age[i] < 39){
+    mig2$grupo_edad[i] <- "jóvenes"
+  }else if(mig$age[i] >= 39 && mig$age[i] < 66){
+    mig2$grupo_edad[i] <- "adultos"
+  }else{
+    mig2$grupo_edad[i] <- "tercera_edad"
+  }
+}
+
+unique(mig2$grupo_edad)
+
+
+# agrupamos por las categorías de edad
+
+mig3 <- mig2
+
+columnas <- colnames(mig2)[-4]
+columnas <- columnas[-3]
+mig3<-plyr::ddply(mig3, columnas, plyr::summarize, flow=sum(flow))
+
+#cuando todo funciona bien copiamos en mig para sacar las graficas de cada comunidad en funcion del grupo de edad
+mig <- mig3
+
+com <- unique(mig$comunidad)
+
+for(n in 1:19){
+  grafPorComunidad(com[n]);
+}
+

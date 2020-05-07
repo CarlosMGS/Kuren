@@ -106,8 +106,17 @@ plot3d(mig2[c("n_year", "flow", "age")], type = "s", col = kmeans.result$cluster
 plot3d(mig2[c("n_year", "flow", "age")], type = "s", col = as.integer(mig$comunidad))
 
 
-#agrupando por edad
-mig3 <- group_by(mig2,n_year , id_pov,id_com, id_edu) %>% summarise(sum <- sum(flow))
-mig <- group_by(mig,comunidad,n_year , id_pov,id_com, id_edu) %>% summarise(sum <- sum(flow))
 
-colnames(mig2)[5] <- "flow"
+
+########### 4.categorizando por grupos de edad
+
+mig3 <- mig2
+
+columnas <- colnames(mig2)[-4]
+columnas <- columnas[-3]
+mig3<-plyr::ddply(mig3, columnas, plyr::summarize, flow=sum(flow))
+
+sum( is.na( mig3 ) ) > 0
+
+#uso de kameans
+(kmeans.result <- kmeans(mig3, 19))

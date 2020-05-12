@@ -64,8 +64,8 @@ polygon(d, col="red", border="blue")
 #####Funcion para mostrar por comunidad#####
 ############################################
 
-grafPorComunidad <- function(n){
-  div <- mig[mig$comunidad == n, ]
+grafPorComunidad <- function(n, df){
+  div <- df[df$comunidad == n, ]
   
   #Funcion lm() con todos los datos
   div <- div[,-1]
@@ -96,14 +96,18 @@ grafPorComunidad <- function(n){
 }
 
 #Prueba con Cataluña
-grafPorComunidad("Cataluña")
+grafPorComunidad("Cataluña", mig)
 
-#Eliminamos duplicados
-com <- mig$comunidad[!duplicated(mig$comunidad)]
 
-#Se hace por cada COmunidad
-for(n in 1:19){
-  grafPorComunidad(com[n]);
+
+
+bucleCom <- function(df){
+  #Eliminamos duplicados
+  com <- df$comunidad[!duplicated(mig$comunidad)]
+  
+  for(n in 1:19){
+   grafPorComunidad(com[n], df);
+  }
 }
 
 
@@ -145,12 +149,47 @@ columnas <- colnames(mig2)[-4]
 columnas <- columnas[-3]
 mig3<-plyr::ddply(mig3, columnas, plyr::summarize, flow=sum(flow))
 
-#cuando todo funciona bien copiamos en mig para sacar las graficas de cada comunidad en funcion del grupo de edad
-mig <- mig3
-
-com <- unique(mig$comunidad)
+com <- unique(mig3$comunidad)
 
 for(n in 1:19){
-  grafPorComunidad(com[n]);
+  grafPorComunidad(com[n], mig3);
 }
+
+
+#REGRESION 80 - 20 #Se borro y no se como se hace ahora
+sample <- floor(0.80 * nrow(mig))
+fit <- sample(seq_len(nrow(mig)), size = sample)
+train <- mig[fit, ]
+test <- mig[- fit, ]
+
+#EJEMPLO #EJEMPLO #EJEMPLO ####################################################################################
+sample.size <- floor(0.75 * nrow(boston.dataset))
+train.index <- sample(seq_len(nrow(boston.dataset)), size = sample.size)
+train <- boston.dataset[train.index, ]
+test <- boston.dataset[- train.index, ]
+
+head(predict(fit, test, interval = "confidence"), 10)
+
+#Separado por edades
+#Menores
+migMenores <- mig
+migMenores <- migMenores[mig$age < 18, ]
+
+#Jovenes
+migJovenes <- mig
+migJovenes <- migJovenes[mig$age > 17 & mig$age < 39, ]
+
+#Adultos
+migAdultos <- mig
+migAdultos <- migAdultos[mig$age > 38 & mig$age < 66, ]
+
+#3a Edad
+mig3aEdad <- mig
+mig3aEdad <- mig3aEdad[mig$age > 65, ]
+
+
+bucleCom(migMenores)
+bucleCom(migJovenes)
+bucleCom(migAdultos)
+bucleCom(mig3aEdad)
 

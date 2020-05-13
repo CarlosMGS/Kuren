@@ -2,7 +2,7 @@ library(RODBC)
 library(dplyr)
 library(stats)
 library(plyr)
-
+library(tidyr)
 
 #liberamos memoria
 rm(list = ls())
@@ -64,19 +64,69 @@ polygon(d, col="red", border="blue")
 #####Funcion para mostrar por comunidad#####
 ############################################
 
+apost <- function(fit, test){
+  
+  print("Error a posteriori")
+  
+  pre <- predict(fit, test, interval = "confidence")
+  
+  residuosReales <- test$flow - as.integer(pre)
+  
+  ECMaPosteriori <- sum(residuosReales^2)/length(residuosReales)
+  print(ECMaPosteriori)
+  
+  EMAaPosteriori <- sqrt(ECMaPosteriori)
+  
+  EMRaPosteriori <- EMAaPosteriori / mean(test$flow)
+  print(EMRaPosteriori)
+  
+}
+
+regresion <- function(train){
+  #REGRESION 80 - 20 #Se borro y no se como se hace ahora
+  
+  fit <- lm(flow ~ ., data = train)
+  #head(predict(fit, test, interval = "confidence"), 10)
+  
+
+  #Calculo del error medio absoluto "teorico" o "a priori" de la regresion
+  ECMaPriori <- sum((residuals(fit)^2))/length(residuals(fit))
+  print(ECMaPriori)
+  
+  EMAaPriori <- sqrt(ECMaPriori)
+  
+  #Calculo del error medio relativo (o porcentual) "teorico" o "a priori" de la regresion
+  #CPI es la suma de los ecoeficinetes Intercept year quarter del ejemplo, transparencia 19
+  EMRaPriori <- EMAaPriori / mean(train$flow)
+  
+  print(EMRaPriori)
+  
+  return (fit)
+}
+
+
 grafPorComunidad <- function(n, df){
   div <- df[df$comunidad == n, ]
   
   #Funcion lm() con todos los datos
   div <- div[,-1]
-  fit <- lm(div$flow ~ ., div)
   
-  #attributes(fit)
-  summary(fit)
+  div <- div[,-6]
+  
+  sample <- floor(0.9 * nrow(div))
+  train.index <- sample(seq_len(nrow(div)), size = sample)
+  train <- div[train.index, ]
+  test <- div[- train.index, ]
+  
+  nc <- paste("Error cuadratico medio de la comunidad ", n)
+  print(nc)
+  
+  r <- regresion(train)
+  apost(r, test)
   
   #4 graficos a la vez
   layout(matrix(c(1,2,3,4),2,2)) # optional 4 graphs/page
-  plot(fit, main = n)
+  plot(r, main = n)
   
   #Cajas y bigotes
   boxplot(div$flow,horizontal =T, main = n ) 
@@ -103,12 +153,14 @@ grafPorComunidad("Cataluña", mig)
 
 bucleCom <- function(df){
   #Eliminamos duplicados
-  com <- df$comunidad[!duplicated(mig$comunidad)]
-  
+  com <- df$comunidad[!duplicated(df$comunidad)]
+
   for(n in 1:19){
    grafPorComunidad(com[n], df);
   }
 }
+
+
 
 
 ################################################
@@ -120,7 +172,6 @@ bucleCom <- function(df){
 # 39-65 adultos
 # +65 3a edad
 
-#añadimos columna para la categoría en una copia
 mig2 <- mig
 mig2["grupo_edad"] <- ""
 
@@ -149,46 +200,45 @@ columnas <- colnames(mig2)[-4]
 columnas <- columnas[-3]
 mig3<-plyr::ddply(mig3, columnas, plyr::summarize, flow=sum(flow))
 
-com <- unique(mig3$comunidad)
-
-for(n in 1:19){
-  grafPorComunidad(com[n], mig3);
-}
-
-
-#REGRESION 80 - 20 #Se borro y no se como se hace ahora
-sample <- floor(0.80 * nrow(mig))
-fit <- sample(seq_len(nrow(mig)), size = sample)
-train <- mig[fit, ]
-test <- mig[- fit, ]
-
-#EJEMPLO #EJEMPLO #EJEMPLO ####################################################################################
-sample.size <- floor(0.75 * nrow(boston.dataset))
-train.index <- sample(seq_len(nrow(boston.dataset)), size = sample.size)
-train <- boston.dataset[train.index, ]
-test <- boston.dataset[- train.index, ]
-
-head(predict(fit, test, interval = "confidence"), 10)
 
 #Separado por edades
 #Menores
-migMenores <- mig
-migMenores <- migMenores[mig$age < 18, ]
+
+mig3 <- mig3[,-12]
+mig3 <- mig3[,-12]
+mig3 <- mig3[,-12]
+mig3 <- mig3[,-12]
+mig3 <- mig3[,-12]
+mig3 <- mig3[,-12]
+mig3 <- mig3[,-12]
+
+mig3["Empresas"] <- 1:nrow(mig3)
+mig3["tipoE"] <- " "
+
+mig3 <- gather(data = mig3, key = "tipoE", value = "Empresas", 3:11)
+
+columnas <- colnames(mig3)[-9]
+columnas <- columnas[-9]
+mig3<-plyr::ddply(mig3, columnas, plyr::summarize, Empresas=sum(Empresas))
+
+bucleCom(mig3)
+migMenores <- mig3
+migMenores <- migMenores[mig3$grupo_edad == "menores", ]
 
 #Jovenes
-migJovenes <- mig
-migJovenes <- migJovenes[mig$age > 17 & mig$age < 39, ]
+migJovenes <- mig3
+migJovenes <- migJovenes[mig3$grupo_edad == "jóvenes", ]
 
 #Adultos
-migAdultos <- mig
-migAdultos <- migAdultos[mig$age > 38 & mig$age < 66, ]
+migAdultos <- mig3
+migAdultos <- migAdultos[mig3$grupo_edad == "adultos", ]
 
 #3a Edad
-mig3aEdad <- mig
-mig3aEdad <- mig3aEdad[mig$age > 65, ]
-
+mig3aEdad <- mig3
+mig3aEdad <- mig3aEdad[mig3$grupo_edad == "tercera_edad", ]
 
 bucleCom(migMenores)
+
 bucleCom(migJovenes)
 bucleCom(migAdultos)
 bucleCom(mig3aEdad)
